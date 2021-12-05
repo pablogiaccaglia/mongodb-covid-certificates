@@ -1,0 +1,2124 @@
+city,city_ascii,iso3,admin_name,population,id
+Milan,Milan,ITA,Lombardy,1366180,1380724377
+Naples,Naples,ITA,Campania,966144,1380646673
+Turin,Turin,ITA,Piedmont,870952,1380244627
+Palermo,Palermo,ITA,Sicilia,668405,1380428434
+Genoa,Genoa,ITA,Liguria,580097,1380716540
+Bologna,Bologna,ITA,Emilia-Romagna,389261,1380202039
+Florence,Florence,ITA,Tuscany,380948,1380726561
+Bari,Bari,ITA,Puglia,323370,1380991126
+Catania,Catania,ITA,Sicilia,311584,1380562508
+Venice,Venice,ITA,Veneto,261321,1380660414
+Verona,Verona,ITA,Veneto,257275,1380324879
+Messina,Messina,ITA,Sicilia,234293,1380622386
+Padova,Padova,ITA,Veneto,210440,1380964615
+Trieste,Trieste,ITA,Friuli-Venezia Giulia,204338,1380102581
+Taranto,Taranto,ITA,Puglia,198283,1380707445
+Brescia,Brescia,ITA,Lombardy,196745,1380432555
+Parma,Parma,ITA,Emilia-Romagna,195687,1380655938
+Prato,Prato,ITA,Tuscany,193325,1380751753
+Modena,Modena,ITA,Emilia-Romagna,185273,1380306270
+Reggio di Calabria,Reggio di Calabria,ITA,Calabria,181447,1380630212
+Reggio Emilia,Reggio Emilia,ITA,Emilia-Romagna,171944,1380487033
+Perugia,Perugia,ITA,Umbria,165683,1380939013
+Livorno,Livorno,ITA,Tuscany,158371,1380159305
+Ravenna,Ravenna,ITA,Emilia-Romagna,159115,1380964180
+Cagliari,Cagliari,ITA,Sardegna,154106,1380685705
+Foggia,Foggia,ITA,Puglia,151372,1380084447
+Rimini,Rimini,ITA,Emilia-Romagna,149403,1380527853
+Salerno,Salerno,ITA,Campania,133970,1380863448
+Ferrara,Ferrara,ITA,Emilia-Romagna,132278,1380682411
+Monza,Monza,ITA,Lombardy,123598,1380622727
+Latina,Latina,ITA,Lazio,126470,1380947157
+Giugliano in Campania,Giugliano in Campania,ITA,Campania,124361,1380386690
+Bergamo,Bergamo,ITA,Lombardy,120923,1380253521
+Pescara,Pescara,ITA,Abruzzo,119217,1380000966
+Siracusa,Siracusa,ITA,Sicilia,121171,1380071816
+Trento,Trento,ITA,Trentino-Alto Adige,117997,1380953307
+Forlì,Forli,ITA,Emilia-Romagna,117863,1380594352
+Sassari,Sassari,ITA,Sardegna,116641,1380371433
+Vicenza,Vicenza,ITA,Veneto,111620,1380072199
+Terni,Terni,ITA,Umbria,111189,1380323915
+Bolzano,Bolzano,ITA,Trentino-Alto Adige,107317,1380677819
+Novara,Novara,ITA,Piedmont,104183,1380911437
+Piacenza,Piacenza,ITA,Emilia-Romagna,103082,1380821832
+Ancona,Ancona,ITA,Marche,100924,1380597324
+Catanzaro,Catanzaro,ITA,Calabria,89718,1380650072
+Sesto San Giovanni,Sesto San Giovanni,ITA,Lombardy,81773,1380068715
+Torre del Greco,Torre del Greco,ITA,Campania,85332,1380905401
+Busto Arsizio,Busto Arsizio,ITA,Lombardy,83405,1380033378
+Como,Como,ITA,Lombardy,83320,1380994905
+Casoria,Casoria,ITA,Campania,77087,1380040521
+Cinisello Balsamo,Cinisello Balsamo,ITA,Lombardy,75723,1380556172
+Castellammare di Stabia,Castellammare di Stabia,ITA,Campania,65922,1380725803
+L’Aquila,L'Aquila,ITA,Abruzzo,69439,1380218474
+Afragola,Afragola,ITA,Campania,64817,1380524178
+Potenza,Potenza,ITA,Basilicata,67211,1380649430
+Portici,Portici,ITA,Campania,54577,1380276866
+Marano di Napoli,Marano di Napoli,ITA,Campania,59862,1380179165
+Legnano,Legnano,ITA,Lombardy,60177,1380045698
+Aversa,Aversa,ITA,Campania,52794,1380486559
+Montesilvano,Montesilvano,ITA,Abruzzo,54194,1380908377
+San Giorgio a Cremano,San Giorgio a Cremano,ITA,Campania,45122,1380360808
+Gallarate,Gallarate,ITA,Lombardy,53425,1380947310
+Casalnuovo di Napoli,Casalnuovo di Napoli,ITA,Campania,49250,1380985501
+Ercolano,Ercolano,ITA,Campania,52763,1380009957
+Cologno Monzese,Cologno Monzese,ITA,Lombardy,47720,1380466267
+Scafati,Scafati,ITA,Campania,50686,1380992516
+Rho,Rho,ITA,Lombardy,50904,1380877337
+Collegno,Collegno,ITA,Piedmont,49597,1380000029
+Lissone,Lissone,ITA,Lombardy,45535,1380370266
+Campobasso,Campobasso,ITA,Molise,49262,1380959273
+Nichelino,Nichelino,ITA,Piedmont,47721,1380201460
+Paderno Dugnano,Paderno Dugnano,ITA,Lombardy,46701,1380402852
+Seregno,Seregno,ITA,Lombardy,45131,1380007396
+Torre Annunziata,Torre Annunziata,ITA,Campania,42406,1380017105
+Nocera Inferiore,Nocera Inferiore,ITA,Campania,45784,1380757404
+Melito di Napoli,Melito di Napoli,ITA,Campania,37943,1380717035
+Rozzano,Rozzano,ITA,Lombardy,42442,1380496948
+Desio,Desio,ITA,Lombardy,42079,1380553893
+Pomigliano d’Arco,Pomigliano d'Arco,ITA,Campania,39819,1380104019
+Saronno,Saronno,ITA,Lombardy,39419,1380012817
+Cesano Maderno,Cesano Maderno,ITA,Lombardy,38637,1380045359
+Mugnano di Napoli,Mugnano di Napoli,ITA,Campania,34996,1380872508
+Ciampino,Ciampino,ITA,Lazio,38645,1380847693
+Arzano,Arzano,ITA,Campania,34217,1380852442
+Corsico,Corsico,ITA,Lombardy,34727,1380973282
+Grugliasco,Grugliasco,ITA,Piedmont,37592,1380580243
+Pioltello,Pioltello,ITA,Lombardy,36920,1380525862
+Sant’Antimo,Sant'Antimo,ITA,Campania,33892,1380853307
+Bollate,Bollate,ITA,Lombardy,36486,1380424461
+Casalecchio di Reno,Casalecchio di Reno,ITA,Emilia-Romagna,36456,1380710953
+Brugherio,Brugherio,ITA,Lombardy,34868,1380188289
+Limbiate,Limbiate,ITA,Lombardy,35141,1380489248
+Frattamaggiore,Frattamaggiore,ITA,Campania,31831,1380074125
+Segrate,Segrate,ITA,Lombardy,35492,1380736133
+Riccione Marina,Riccione Marina,ITA,Emilia-Romagna,35003,1380177651
+Cernusco sul Naviglio,Cernusco sul Naviglio,ITA,Lombardy,34341,1380429840
+Angri,Angri,ITA,Campania,34126,1380361443
+Villaricca,Villaricca,ITA,Campania,31223,1380472958
+Aosta,Aosta,ITA,Valle d’Aosta,34082,1380291310
+San Donato Milanese,San Donato Milanese,ITA,Lombardy,32664,1380781969
+Santa Maria Capua Vetere,Santa Maria Capua Vetere,ITA,Campania,32893,1380894593
+Bresso,Bresso,ITA,Lombardy,26259,1380154563
+San Giuseppe Vesuviano,San Giuseppe Vesuviano,ITA,Campania,31612,1380589632
+Aci Catena,Aci Catena,ITA,Sicilia,29418,1380362156
+Boscoreale,Boscoreale,ITA,Campania,27927,1380991443
+Garbagnate Milanese,Garbagnate Milanese,ITA,Lombardy,27155,1380031147
+Chiavari,Chiavari,ITA,Liguria,27410,1380138569
+Cardito,Cardito,ITA,Campania,22601,1380120364
+Qualiano,Qualiano,ITA,Campania,25755,1380575538
+Giussano,Giussano,ITA,Lombardy,25945,1380789613
+Muggiò,Muggio,ITA,Lombardy,23581,1380948758
+Seriate,Seriate,ITA,Lombardy,25358,1380929157
+Nova Milanese,Nova Milanese,ITA,Lombardy,23334,1380767371
+Pompei,Pompei,ITA,Campania,25207,1380397251
+Seveso,Seveso,ITA,Lombardy,23456,1380704433
+Meda,Meda,ITA,Lombardy,23463,1380159582
+San Giovanni la Punta,San Giovanni la Punta,ITA,Sicilia,23399,1380384622
+Villabate,Villabate,ITA,Sicilia,20051,1380925596
+Cusano Milanino,Cusano Milanino,ITA,Lombardy,18797,1380658560
+Cormano,Cormano,ITA,Lombardy,20019,1380158299
+Frattaminore,Frattaminore,ITA,Campania,16131,1380752236
+Grumo Nevano,Grumo Nevano,ITA,Campania,17939,1380731522
+Senago,Senago,ITA,Lombardy,21500,1380425008
+Novate Milanese,Novate Milanese,ITA,Lombardy,20003,1380064390
+Monserrato,Monserrato,ITA,Sardegna,19771,1380813472
+Trentola,Trentola,ITA,Campania,19844,1380538043
+Ischia,Ischia,ITA,Campania,20118,1380746538
+Arese,Arese,ITA,Lombardy,19347,1380500358
+Cercola,Cercola,ITA,Campania,18007,1380479578
+Sant’Antonio Abate,Sant'Antonio Abate,ITA,Campania,19704,1380518961
+Bovisio Masciago,Bovisio Masciago,ITA,Lombardy,16929,1380192033
+Aci Castello,Aci Castello,ITA,Sicilia,18577,1380669232
+Vimodrone,Vimodrone,ITA,Lombardy,17016,1380371315
+Beinasco,Beinasco,ITA,Piedmont,17856,1380688508
+Cattolica,Cattolica,ITA,Emilia-Romagna,17177,1380510857
+Brusciano,Brusciano,ITA,Campania,16371,1380728572
+Sant’Arpino,Sant'Arpino,ITA,Campania,14606,1380239503
+Casandrino,Casandrino,ITA,Campania,14125,1380625213
+Carugate,Carugate,ITA,Lombardy,15482,1380456369
+Villasanta,Villasanta,ITA,Lombardy,13972,1380959254
+Castellanza,Castellanza,ITA,Lombardy,14340,1380085680
+Baranzate,Baranzate,ITA,Lombardy,12003,1380987806
+Solaro,Solaro,ITA,Lombardy,14163,1380926432
+Varedo,Varedo,ITA,Lombardy,13446,1380710950
+Monte di Procida,Monte di Procida,ITA,Campania,12743,1380840783
+Calvizzano,Calvizzano,ITA,Campania,12182,1380689845
+Canegrate,Canegrate,ITA,Lombardy,12574,1380642269
+Biassono,Biassono,ITA,Lombardy,12164,1380356399
+Ponte San Pietro,Ponte San Pietro,ITA,Lombardy,11502,1380849496
+San Gregorio di Catania,San Gregorio di Catania,ITA,Sicilia,11880,1380676054
+Capodrise,Capodrise,ITA,Campania,10133,1380485604
+Procida,Procida,ITA,Campania,10465,1380684124
+San Marzano sul Sarno,San Marzano sul Sarno,ITA,Campania,10499,1380943524
+San Sebastiano al Vesuvio,San Sebastiano al Vesuvio,ITA,Campania,9057,1380421532
+Cesa,Cesa,ITA,Campania,9039,1380979874
+Portico di Caserta,Portico di Caserta,ITA,Campania,7903,1380222168
+Casapulla,Casapulla,ITA,Campania,8597,1380421149
+Sant’Agnello,Sant'Agnello,ITA,Campania,9125,1380337324
+Torre Boldone,Torre Boldone,ITA,Lombardy,8755,1380646015
+Mariglianella,Mariglianella,ITA,Campania,7924,1380872731
+Recale,Recale,ITA,Campania,7710,1380773296
+Rovellasca,Rovellasca,ITA,Lombardy,7797,1380973138
+Cimitile,Cimitile,ITA,Campania,7167,1380386033
+Barlassina,Barlassina,ITA,Lombardy,7015,1380722958
+Carnate,Carnate,ITA,Lombardy,7327,1380563683
+Isola delle Femmine,Isola delle Femmine,ITA,Sicilia,7249,1380364140
+Gorle,Gorle,ITA,Lombardy,6557,1380286448
+Albiate,Albiate,ITA,Lombardy,6352,1380039239
+Almè,Alme,ITA,Lombardy,5604,1380991253
+Udine,Udine,ITA,Friuli-Venezia Giulia,99518,1380396446
+Andria,Andria,ITA,Puglia,99857,1380463498
+Arezzo,Arezzo,ITA,Tuscany,99419,1380418355
+Cesena,Cesena,ITA,Emilia-Romagna,96760,1380256992
+Lecce,Lecce,ITA,Puglia,95441,1380057273
+Pesaro,Pesaro,ITA,Marche,94958,1380435770
+La Spezia,La Spezia,ITA,Liguria,93311,1380143500
+Barletta,Barletta,ITA,Puglia,94477,1380940717
+Alessandria,Alessandria,ITA,Piedmont,93980,1380334322
+Mestre,Mestre,ITA,Veneto,89376,1380275919
+Pisa,Pisa,ITA,Tuscany,90118,1380310225
+Pistoia,Pistoia,ITA,Tuscany,90195,1380664435
+Lucca,Lucca,ITA,Tuscany,89243,1380770432
+Brindisi,Brindisi,ITA,Puglia,87141,1380201254
+Treviso,Treviso,ITA,Veneto,84954,1380900516
+Marsala,Marsala,ITA,Sicilia,82802,1380770056
+Pozzuoli,Pozzuoli,ITA,Campania,81141,1380746744
+Grosseto,Grosseto,ITA,Tuscany,82036,1380285116
+Varese,Varese,ITA,Lombardy,80544,1380137214
+Fiumicino,Fiumicino,ITA,Lazio,79630,1380717773
+Caserta,Caserta,ITA,Campania,75561,1380614087
+Asti,Asti,ITA,Piedmont,76211,1380024585
+Gela,Gela,ITA,Sicilia,74858,1380218145
+Pavia,Pavia,ITA,Lombardy,72773,1380571928
+Ragusa,Ragusa,ITA,Sicilia,73638,1380117871
+Cremona,Cremona,ITA,Lombardy,72077,1380496758
+Carpi,Carpi,ITA,Emilia-Romagna,71148,1380990747
+Quartu Sant’Elena,Quartu Sant'Elena,ITA,Sardegna,70879,1380157297
+Altamura,Altamura,ITA,Puglia,70514,1380125300
+Imola,Imola,ITA,Emilia-Romagna,69936,1380070609
+Massa,Massa,ITA,Tuscany,69037,1380078151
+Cosenza,Cosenza,ITA,Calabria,67239,1380732659
+Viterbo,Viterbo,ITA,Lazio,67798,1380408658
+Trapani,Trapani,ITA,Sicilia,67923,1380918442
+Vittoria,Vittoria,ITA,Sicilia,64212,1380563861
+Pomezia,Pomezia,ITA,Lazio,63641,1380470415
+Crotone,Crotone,ITA,Calabria,63941,1380444441
+Vigevano,Vigevano,ITA,Lombardy,63153,1380675509
+Carrara,Carrara,ITA,Tuscany,62537,1380429579
+Caltanissetta,Caltanissetta,ITA,Sicilia,62317,1380274368
+Benevento,Benevento,ITA,Campania,61791,1380723198
+Viareggio,Viareggio,ITA,Tuscany,62079,1380033840
+Fano,Fano,ITA,Marche,60978,1380639425
+Acerra,Acerra,ITA,Campania,59910,1380520117
+Savona,Savona,ITA,Liguria,60632,1380314552
+Matera,Matera,ITA,Basilicata,60403,1380622394
+Molfetta,Molfetta,ITA,Puglia,59470,1380210810
+Olbia,Olbia,ITA,Sardegna,60261,1380424474
+Agrigento,Agrigento,ITA,Sicilia,59329,1380721319
+Faenza,Faenza,ITA,Emilia-Romagna,58797,1380236916
+Cerignola,Cerignola,ITA,Puglia,58540,1380501000
+Moncalieri,Moncalieri,ITA,Piedmont,57234,1380931785
+Tivoli,Tivoli,ITA,Lazio,56542,1380558647
+Foligno,Foligno,ITA,Umbria,56999,1380946507
+Manfredonia,Manfredonia,ITA,Puglia,56906,1380398261
+Bagheria,Bagheria,ITA,Sicilia,55047,1380694374
+Cuneo,Cuneo,ITA,Piedmont,56281,1380488547
+Trani,Trani,ITA,Puglia,56031,1380788265
+Bisceglie,Bisceglie,ITA,Puglia,55385,1380547143
+Avellino,Avellino,ITA,Campania,53908,1380716267
+San Remo,San Remo,ITA,Liguria,54529,1380767686
+Bitonto,Bitonto,ITA,Puglia,55127,1380312292
+Modica,Modica,ITA,Sicilia,54530,1380522093
+Teramo,Teramo,ITA,Abruzzo,54338,1380348976
+Cava de’ Tirreni,Cava de' Tirreni,ITA,Campania,53130,1380826204
+Siena,Siena,ITA,Tuscany,53901,1380088439
+Velletri,Velletri,ITA,Lazio,53188,1380946852
+Anzio,Anzio,ITA,Lazio,52381,1380647730
+Acireale,Acireale,ITA,Sicilia,52269,1380128872
+San Severo,San Severo,ITA,Puglia,53015,1380874809
+Pordenone,Pordenone,ITA,Friuli-Venezia Giulia,51127,1380364177
+Civitavecchia,Civitavecchia,ITA,Lazio,51595,1380282443
+Battipaglia,Battipaglia,ITA,Campania,51005,1380725331
+Mazara del Vallo,Mazara del Vallo,ITA,Sicilia,51488,1380643775
+Chieti,Chieti,ITA,Abruzzo,50770,1380558989
+Rovigo,Rovigo,ITA,Veneto,51149,1380037431
+Scandicci,Scandicci,ITA,Tuscany,50645,1380917394
+Misterbianco,Misterbianco,ITA,Sicilia,49992,1380615462
+Ardea,Ardea,ITA,Lazio,49663,1380358303
+Rivoli,Rivoli,ITA,Piedmont,48629,1380470611
+Mantova,Mantova,ITA,Lombardy,49409,1380636357
+Sesto Fiorentino,Sesto Fiorentino,ITA,Tuscany,49091,1380739163
+Nettuno,Nettuno,ITA,Lazio,49852,1380995908
+Chioggia,Chioggia,ITA,Veneto,49430,1380033938
+Empoli,Empoli,ITA,Tuscany,48626,1380958169
+Monopoli,Monopoli,ITA,Puglia,48964,1380074643
+Lecco,Lecco,ITA,Lombardy,48177,1380626602
+San Benedetto del Tronto,San Benedetto del Tronto,ITA,Marche,47351,1380047492
+Ascoli Piceno,Ascoli Piceno,ITA,Marche,48773,1380216238
+Martina Franca,Martina Franca,ITA,Puglia,48786,1380879312
+Settimo Torinese,Settimo Torinese,ITA,Piedmont,47220,1380123933
+Corato,Corato,ITA,Puglia,48262,1380769899
+Campi Bisenzio,Campi Bisenzio,ITA,Tuscany,46696,1380085514
+Paterno,Paterno,ITA,Sicilia,47827,1380563851
+Rieti,Rieti,ITA,Lazio,47436,1380045864
+Frosinone,Frosinone,ITA,Lazio,46063,1380528356
+Vercelli,Vercelli,ITA,Piedmont,46181,1380702536
+Terracina,Terracina,ITA,Lazio,46323,1380975226
+Capannori,Capannori,ITA,Tuscany,46072,1380407023
+Lodi,Lodi,ITA,Lombardy,45252,1380406529
+Marino,Marino,ITA,Lazio,44472,1380000027
+Cascina,Cascina,ITA,Tuscany,45212,1380319833
+Alcamo,Alcamo,ITA,Sicilia,45273,1380182511
+Biella,Biella,ITA,Piedmont,44324,1380214136
+Senigallia,Senigallia,ITA,Marche,44616,1380834864
+Bassano del Grappa,Bassano del Grappa,ITA,Veneto,43481,1380653190
+Alghero,Alghero,ITA,Sardegna,43964,1380434974
+Gravina in Puglia,Gravina in Puglia,ITA,Puglia,43816,1380966676
+Civitanova Marche,Civitanova Marche,ITA,Marche,42353,1380527467
+Albano Laziale,Albano Laziale,ITA,Lazio,41314,1380821881
+Avezzano,Avezzano,ITA,Abruzzo,42276,1380646749
+San Donà di Piave,San Dona di Piave,ITA,Veneto,41794,1380477303
+Imperia,Imperia,ITA,Liguria,42318,1380075952
+Macerata,Macerata,ITA,Marche,41776,1380412139
+Monterotondo,Monterotondo,ITA,Lazio,41144,1380326356
+Barcellona-Pozzo di Gotto,Barcellona-Pozzo di Gotto,ITA,Sicilia,41389,1380260535
+Merano,Merano,ITA,Trentino-Alto Adige,40485,1380000095
+Sassuolo,Sassuolo,ITA,Emilia-Romagna,40826,1380620922
+Cantù,Cantu,ITA,Lombardy,39932,1380683045
+Ladispoli,Ladispoli,ITA,Lazio,41604,1380799057
+Marcianise,Marcianise,ITA,Campania,39792,1380095709
+Sciacca,Sciacca,ITA,Sicilia,40488,1380760474
+Corigliano Calabro,Corigliano Calabro,ITA,Calabria,40478,1380627594
+Rovereto,Rovereto,ITA,Trentino-Alto Adige,39825,1380311979
+Iesi,Iesi,ITA,Marche,40210,1380650827
+Eboli,Eboli,ITA,Campania,40058,1380398886
+Maddaloni,Maddaloni,ITA,Campania,39026,1380749764
+Fondi,Fondi,ITA,Lazio,39779,1380041713
+Fasano,Fasano,ITA,Puglia,39683,1380301604
+Voghera,Voghera,ITA,Lombardy,39354,1380568677
+Città di Castello,Citta di Castello,ITA,Umbria,39632,1380983952
+Schio,Schio,ITA,Veneto,39082,1380627888
+Modugno,Modugno,ITA,Puglia,38453,1380946578
+San Giuliano Milanese,San Giuliano Milanese,ITA,Lombardy,38314,1380528525
+Carini,Carini,ITA,Sicilia,38936,1380895460
+Monreale,Monreale,ITA,Sicilia,39047,1380377076
+Caivano,Caivano,ITA,Campania,37654,1380551654
+Mira,Mira,ITA,Veneto,38573,1380620162
+Caltagirone,Caltagirone,ITA,Sicilia,38295,1380958599
+Cerveteri,Cerveteri,ITA,Lazio,37977,1380612581
+Spoleto,Spoleto,ITA,Umbria,37964,1380230959
+Formia,Formia,ITA,Lazio,38032,1380356928
+Chieri,Chieri,ITA,Piedmont,36958,1380145496
+Fermo,Fermo,ITA,Marche,37238,1380577210
+Cisterna di Latina,Cisterna di Latina,ITA,Lazio,36980,1380273577
+Licata,Licata,ITA,Sicilia,37008,1380907780
+Cassino,Cassino,ITA,Lazio,36497,1380403961
+Rossano,Rossano,ITA,Calabria,36598,1380048894
+Nuoro,Nuoro,ITA,Sardegna,36579,1380476722
+Pinerolo,Pinerolo,ITA,Piedmont,35947,1380505638
+Francavilla Fontana,Francavilla Fontana,ITA,Puglia,36358,1380107756
+Rende,Rende,ITA,Calabria,35727,1380899541
+Augusta,Augusta,ITA,Sicilia,35854,1380515752
+Somma Vesuviana,Somma Vesuviana,ITA,Campania,34981,1380770260
+Canicattì,Canicatti,ITA,Sicilia,35722,1380041258
+Cento,Cento,ITA,Emilia-Romagna,35547,1380277894
+Adrano,Adrano,ITA,Sicilia,35633,1380203916
+Conegliano,Conegliano,ITA,Veneto,35082,1380962405
+Belluno,Belluno,ITA,Veneto,35710,1380892097
+Lanciano,Lanciano,ITA,Abruzzo,35002,1380596606
+Osimo,Osimo,ITA,Marche,35071,1380993170
+Crema,Crema,ITA,Lombardy,34264,1380590695
+Gorizia,Gorizia,ITA,Friuli-Venezia Giulia,34411,1380874405
+Venaria Reale,Venaria Reale,ITA,Piedmont,33564,1380174847
+Formigine,Formigine,ITA,Emilia-Romagna,34347,1380168196
+Casale Monferrato,Casale Monferrato,ITA,Piedmont,34010,1380727799
+Vibo Valentia,Vibo Valentia,ITA,Calabria,33642,1380359147
+Termoli,Termoli,ITA,Molise,33583,1380386947
+Mascalucia,Mascalucia,ITA,Sicilia,32167,1380571044
+Piombino,Piombino,ITA,Tuscany,33855,1380556086
+Castelfranco Veneto,Castelfranco Veneto,ITA,Veneto,33435,1380391523
+Villafranca di Verona,Villafranca di Verona,ITA,Veneto,33232,1380407942
+Abbiategrasso,Abbiategrasso,ITA,Lombardy,32737,1380022331
+Castelfranco Emilia,Castelfranco Emilia,ITA,Emilia-Romagna,32894,1380892576
+San Lazzaro di Savena,San Lazzaro di Savena,ITA,Emilia-Romagna,32473,1380383689
+Lucera,Lucera,ITA,Puglia,33085,1380392352
+Massafra,Massafra,ITA,Puglia,32861,1380268099
+Camaiore,Camaiore,ITA,Tuscany,32328,1380212450
+Favara,Favara,ITA,Sicilia,32299,1380627505
+Milazzo,Milazzo,ITA,Sicilia,31231,1380644927
+Sarno,Sarno,ITA,Campania,31625,1380289095
+Grottaglie,Grottaglie,ITA,Puglia,31890,1380386888
+Alba,Alba,ITA,Piedmont,31498,1380267586
+Partinico,Partinico,ITA,Sicilia,31786,1380288818
+Oristano,Oristano,ITA,Sardegna,31671,1380531119
+Montebelluna,Montebelluna,ITA,Veneto,31258,1380459138
+Avola,Avola,ITA,Sicilia,31408,1380501928
+Gubbio,Gubbio,ITA,Umbria,31736,1380648510
+San Giuliano Terme,San Giuliano Terme,ITA,Tuscany,31447,1380980385
+Castelvetrano,Castelvetrano,ITA,Sicilia,31503,1380441707
+Nardò,Nardo,ITA,Puglia,31431,1380000001
+Verbania,Verbania,ITA,Piedmont,30709,1380922553
+Ostuni,Ostuni,ITA,Puglia,31197,1380813167
+Manduria,Manduria,ITA,Puglia,31159,1380088320
+Rosignano Marittimo,Rosignano Marittimo,ITA,Tuscany,31039,1380869971
+Marigliano,Marigliano,ITA,Campania,29879,1380237063
+Fabriano,Fabriano,ITA,Marche,30809,1380375723
+Gragnano,Gragnano,ITA,Campania,28897,1380505289
+Treviglio,Treviglio,ITA,Lombardy,29815,1380238695
+Rapallo,Rapallo,ITA,Liguria,29728,1380678273
+Comiso,Comiso,ITA,Sicilia,29845,1380243758
+Bra,Bra,ITA,Piedmont,29645,1380694360
+Selargius,Selargius,ITA,Sardegna,28986,1380323668
+Canosa di Puglia,Canosa di Puglia,ITA,Puglia,29847,1380837242
+Pontedera,Pontedera,ITA,Tuscany,29168,1380040470
+Misilmeri,Misilmeri,ITA,Sicilia,29376,1380249040
+Parabiago,Parabiago,ITA,Lombardy,27842,1380735720
+Spinea,Spinea,ITA,Veneto,27909,1380346235
+Desenzano del Garda,Desenzano del Garda,ITA,Lombardy,28982,1380888752
+Poggibonsi,Poggibonsi,ITA,Tuscany,29031,1380606727
+Mondragone,Mondragone,ITA,Campania,28797,1380019528
+Carmagnola,Carmagnola,ITA,Piedmont,28969,1380814745
+Sant’Anastasia,Sant'Anastasia,ITA,Campania,27690,1380460463
+Alatri,Alatri,ITA,Lazio,28763,1380009791
+Cervia,Cervia,ITA,Emilia-Romagna,28700,1380322591
+Cecina,Cecina,ITA,Tuscany,28112,1380999506
+Vittorio Veneto,Vittorio Veneto,ITA,Veneto,28389,1380283185
+Novi Ligure,Novi Ligure,ITA,Piedmont,28210,1380529141
+Giarre,Giarre,ITA,Sicilia,27546,1380431128
+Triggiano,Triggiano,ITA,Puglia,27180,1380774515
+Assisi,Assisi,ITA,Umbria,28352,1380853123
+Carbonia,Carbonia,ITA,Sardegna,28265,1380899990
+Mogliano Veneto,Mogliano Veneto,ITA,Veneto,27852,1380309612
+San Giovanni in Persiceto,San Giovanni in Persiceto,ITA,Emilia-Romagna,28153,1380356919
+Bacoli,Bacoli,ITA,Campania,26412,1380169390
+Belpasso,Belpasso,ITA,Sicilia,28126,1380875925
+Erice,Erice,ITA,Sicilia,27655,1380955760
+San Miniato,San Miniato,ITA,Tuscany,27950,1380217161
+Porto Sant’Elpidio,Porto Sant'Elpidio,ITA,Marche,26408,1380059589
+Gioia del Colle,Gioia del Colle,ITA,Puglia,27644,1380731346
+Mirano,Mirano,ITA,Veneto,27169,1380832945
+Lainate,Lainate,ITA,Lombardy,25763,1380262791
+Tortona,Tortona,ITA,Piedmont,27299,1380709962
+Terlizzi,Terlizzi,ITA,Puglia,27125,1380884039
+Vimercate,Vimercate,ITA,Lombardy,26170,1380150179
+Enna,Enna,ITA,Sicilia,27243,1380519522
+Albignasego,Albignasego,ITA,Veneto,26071,1380732466
+San Giovanni Rotondo,San Giovanni Rotondo,ITA,Puglia,27172,1380362159
+Chivasso,Chivasso,ITA,Piedmont,26730,1380480974
+Scicli,Scicli,ITA,Sicilia,27051,1380993047
+Niscemi,Niscemi,ITA,Sicilia,26946,1380700929
+Galatina,Galatina,ITA,Puglia,26887,1380914504
+Fidenza,Fidenza,ITA,Emilia-Romagna,26898,1380915205
+Assèmini,Assemini,ITA,Sardegna,26901,1380936771
+Falconara Marittima,Falconara Marittima,ITA,Marche,26063,1380000141
+Mesagne,Mesagne,ITA,Puglia,26836,1380258856
+Quarrata,Quarrata,ITA,Tuscany,26460,1380744286
+Noicattaro,Noicattaro,ITA,Puglia,26325,1380444548
+Pontecagnano,Pontecagnano,ITA,Campania,26242,1380911055
+Putignano,Putignano,ITA,Puglia,26679,1380734552
+Iglesias,Iglesias,ITA,Sardegna,26784,1380230224
+Santeramo in Colle,Santeramo in Colle,ITA,Puglia,26592,1380194006
+Francavilla al Mare,Francavilla al Mare,ITA,Abruzzo,25663,1380658126
+Mariano Comense,Mariano Comense,ITA,Lombardy,24956,1380489297
+San Giovanni Lupatoto,San Giovanni Lupatoto,ITA,Veneto,25337,1380942958
+Cesenatico,Cesenatico,ITA,Emilia-Romagna,25959,1380296104
+Valdagno,Valdagno,ITA,Veneto,26016,1380223912
+Iesolo,Iesolo,ITA,Veneto,26199,1380134395
+Vignola,Vignola,ITA,Emilia-Romagna,25313,1380248860
+Conversano,Conversano,ITA,Puglia,26171,1380054683
+Termini Imerese,Termini Imerese,ITA,Sicilia,26029,1380818198
+Arzignano,Arzignano,ITA,Veneto,25605,1380567531
+Sora,Sora,ITA,Lazio,25972,1380902074
+Scandiano,Scandiano,ITA,Emilia-Romagna,25758,1380786805
+Castel Volturno,Castel Volturno,ITA,Campania,25847,1380523837
+Roseto degli Abruzzi,Roseto degli Abruzzi,ITA,Abruzzo,25588,1380181304
+Nocera Superiore,Nocera Superiore,ITA,Campania,24369,1380320885
+Montichiari,Montichiari,ITA,Lombardy,25714,1380668110
+Correggio,Correggio,ITA,Emilia-Romagna,25664,1380849664
+Mola di Bari,Mola di Bari,ITA,Puglia,25393,1380831006
+Bagno a Ripoli,Bagno a Ripoli,ITA,Tuscany,25483,1380429442
+Legnago,Legnago,ITA,Veneto,25259,1380904282
+Thiene,Thiene,ITA,Veneto,24309,1380849890
+Dalmine,Dalmine,ITA,Lombardy,23495,1380355124
+Ruvo di Puglia,Ruvo di Puglia,ITA,Puglia,25328,1380946552
+Genzano di Roma,Genzano di Roma,ITA,Lazio,23892,1380051338
+Portogruaro,Portogruaro,ITA,Veneto,24959,1380545268
+Sezze,Sezze,ITA,Lazio,24954,1380311446
+Magenta,Magenta,ITA,Lombardy,23906,1380833063
+Ottaviano,Ottaviano,ITA,Campania,23710,1380556398
+Montevarchi,Montevarchi,ITA,Tuscany,24440,1380447263
+Giulianova,Giulianova,ITA,Abruzzo,23875,1380913817
+Albenga,Albenga,ITA,Liguria,24042,1380307501
+Sulmona,Sulmona,ITA,Abruzzo,24173,1380132981
+Fossano,Fossano,ITA,Piedmont,24372,1380823812
+Copertino,Copertino,ITA,Puglia,24094,1380260824
+Orbassano,Orbassano,ITA,Piedmont,23365,1380058518
+Biancavilla,Biancavilla,ITA,Sicilia,23948,1380858870
+Pietrasanta,Pietrasanta,ITA,Tuscany,23662,1380628379
+Ivrea,Ivrea,ITA,Piedmont,23442,1380635779
+Castiglione delle Stiviere,Castiglione delle Stiviere,ITA,Lombardy,23570,1380170299
+Montecchio Maggiore,Montecchio Maggiore,ITA,Veneto,23316,1380200882
+Mentana,Mentana,ITA,Lazio,23126,1380358509
+Selvazzano Dentro,Selvazzano Dentro,ITA,Veneto,22903,1380351916
+Noto,Noto,ITA,Sicilia,24028,1380605437
+Ventimiglia,Ventimiglia,ITA,Liguria,24065,1380716377
+Capoterra,Capoterra,ITA,Sardegna,23583,1380097598
+Mirandola,Mirandola,ITA,Emilia-Romagna,23650,1380556207
+Ceccano,Ceccano,ITA,Lazio,23380,1380744061
+Poggiomarino,Poggiomarino,ITA,Campania,21993,1380287017
+Vigonza,Vigonza,ITA,Veneto,22958,1380217105
+Lentini,Lentini,ITA,Sicilia,23526,1380237919
+Fucecchio,Fucecchio,ITA,Tuscany,23275,1380960076
+Floridia,Floridia,ITA,Sicilia,22694,1380210338
+Frascati,Frascati,ITA,Lazio,22450,1380415659
+Ortona,Ortona,ITA,Abruzzo,23111,1380661495
+Mercato San Severino,Mercato San Severino,ITA,Campania,22335,1380511383
+Palma di Montechiaro,Palma di Montechiaro,ITA,Sicilia,22663,1380075513
+Trezzano sul Naviglio,Trezzano sul Naviglio,ITA,Lombardy,20956,1380981105
+San Cataldo,San Cataldo,ITA,Sicilia,22557,1380693837
+Sarzana,Sarzana,ITA,Liguria,22133,1380361026
+Massarosa,Massarosa,ITA,Tuscany,22430,1380676955
+Mondovì,Mondovi,ITA,Piedmont,22444,1380965042
+Sondrio,Sondrio,ITA,Lombardy,21642,1380709664
+Pachino,Pachino,ITA,Sicilia,22237,1380098905
+Sant’Arcangelo di Romagna,Sant'Arcangelo di Romagna,ITA,Emilia-Romagna,22171,1380993276
+Porto Torres,Porto Torres,ITA,Sardegna,22367,1380199561
+Paese,Paese,ITA,Veneto,21992,1380092506
+Ariano Irpino,Ariano Irpino,ITA,Campania,22448,1380664255
+Martellago,Martellago,ITA,Veneto,21502,1380825761
+Ginosa,Ginosa,ITA,Puglia,22430,1380281287
+Agropoli,Agropoli,ITA,Campania,21874,1380689774
+Gorgonzola,Gorgonzola,ITA,Lombardy,20529,1380436916
+Casal di Principe,Casal di Principe,ITA,Campania,21482,1380491026
+Borgomanero,Borgomanero,ITA,Piedmont,21719,1380548990
+Cornaredo,Cornaredo,ITA,Lombardy,20534,1380437222
+Palestrina,Palestrina,ITA,Lazio,21872,1380751637
+Bressanone,Bressanone,ITA,Trentino-Alto Adige,22011,1380666737
+Comacchio,Comacchio,ITA,Emilia-Romagna,22188,1380546897
+Castrovillari,Castrovillari,ITA,Calabria,22037,1380393848
+Colleferro,Colleferro,ITA,Lazio,21394,1380286659
+Cortona,Cortona,ITA,Tuscany,22057,1380618031
+San Bonifacio,San Bonifacio,ITA,Veneto,21397,1380614746
+Isernia,Isernia,ITA,Molise,21666,1380050497
+Colle di Val d’Elsa,Colle di Val d'Elsa,ITA,Tuscany,21651,1380884722
+Piazza Armerina,Piazza Armerina,ITA,Sicilia,21775,1380975145
+Monsummano,Monsummano,ITA,Tuscany,21141,1380798376
+Pergine Valsugana,Pergine Valsugana,ITA,Trentino-Alto Adige,21384,1380117079
+Corciano,Corciano,ITA,Umbria,21427,1380269037
+Palo del Colle,Palo del Colle,ITA,Puglia,21488,1380083467
+Savigliano,Savigliano,ITA,Piedmont,21526,1380258510
+Montecatini Terme,Montecatini Terme,ITA,Tuscany,20540,1380958897
+Follonica,Follonica,ITA,Tuscany,21308,1380824134
+Anagni,Anagni,ITA,Lazio,21404,1380482139
+Argenta,Argenta,ITA,Emilia-Romagna,21521,1380471746
+Grottaferrata,Grottaferrata,ITA,Lazio,20460,1380288930
+Romano di Lombardia,Romano di Lombardia,ITA,Lombardy,20486,1380769763
+Suzzara,Suzzara,ITA,Lombardy,21154,1380507493
+Rosolini,Rosolini,ITA,Sicilia,21206,1380289458
+Sestu,Sestu,ITA,Sardegna,20958,1380888807
+Recanati,Recanati,ITA,Marche,21186,1380935619
+Sessa Aurunca,Sessa Aurunca,ITA,Campania,21252,1380035714
+Ferentino,Ferentino,ITA,Lazio,20992,1380938907
+San Salvo,San Salvo,ITA,Abruzzo,20184,1380137726
+Trecate,Trecate,ITA,Piedmont,20566,1380882788
+Gallipoli,Gallipoli,ITA,Puglia,20545,1380324772
+Abano Terme,Abano Terme,ITA,Veneto,20101,1380340471
+Castel San Pietro Terme,Castel San Pietro Terme,ITA,Emilia-Romagna,20862,1380181797
+Rivalta di Torino,Rivalta di Torino,ITA,Piedmont,20185,1380788921
+Bussolengo,Bussolengo,ITA,Veneto,20142,1380760419
+Oderzo,Oderzo,ITA,Veneto,20466,1380552197
+Vico Equense,Vico Equense,ITA,Campania,20919,1380413196
+Pallazzolo sull’Oglio,Pallazzolo sull'Oglio,ITA,Lombardy,20026,1380736878
+Feltre,Feltre,ITA,Veneto,20608,1380882091
+Giovinazzo,Giovinazzo,ITA,Puglia,20348,1380694202
+Pontassieve,Pontassieve,ITA,Tuscany,20607,1380388107
+Lastra a Signa,Lastra a Signa,ITA,Tuscany,20308,1380712822
+Pozzallo,Pozzallo,ITA,Sicilia,19466,1380784313
+Acquaviva delle Fonti,Acquaviva delle Fonti,ITA,Puglia,20600,1380485261
+Cittadella,Cittadella,ITA,Veneto,20145,1380660724
+Sabaudia,Sabaudia,ITA,Lazio,20536,1380097890
+Casarano,Casarano,ITA,Puglia,20070,1380392143
+Veroli,Veroli,ITA,Lazio,20414,1380485951
+Gioia Tauro,Gioia Tauro,ITA,Calabria,20076,1380096431
+San Mauro Torinese,San Mauro Torinese,ITA,Piedmont,19048,1380895328
+Gaeta,Gaeta,ITA,Lazio,20545,1380812819
+Acri,Acri,ITA,Calabria,20442,1380975284
+Sacile,Sacile,ITA,Friuli-Venezia Giulia,19905,1380761998
+Montalto Uffugo,Montalto Uffugo,ITA,Calabria,20213,1380541652
+Piove di Sacco,Piove di Sacco,ITA,Veneto,19902,1380727166
+Melzo,Melzo,ITA,Lombardy,18493,1380925708
+Orvieto,Orvieto,ITA,Umbria,20253,1380264756
+Minturno,Minturno,ITA,Lazio,19804,1380600468
+Acqui Terme,Acqui Terme,ITA,Piedmont,19651,1380674535
+Viadana,Viadana,ITA,Lombardy,20044,1380676530
+Cassano d’Adda,Cassano d'Adda,ITA,Lombardy,19057,1380087487
+Casamassima,Casamassima,ITA,Puglia,19777,1380135275
+Ceglie Messapico,Ceglie Messapico,ITA,Puglia,19833,1380040929
+Rovato,Rovato,ITA,Lombardy,19223,1380136759
+Salsomaggiore Terme,Salsomaggiore Terme,ITA,Emilia-Romagna,19710,1380396773
+Signa,Signa,ITA,Tuscany,18901,1380504356
+Spoltore,Spoltore,ITA,Abruzzo,19378,1380636388
+Castellana Grotte,Castellana Grotte,ITA,Puglia,19582,1380352998
+Ariccia,Ariccia,ITA,Lazio,18851,1380585218
+Arcore,Arcore,ITA,Lombardy,17916,1380749002
+Pescia,Pescia,ITA,Tuscany,19584,1380269318
+Carate Brianza,Carate Brianza,ITA,Lombardy,17952,1380973816
+Casalgrande,Casalgrande,ITA,Emilia-Romagna,19234,1380213899
+Tradate,Tradate,ITA,Lombardy,18861,1380890571
+Ciriè,Cirie,ITA,Piedmont,18639,1380920795
+Anguillara Sabazia,Anguillara Sabazia,ITA,Lazio,19426,1380136899
+Tolentino,Tolentino,ITA,Marche,19409,1380100386
+Adria,Adria,ITA,Veneto,19436,1380910667
+Zola Predosa,Zola Predosa,ITA,Emilia-Romagna,18939,1380463262
+Chiari,Chiari,ITA,Lombardy,18944,1380779872
+Scorzè,Scorze,ITA,Veneto,18848,1380933834
+Montemurlo,Montemurlo,ITA,Tuscany,18779,1380036366
+San Vito dei Normanni,San Vito dei Normanni,ITA,Puglia,19095,1380148507
+Terzigno,Terzigno,ITA,Campania,18584,1380036650
+Bracciano,Bracciano,ITA,Lazio,19219,1380527355
+Narni,Narni,ITA,Umbria,19252,1380161361
+Aci Sant’Antonio,Aci Sant'Antonio,ITA,Sicilia,18076,1380974532
+Agliana,Agliana,ITA,Tuscany,17789,1380301784
+Santa Marinella,Santa Marinella,ITA,Lazio,18921,1380956052
+Corbetta,Corbetta,ITA,Lombardy,18302,1380105269
+Noci,Noci,ITA,Puglia,19115,1380163445
+Valenza,Valenza,ITA,Piedmont,18804,1380755074
+Palmi,Palmi,ITA,Calabria,18606,1380460701
+Castelfidardo,Castelfidardo,ITA,Marche,18601,1380264751
+Palma Campania,Palma Campania,ITA,Campania,18218,1380996186
+Valenzano,Valenzano,ITA,Puglia,17952,1380189067
+Bronte,Bronte,ITA,Sicilia,18963,1380225642
+Ghedi,Ghedi,ITA,Lombardy,18719,1380181093
+Ribera,Ribera,ITA,Sicilia,18832,1380605395
+Castel Maggiore,Castel Maggiore,ITA,Emilia-Romagna,18349,1380605846
+Rutigliano,Rutigliano,ITA,Puglia,18591,1380706112
+Sestri Levante,Sestri Levante,ITA,Liguria,18339,1380139186
+Bareggio,Bareggio,ITA,Lombardy,17304,1380239097
+Marsciano,Marsciano,ITA,Umbria,18701,1380905185
+Siderno Marina,Siderno Marina,ITA,Calabria,18231,1380554937
+Piossasco,Piossasco,ITA,Piedmont,18322,1380000132
+Domodossola,Domodossola,ITA,Piedmont,18237,1380041863
+Laives,Laives,ITA,Trentino-Alto Adige,17954,1380561318
+Capua,Capua,ITA,Campania,18293,1380557016
+Malnate,Malnate,ITA,Lombardy,16784,1380202782
+Melegnano,Melegnano,ITA,Lombardy,18127,1380806046
+Budrio,Budrio,ITA,Emilia-Romagna,18440,1380367732
+Zagarolo,Zagarolo,ITA,Lazio,17933,1380250264
+Borgo San Lorenzo,Borgo San Lorenzo,ITA,Tuscany,18419,1380111491
+Cordenons,Cordenons,ITA,Friuli-Venezia Giulia,18210,1380431820
+Somma Lombardo,Somma Lombardo,ITA,Lombardy,17919,1380175887
+Savignano sul Rubicone,Savignano sul Rubicone,ITA,Emilia-Romagna,17744,1380057142
+Nerviano,Nerviano,ITA,Lombardy,17176,1380840352
+Albino,Albino,ITA,Lombardy,17903,1380409115
+Villorba,Villorba,ITA,Veneto,17879,1380357143
+Valguarnera Caropepe,Valguarnera Caropepe,ITA,Sicilia,18040,1380135070
+Santa Maria di Sala,Santa Maria di Sala,ITA,Veneto,17774,1380364806
+Cassano al Ionio,Cassano al Ionio,ITA,Calabria,18270,1380542354
+Polignano a Mare,Polignano a Mare,ITA,Puglia,18022,1380726054
+Alpignano,Alpignano,ITA,Piedmont,16811,1380567274
+Calenzano,Calenzano,ITA,Tuscany,17914,1380409219
+Marcon,Marcon,ITA,Veneto,17447,1380183530
+Maranello,Maranello,ITA,Emilia-Romagna,17590,1380374163
+Sona,Sona,ITA,Veneto,17694,1380331377
+Pescantina,Pescantina,ITA,Veneto,17236,1380632366
+Sorrento,Sorrento,ITA,Campania,16405,1380150181
+Baronissi,Baronissi,ITA,Campania,17051,1380376060
+Arco,Arco,ITA,Trentino-Alto Adige,17716,1380761996
+Isola Capo Rizzuto,Isola Capo Rizzuto,ITA,Calabria,17832,1380206384
+Melfi,Melfi,ITA,Basilicata,17878,1380950870
+Policoro,Policoro,ITA,Basilicata,17694,1380519892
+Tricase,Tricase,ITA,Puglia,17525,1380669582
+Monselice,Monselice,ITA,Veneto,17572,1380805860
+Porto San Giorgio,Porto San Giorgio,ITA,Marche,16068,1380690749
+Carlentini,Carlentini,ITA,Sicilia,17741,1380090560
+Orta Nova,Orta Nova,ITA,Puglia,17675,1380032682
+Forio,Forio,ITA,Campania,17840,1380644792
+Fiorano Modenese,Fiorano Modenese,ITA,Emilia-Romagna,17099,1380451196
+Preganziol,Preganziol,ITA,Veneto,16957,1380449850
+Pisticci,Pisticci,ITA,Basilicata,17602,1380400778
+Pianoro,Pianoro,ITA,Emilia-Romagna,17503,1380089762
+Sìnnai,Sinnai,ITA,Sardegna,17562,1380071240
+Rocca di Papa,Rocca di Papa,ITA,Lazio,17201,1380121501
+Scordia,Scordia,ITA,Sicilia,16919,1380710947
+San Giovanni Valdarno,San Giovanni Valdarno,ITA,Tuscany,16812,1380269807
+Rubano,Rubano,ITA,Veneto,16448,1380183022
+Castelfiorentino,Castelfiorentino,ITA,Tuscany,17283,1380361720
+Adelfia,Adelfia,ITA,Puglia,16963,1380602837
+Negrar,Negrar,ITA,Veneto,17093,1380257254
+Sant’Elpidio a Mare,Sant'Elpidio a Mare,ITA,Marche,17144,1380442467
+Concorezzo,Concorezzo,ITA,Lombardy,15644,1380380632
+Pavullo nel Frignano,Pavullo nel Frignano,ITA,Emilia-Romagna,17361,1380076570
+Cadoneghe,Cadoneghe,ITA,Veneto,16176,1380080342
+Porto Empedocle,Porto Empedocle,ITA,Sicilia,16701,1380764645
+Saviano,Saviano,ITA,Campania,16182,1380874488
+Gussago,Gussago,ITA,Lombardy,16681,1380922728
+San Casciano in Val di Pesa,San Casciano in Val di Pesa,ITA,Tuscany,17171,1380526420
+Campagna,Campagna,ITA,Campania,17169,1380576696
+Carovigno,Carovigno,ITA,Puglia,17120,1380489913
+Saluzzo,Saluzzo,ITA,Piedmont,16958,1380304445
+Torre Maggiore,Torre Maggiore,ITA,Puglia,17069,1380458474
+Castellaneta,Castellaneta,ITA,Puglia,17069,1380977317
+San Giovanni in Fiore,San Giovanni in Fiore,ITA,Calabria,17059,1380843542
+Martinsicuro,Martinsicuro,ITA,Abruzzo,15992,1380108637
+Grottammare,Grottammare,ITA,Marche,16166,1380551204
+Vedelago,Vedelago,ITA,Veneto,16781,1380349363
+Samarate,Samarate,ITA,Lombardy,16018,1380984900
+Lentate sul Seveso,Lentate sul Seveso,ITA,Lombardy,15878,1380948255
+Bagnacavallo,Bagnacavallo,ITA,Emilia-Romagna,16780,1380211099
+Giaveno,Giaveno,ITA,Piedmont,16747,1380065100
+Brunico,Brunico,ITA,Trentino-Alto Adige,16580,1380194729
+Palagonia,Palagonia,ITA,Sicilia,16654,1380106335
+Agrate Brianza,Agrate Brianza,ITA,Lombardy,15540,1380660199
+Leinì,Leini,ITA,Piedmont,16375,1380991388
+Medicina,Medicina,ITA,Emilia-Romagna,16768,1380077398
+Este,Este,ITA,Veneto,16364,1380163207
+Colle Salvetti,Colle Salvetti,ITA,Tuscany,16693,1380386926
+Lonigo,Lonigo,ITA,Veneto,16466,1380114554
+Cerea,Cerea,ITA,Veneto,16517,1380206980
+Caravaggio,Caravaggio,ITA,Lombardy,16261,1380893805
+Capurso,Capurso,ITA,Puglia,15682,1380279313
+Cerro Maggiore,Cerro Maggiore,ITA,Lombardy,15211,1380334696
+Monesiglio,Monesiglio,ITA,Piedmont,16631,1380000103
+Todi,Todi,ITA,Umbria,16606,1380391781
+Reggello,Reggello,ITA,Tuscany,16543,1380547309
+Noale,Noale,ITA,Veneto,16017,1380537608
+Codogno,Codogno,ITA,Lombardy,15901,1380367305
+Umbertide,Umbertide,ITA,Umbria,16530,1380190822
+Besana in Brianza,Besana in Brianza,ITA,Lombardy,15573,1380091291
+Silvi Paese,Silvi Paese,ITA,Abruzzo,15708,1380754608
+Bovolone,Bovolone,ITA,Veneto,16078,1380019323
+Valmontone,Valmontone,ITA,Lazio,16073,1380441456
+Civita Castellana,Civita Castellana,ITA,Lazio,16262,1380553391
+Ispica,Ispica,ITA,Sicilia,16307,1380690340
+Sava,Sava,ITA,Puglia,16076,1380330034
+Copparo,Copparo,ITA,Emilia-Romagna,16294,1380210267
+Codroipo,Codroipo,ITA,Friuli-Venezia Giulia,16165,1380582710
+Palagiano,Palagiano,ITA,Puglia,16105,1380205580
+Tarquinia,Tarquinia,ITA,Lazio,16269,1380000153
+Ponsacco,Ponsacco,ITA,Tuscany,15539,1380451204
+Ospitaletto,Ospitaletto,ITA,Lombardy,14711,1380485790
+Nonantola,Nonantola,ITA,Emilia-Romagna,15957,1380440392
+Merate,Merate,ITA,Lombardy,14891,1380531302
+Pianezza,Pianezza,ITA,Piedmont,15309,1380471240
+Galliate,Galliate,ITA,Piedmont,15685,1380412651
+San Cesareo,San Cesareo,ITA,Lazio,15552,1380153894
+Potenza Picena,Potenza Picena,ITA,Marche,15827,1380714734
+Altopascio,Altopascio,ITA,Tuscany,15572,1380450023
+Certaldo,Certaldo,ITA,Tuscany,16023,1380404782
+Fiano Romano,Fiano Romano,ITA,Lazio,15688,1380521014
+Azzano Decimo,Azzano Decimo,ITA,Friuli-Venezia Giulia,15744,1380971345
+Sansepolcro,Sansepolcro,ITA,Tuscany,15876,1380207996
+Rescaldina,Rescaldina,ITA,Lombardy,14185,1380000133
+Volpiano,Volpiano,ITA,Piedmont,15453,1380955438
+San Martino Buon Albergo,San Martino Buon Albergo,ITA,Veneto,15482,1380954715
+Mottola,Mottola,ITA,Puglia,15842,1380141881
+Casalpusterlengo,Casalpusterlengo,ITA,Lombardy,15280,1380675259
+Galatone,Galatone,ITA,Puglia,15544,1380792497
+Surbo,Surbo,ITA,Puglia,15115,1380657814
+Taurianova,Taurianova,ITA,Calabria,15501,1380999931
+Castenaso,Castenaso,ITA,Emilia-Romagna,15363,1380350174
+Omegna,Omegna,ITA,Piedmont,15285,1380579967
+Cassina de’ Pecchi,Cassina de' Pecchi,ITA,Lombardy,13849,1380160221
+Molinella,Molinella,ITA,Emilia-Romagna,15642,1380126666
+San Giorgio Ionico,San Giorgio Ionico,ITA,Puglia,15101,1380292242
+Finale Emilia,Finale Emilia,ITA,Emilia-Romagna,15581,1380983848
+Riposto,Riposto,ITA,Sicilia,14620,1380724785
+Paola,Paola,ITA,Calabria,15716,1380181514
+Castelnuovo Rangone,Castelnuovo Rangone,ITA,Emilia-Romagna,15035,1380301860
+Opera,Opera,ITA,Lombardy,13858,1380000121
+Valeggio sul Mincio,Valeggio sul Mincio,ITA,Veneto,15424,1380970991
+Casalmaggiore,Casalmaggiore,ITA,Lombardy,15425,1380588723
+Mortara,Mortara,ITA,Lombardy,15362,1380404772
+Dolo,Dolo,ITA,Veneto,15022,1380619643
+Corridonia,Corridonia,ITA,Marche,15362,1380496994
+Soliera,Soliera,ITA,Emilia-Romagna,15296,1380581557
+Castellarano,Castellarano,ITA,Emilia-Romagna,15326,1380006384
+Chiaravalle,Chiaravalle,ITA,Marche,14733,1380566953
+Castiglione del Lago,Castiglione del Lago,ITA,Umbria,15479,1380310295
+Fiorenzuola d’Arda,Fiorenzuola d'Arda,ITA,Emilia-Romagna,15276,1380545358
+Rubiera,Rubiera,ITA,Emilia-Romagna,14833,1380779258
+Calolziocorte,Calolziocorte,ITA,Lombardy,13877,1380962766
+Pedara,Pedara,ITA,Sicilia,14613,1380359884
+Castellammare del Golfo,Castellammare del Golfo,ITA,Sicilia,15209,1380531580
+Zevio,Zevio,ITA,Veneto,15048,1380762128
+Guastalla,Guastalla,ITA,Emilia-Romagna,15032,1380315818
+Sannicandro Garganico,Sannicandro Garganico,ITA,Puglia,15224,1380967856
+San Vito al Tagliamento,San Vito al Tagliamento,ITA,Friuli-Venezia Giulia,15063,1380256352
+Pineto,Pineto,ITA,Abruzzo,14915,1380708207
+Santa Maria a Vico,Santa Maria a Vico,ITA,Campania,14004,1380703992
+Città Sant’Angelo,Citta Sant'Angelo,ITA,Abruzzo,15034,1380482747
+Laterza,Laterza,ITA,Puglia,15171,1380697612
+Campodarsego,Campodarsego,ITA,Veneto,14675,1380456540
+Sommacampagna,Sommacampagna,ITA,Veneto,14802,1380030808
+Cossato,Cossato,ITA,Piedmont,14633,1380536408
+Rosarno,Rosarno,ITA,Calabria,14776,1380355749
+Cirò Marina,Ciro Marina,ITA,Calabria,14794,1380503781
+Luino,Luino,ITA,Lombardy,14454,1380854109
+Gualdo Tadino,Gualdo Tadino,ITA,Umbria,15018,1380252231
+Trepuzzi,Trepuzzi,ITA,Puglia,14512,1380618729
+Rosà,Rosa,ITA,Veneto,14499,1380877179
+Sasso Marconi,Sasso Marconi,ITA,Emilia-Romagna,14903,1380881391
+Pontinia,Pontinia,ITA,Lazio,14915,1380666503
+Sorso,Sorso,ITA,Sardegna,14826,1380293910
+Carmignano,Carmignano,ITA,Tuscany,14663,1380264482
+Massalubrense,Massalubrense,ITA,Campania,14294,1380941923
+Malo,Malo,ITA,Veneto,14855,1380662716
+Magione,Magione,ITA,Umbria,14815,1380265251
+Cassano delle Murge,Cassano delle Murge,ITA,Puglia,14765,1380045660
+Vinci,Vinci,ITA,Tuscany,14650,1380412084
+Impruneta,Impruneta,ITA,Tuscany,14618,1380948118
+Busto Garolfo,Busto Garolfo,ITA,Lombardy,13851,1380073256
+Santa Croce sull’ Arno,Santa Croce sull' Arno,ITA,Tuscany,14627,1380678049
+Mondolfo,Mondolfo,ITA,Marche,14265,1380664340
+Arona,Arona,ITA,Piedmont,13966,1380422638
+Collecchio,Collecchio,ITA,Emilia-Romagna,14634,1380939433
+Montelupo Fiorentino,Montelupo Fiorentino,ITA,Tuscany,14247,1380095746
+Maglie,Maglie,ITA,Puglia,14196,1380267095
+Orbetello,Orbetello,ITA,Tuscany,14744,1380129001
+Castel San Giorgio,Castel San Giorgio,ITA,Campania,13784,1380000068
+Roncade,Roncade,ITA,Veneto,14561,1380417225
+Villa San Giovanni,Villa San Giovanni,ITA,Calabria,13667,1380269595
+Piano di Sorrento,Piano di Sorrento,ITA,Campania,13008,1380275318
+Monteroni di Lecce,Monteroni di Lecce,ITA,Puglia,13923,1380872538
+Trinitapoli,Trinitapoli,ITA,Puglia,14649,1380094002
+Travagliato,Travagliato,ITA,Lombardy,13930,1380526991
+Mascali,Mascali,ITA,Sicilia,14301,1380299124
+Latiano,Latiano,ITA,Puglia,14403,1380589775
+Cicciano,Cicciano,ITA,Campania,12897,1380669369
+Alzano Lombardo,Alzano Lombardo,ITA,Lombardy,13637,1380900977
+Urbino,Urbino,ITA,Marche,14558,1380375007
+Priverno,Priverno,ITA,Lazio,14365,1380371078
+Leno,Leno,ITA,Lombardy,14322,1380781038
+Cefalù,Cefalu,ITA,Sicilia,14298,1380556329
+Stezzano,Stezzano,ITA,Lombardy,13112,1380771456
+Oleggio,Oleggio,ITA,Piedmont,14135,1380034539
+Squinzano,Squinzano,ITA,Puglia,14031,1380933305
+Dueville,Dueville,ITA,Veneto,13804,1380919954
+Fiesole,Fiesole,ITA,Tuscany,14150,1380368981
+Locorotondo,Locorotondo,ITA,Puglia,14190,1380099343
+Taggia,Taggia,ITA,Liguria,14003,1380039801
+Amantea,Amantea,ITA,Calabria,13975,1380959246
+Caselle Torinese,Caselle Torinese,ITA,Piedmont,13958,1380453030
+Leverano,Leverano,ITA,Puglia,14145,1380656627
+Marostica,Marostica,ITA,Veneto,14039,1380791088
+Fisciano,Fisciano,ITA,Campania,13967,1380391140
+Taglio,Taglio,ITA,Veneto,14298,1380512277
+Artena,Artena,ITA,Lazio,14107,1380902355
+Cervignano del Friuli,Cervignano del Friuli,ITA,Friuli-Venezia Giulia,13881,1380444773
+Rezzato,Rezzato,ITA,Lombardy,13576,1380707152
+Bondeno,Bondeno,ITA,Emilia-Romagna,14217,1380410103
+Veglie,Veglie,ITA,Puglia,13947,1380574760
+Olgiate Olona,Olgiate Olona,ITA,Lombardy,12444,1380625196
+San Ferdinando di Puglia,San Ferdinando di Puglia,ITA,Puglia,13828,1380027939
+Fara in Sabina,Fara in Sabina,ITA,Lazio,13904,1380110436
+Vetralla,Vetralla,ITA,Lazio,14020,1380933431
+Tempio Pausania,Tempio Pausania,ITA,Sardegna,14052,1380832522
+Villacidro,Villacidro,ITA,Sardegna,14019,1380833253
+Sarezzo,Sarezzo,ITA,Lombardy,13337,1380756460
+Casatenovo,Casatenovo,ITA,Lombardy,13042,1380592679
+Montepulciano,Montepulciano,ITA,Tuscany,13984,1380295341
+Castel San Giovanni,Castel San Giovanni,ITA,Emilia-Romagna,13756,1380014722
+Múggia,Muggia,ITA,Friuli-Venezia Giulia,13111,1380254049
+Lariano,Lariano,ITA,Lazio,13448,1380374934
+Vieste,Vieste,ITA,Puglia,13943,1380156505
+Montesarchio,Montesarchio,ITA,Campania,13508,1380707425
+Statte,Statte,ITA,Puglia,13808,1380083106
+Misano Adriatico,Misano Adriatico,ITA,Emilia-Romagna,13400,1380200354
+Novellara,Novellara,ITA,Emilia-Romagna,13721,1380114632
+Fagnano Olona,Fagnano Olona,ITA,Lombardy,12510,1380853819
+San Prisco,San Prisco,ITA,Campania,12333,1380378777
+Lanuvio,Lanuvio,ITA,Lazio,13580,1380932306
+Cavarzere,Cavarzere,ITA,Veneto,13791,1380003044
+Sant’Angelo Lodigiano,Sant'Angelo Lodigiano,ITA,Lombardy,13202,1380951177
+San Pietro Vernotico,San Pietro Vernotico,ITA,Puglia,13556,1380961722
+Forlimpopoli,Forlimpopoli,ITA,Emilia-Romagna,13294,1380469474
+Latisana,Latisana,ITA,Friuli-Venezia Giulia,13478,1380553278
+Sedriano,Sedriano,ITA,Lombardy,12246,1380203469
+Arzachena,Arzachena,ITA,Sardegna,13756,1380105084
+Crispiano,Crispiano,ITA,Puglia,13693,1380058805
+Camponogara,Camponogara,ITA,Veneto,13117,1380151926
+Quartucciu,Quartucciu,ITA,Sardegna,13234,1380238620
+Grammichele,Grammichele,ITA,Sicilia,13267,1380407016
+Castelfranco di Sotto,Castelfranco di Sotto,ITA,Tuscany,13396,1380555737
+Vigodarzere,Vigodarzere,ITA,Veneto,13017,1380176970
+Salzano,Salzano,ITA,Veneto,12911,1380489219
+Nicosia,Nicosia,ITA,Sicilia,13588,1380619404
+San Martino di Lupari,San Martino di Lupari,ITA,Veneto,13104,1380028466
+San Marco in Lamis,San Marco in Lamis,ITA,Puglia,13583,1380173757
+Crevalcore,Crevalcore,ITA,Emilia-Romagna,13501,1380853789
+Montefiascone,Montefiascone,ITA,Lazio,13498,1380379185
+Melilli,Melilli,ITA,Sicilia,13519,1380628157
+San Gennaro Vesuviano,San Gennaro Vesuviano,ITA,Campania,11910,1380767923
+Montespertoli,Montespertoli,ITA,Tuscany,13497,1380899851
+Manerbio,Manerbio,ITA,Lombardy,13109,1380871035
+Calderara di Reno,Calderara di Reno,ITA,Emilia-Romagna,13224,1380049846
+Tezze sul Brenta,Tezze sul Brenta,ITA,Veneto,12817,1380238354
+Patti,Patti,ITA,Sicilia,13266,1380086020
+Gricignano d’Aversa,Gricignano d'Aversa,ITA,Campania,12296,1380461828
+Castelnuovo di Verona,Castelnuovo di Verona,ITA,Veneto,13137,1380923037
+Loreto,Loreto,ITA,Marche,12802,1380440033
+Casale sul Sile,Casale sul Sile,ITA,Veneto,13032,1380855247
+Lavello,Lavello,ITA,Basilicata,13411,1380330095
+Ficarazzi,Ficarazzi,ITA,Sicilia,13080,1380754605
+Quattro Castella,Quattro Castella,ITA,Emilia-Romagna,13217,1380509604
+Formello,Formello,ITA,Lazio,13070,1380473948
+Rionero in Vulture,Rionero in Vulture,ITA,Basilicata,13236,1380324946
+Chiampo,Chiampo,ITA,Veneto,12879,1380934204
+Capaci,Capaci,ITA,Sicilia,11549,1380855471
+Calcinaia,Calcinaia,ITA,Tuscany,12582,1380579954
+Santa Maria a Monte,Santa Maria a Monte,ITA,Tuscany,13061,1380753148
+Carpenedolo,Carpenedolo,ITA,Lombardy,12957,1380820310
+Varazze,Varazze,ITA,Liguria,13113,1380033309
+Palombara Sabina,Palombara Sabina,ITA,Lazio,13200,1380033023
+Cavallino,Cavallino,ITA,Puglia,12808,1380885640
+Castiglion Fiorentino,Castiglion Fiorentino,ITA,Tuscany,13228,1380916249
+Porto Recanati,Porto Recanati,ITA,Marche,12609,1380228995
+Trebaseleghe,Trebaseleghe,ITA,Veneto,12916,1380826282
+Capo d’Orlando,Capo d'Orlando,ITA,Sicilia,13320,1380000117
+Seravezza,Seravezza,ITA,Tuscany,12962,1380685109
+Montegranaro,Montegranaro,ITA,Marche,12876,1380180900
+Calcinato,Calcinato,ITA,Lombardy,12894,1380753410
+Cairo Montenotte,Cairo Montenotte,ITA,Liguria,13145,1380236204
+Pontecorvo,Pontecorvo,ITA,Lazio,13125,1380359206
+San Biagio di Callalta,San Biagio di Callalta,ITA,Veneto,12996,1380128806
+Leonforte,Leonforte,ITA,Sicilia,13106,1380550337
+Apricena,Apricena,ITA,Puglia,13174,1380762322
+Morbegno,Morbegno,ITA,Lombardy,12407,1380051452
+Raffadali,Raffadali,ITA,Sicilia,12650,1380472862
+Barrafranca,Barrafranca,ITA,Sicilia,12960,1380555012
+Spilamberto,Spilamberto,ITA,Emilia-Romagna,12767,1380630753
+Campiglia Marittima,Campiglia Marittima,ITA,Tuscany,13018,1380320661
+Terrasini Favarotta,Terrasini Favarotta,ITA,Sicilia,12535,1380588592
+Monteprandone,Monteprandone,ITA,Marche,12678,1380155308
+Avigliana,Avigliana,ITA,Piedmont,12599,1380109385
+Noceto,Noceto,ITA,Emilia-Romagna,12919,1380187452
+Bagnolo Mella,Bagnolo Mella,ITA,Lombardy,12677,1380227920
+Borgo San Dalmazzo,Borgo San Dalmazzo,ITA,Piedmont,12492,1380833264
+Santo Stino di Livenza,Santo Stino di Livenza,ITA,Veneto,12855,1380323884
+Solofra,Solofra,ITA,Campania,12470,1380330990
+Trezzo sull’Adda,Trezzo sull'Adda,ITA,Lombardy,12090,1380406444
+Borgaro Torinese,Borgaro Torinese,ITA,Piedmont,11931,1380596593
+Mercogliano,Mercogliano,ITA,Campania,12369,1380603196
+Borgosesia,Borgosesia,ITA,Piedmont,12676,1380192410
+Montecorvino Rovella,Montecorvino Rovella,ITA,Campania,12682,1380643380
+Pianiga,Pianiga,ITA,Veneto,12363,1380942076
+Arluno,Arluno,ITA,Lombardy,12000,1380328223
+Monte San Giovanni Campano,Monte San Giovanni Campano,ITA,Lazio,12706,1380135673
+Lipari,Lipari,ITA,Sicilia,12819,1380222047
+Castel Goffredo,Castel Goffredo,ITA,Lombardy,12633,1380666608
+Rivarolo Canavese,Rivarolo Canavese,ITA,Piedmont,12539,1380310565
+Grumo Appula,Grumo Appula,ITA,Puglia,12710,1380738889
+Sala Consilina,Sala Consilina,ITA,Campania,12636,1380877260
+Locri,Locri,ITA,Calabria,12367,1380626724
+Francofonte,Francofonte,ITA,Sicilia,12661,1380615654
+Figline Valdarno,Figline Valdarno,ITA,Tuscany,12646,1380910062
+Fontanafredda,Fontanafredda,ITA,Friuli-Venezia Giulia,12521,1380424478
+Lauria Inferiore,Lauria Inferiore,ITA,Basilicata,12694,1380797413
+Sant’Agata di Militello,Sant'Agata di Militello,ITA,Sicilia,12393,1380653240
+Sinalunga,Sinalunga,ITA,Tuscany,12573,1380874703
+Altavilla Vicentina,Altavilla Vicentina,ITA,Veneto,12013,1380330182
+Paullo,Paullo,ITA,Lombardy,11429,1380956387
+Olgiate Comasco,Olgiate Comasco,ITA,Lombardy,11633,1380841304
+Pieve di Soligo,Pieve di Soligo,ITA,Veneto,12057,1380766234
+Orzinuovi,Orzinuovi,ITA,Lombardy,12419,1380910228
+Ronchi dei Legionari,Ronchi dei Legionari,ITA,Friuli-Venezia Giulia,11971,1380970887
+Anzola dell’Emilia,Anzola dell'Emilia,ITA,Emilia-Romagna,12310,1380103166
+Monte Compatri,Monte Compatri,ITA,Lazio,12134,1380232172
+Lana,Lana,ITA,Trentino-Alto Adige,12286,1380125406
+Cinisi,Cinisi,ITA,Sicilia,12250,1380020077
+San Mauro Pascoli,San Mauro Pascoli,ITA,Emilia-Romagna,11929,1380282850
+Lavagna,Lavagna,ITA,Liguria,12617,1380105250
+Camposampiero,Camposampiero,ITA,Veneto,12043,1380620139
+Spresiano,Spresiano,ITA,Veneto,12136,1380609623
+San Pietro in Casale,San Pietro in Casale,ITA,Emilia-Romagna,12418,1380864368
+Gavardo,Gavardo,ITA,Lombardy,12197,1380750448
+Menfi,Menfi,ITA,Sicilia,12471,1380428251
+Russi,Russi,ITA,Emilia-Romagna,12309,1380637948
+Rottofreno,Rottofreno,ITA,Emilia-Romagna,12220,1380313271
+Carmiano,Carmiano,ITA,Puglia,12068,1380971729
+Bernalda,Bernalda,ITA,Basilicata,12453,1380725968
+Ugento,Ugento,ITA,Puglia,12412,1380157196
+Motta Sant’Anastasia,Motta Sant'Anastasia,ITA,Sicilia,12189,1380816706
+Valmadrera,Valmadrera,ITA,Lombardy,11601,1380021270
+San Severino Marche,San Severino Marche,ITA,Marche,12456,1380732356
+Taviano,Taviano,ITA,Puglia,11972,1380879595
+Cornedo Vicentino,Cornedo Vicentino,ITA,Veneto,11982,1380484003
+Rocca Priora,Rocca Priora,ITA,Lazio,12060,1380371856
+Teano,Teano,ITA,Campania,12303,1380589250
+Terranuova Bracciolini,Terranuova Bracciolini,ITA,Tuscany,12292,1380695494
+Eraclea,Eraclea,ITA,Veneto,12276,1380571098
+Lizzanello,Lizzanello,ITA,Puglia,11934,1380805598
+Monte Sant’Angelo,Monte Sant'Angelo,ITA,Puglia,12342,1380439679
+Granarolo del l’Emilia,Granarolo del l'Emilia,ITA,Emilia-Romagna,12032,1380002344
+Villa Literno,Villa Literno,ITA,Campania,12184,1380835473
+Monteforte Irpino,Monteforte Irpino,ITA,Campania,11933,1380260210
+Occhiobello,Occhiobello,ITA,Ferrara,11993,1380582807
+Bitetto,Bitetto,ITA,Puglia,12006,1380344722
+Sant’Ambrogio di Valpolicella,Sant'Ambrogio di Valpolicella,ITA,Veneto,11818,1380918977
+Spilimbergo,Spilimbergo,ITA,Friuli-Venezia Giulia,12151,1380070167
+Bibbiena,Bibbiena,ITA,Tuscany,12177,1380834847
+Torri di Quartesolo,Torri di Quartesolo,ITA,Veneto,11684,1380825558
+Nembro,Nembro,ITA,Lombardy,11530,1380201801
+Stradella,Stradella,ITA,Lombardy,11637,1380130500
+Tortoreto,Tortoreto,ITA,Abruzzo,11757,1380008251
+Taurisano,Taurisano,ITA,Puglia,11770,1380474731
+Casièr,Casier,ITA,Veneto,11412,1380873159
+Vecchiano,Vecchiano,ITA,Tuscany,12082,1380000131
+Atripalda,Atripalda,ITA,Campania,10968,1380784790
+Portoferraio,Portoferraio,ITA,Tuscany,11955,1380962428
+Isola del Liri,Isola del Liri,ITA,Lazio,11482,1380391710
+Montegrotto Terme,Montegrotto Terme,ITA,Veneto,11448,1380955470
+Lonate Pozzolo,Lonate Pozzolo,ITA,Lombardy,11786,1380295978
+Pulsano,Pulsano,ITA,Puglia,11504,1380854863
+San Valentino Torio,San Valentino Torio,ITA,Campania,10937,1380213807
+Margherita di Savoia,Margherita di Savoia,ITA,Puglia,11771,1380299777
+Mestrino,Mestrino,ITA,Veneto,11502,1380345520
+Susegana,Susegana,ITA,Veneto,11831,1380261110
+Priolo Gargallo,Priolo Gargallo,ITA,Sicilia,11883,1380949473
+Gambettola,Gambettola,ITA,Emilia-Romagna,10704,1380865769
+Alfonsine,Alfonsine,ITA,Emilia-Romagna,11953,1380940299
+Fiume Veneto,Fiume Veneto,ITA,Friuli-Venezia Giulia,11729,1380146382
+Loano,Loano,ITA,Liguria,11224,1380950847
+Giffoni Valle Piana,Giffoni Valle Piana,ITA,Campania,11899,1380330872
+Cave,Cave,ITA,Lazio,11381,1380149501
+Casteldaccia,Casteldaccia,ITA,Sicilia,11655,1380308366
+Caldogno,Caldogno,ITA,Veneto,11272,1380104300
+Santa Flavia,Santa Flavia,ITA,Sicilia,11212,1380531539
+Gardone Val Trompia,Gardone Val Trompia,ITA,Lombardy,11538,1380641639
+Serravalle Pistoiese,Serravalle Pistoiese,ITA,Tuscany,11689,1380007277
+Arenzano,Arenzano,ITA,Liguria,11478,1380002792
+Campobello di Mazara,Campobello di Mazara,ITA,Sicilia,11769,1380253064
+Finale Ligure,Finale Ligure,ITA,Liguria,11613,1380697968
+San Michele al Tagliamento,San Michele al Tagliamento,ITA,Veneto,11822,1380617827
+Castenedolo,Castenedolo,ITA,Lombardy,11482,1380758919
+Amelia,Amelia,ITA,Umbria,11828,1380920464
+Maniago,Maniago,ITA,Friuli-Venezia Giulia,11746,1380416559
+Lendinara,Lendinara,ITA,Veneto,11694,1380831674
+Bitritto,Bitritto,ITA,Puglia,11277,1380815119
+Pellezzano,Pellezzano,ITA,Campania,11101,1380010237
+Macerata Campania,Macerata Campania,ITA,Campania,10507,1380490528
+Mazzarino,Mazzarino,ITA,Sicilia,11842,1380002407
+Matino,Matino,ITA,Puglia,11444,1380053449
+Inzago,Inzago,ITA,Lombardy,10949,1380055442
+Castano Primo,Castano Primo,ITA,Lombardy,11228,1380175230
+Codigoro,Codigoro,ITA,Emilia-Romagna,11740,1380966782
+Campagnano di Roma,Campagnano di Roma,ITA,Lazio,11561,1380699714
+Venosa,Venosa,ITA,Basilicata,11732,1380807086
+Guspini,Guspini,ITA,Sardegna,11725,1380078367
+Trofarello,Trofarello,ITA,Piedmont,10901,1380590020
+Cologno al Serio,Cologno al Serio,ITA,Lombardy,11180,1380174378
+Cisternino,Cisternino,ITA,Puglia,11553,1380418763
+Zero Branco,Zero Branco,ITA,Veneto,11329,1380265651
+Carbonera,Carbonera,ITA,Veneto,11183,1380542415
+Poggio a Caiano,Poggio a Caiano,ITA,Tuscany,10048,1380864221
+Portomaggiore,Portomaggiore,ITA,Emilia-Romagna,11630,1380757237
+Musile di Piave,Musile di Piave,ITA,Veneto,11461,1380177737
+Isola della Scala,Isola della Scala,ITA,Veneto,11545,1380191231
+Ravanusa,Ravanusa,ITA,Sicilia,11471,1380591598
+Taormina,Taormina,ITA,Sicilia,10872,1380790975
+Ovada,Ovada,ITA,Piedmont,11365,1380731668
+Caorle,Caorle,ITA,Veneto,11606,1380538746
+Trecastagni,Trecastagni,ITA,Sicilia,11074,1380667975
+Bonate di Sopra,Bonate di Sopra,ITA,Lombardy,10020,1380392086
+Belmonte Mezzagno,Belmonte Mezzagno,ITA,Sicilia,11239,1380633783
+Camisano Vicentino,Camisano Vicentino,ITA,Veneto,11248,1380821535
+Boscotrecase,Boscotrecase,ITA,Campania,10247,1380959996
+Siniscola,Siniscola,ITA,Sardegna,11531,1380249101
+Sesto Calende,Sesto Calende,ITA,Lombardy,11141,1380964892
+Riesi,Riesi,ITA,Sicilia,11402,1380200114
+Melito di Porto Salvo,Melito di Porto Salvo,ITA,Calabria,11240,1380113594
+Castelvetro di Modena,Castelvetro di Modena,ITA,Emilia-Romagna,11303,1380197582
+Creazzo,Creazzo,ITA,Veneto,11373,1380029462
+Montopoli in Val d’Arno,Montopoli in Val d'Arno,ITA,Tuscany,11149,1380810107
+Scalea,Scalea,ITA,Calabria,11022,1380684503
+Lurate Caccivio,Lurate Caccivio,ITA,Lombardy,9847,1380759371
+Paceco,Paceco,ITA,Sicilia,11307,1380125457
+Cerese,Cerese,ITA,Lombardy,11141,1380568489
+Cornate d’Adda,Cornate d'Adda,ITA,Lombardy,10715,1380466691
+Castelli Calepio,Castelli Calepio,ITA,Lombardy,10453,1380924390
+Avigliano,Avigliano,ITA,Basilicata,11350,1380120301
+Castel Mella,Castel Mella,ITA,Lombardy,11010,1380864073
+Racale,Racale,ITA,Puglia,11011,1380031078
+Piazzola sul Brenta,Piazzola sul Brenta,ITA,Veneto,11189,1380205333
+Venafro,Venafro,ITA,Molise,11209,1380227968
+La Maddalena,La Maddalena,ITA,Sardegna,11233,1380613741
+Botticino Sera,Botticino Sera,ITA,Lombardy,10857,1380220938
+Acate,Acate,ITA,Sicilia,11325,1380824734
+Cazzago San Martino,Cazzago San Martino,ITA,Lombardy,10933,1380599278
+Alassio,Alassio,ITA,Liguria,10791,1380546015
+Sant’Ilario d’Enza,Sant'Ilario d'Enza,ITA,Emilia-Romagna,11263,1380666242
+Cividale del Friuli,Cividale del Friuli,ITA,Friuli-Venezia Giulia,11176,1380392084
+Cepagatti,Cepagatti,ITA,Abruzzo,11014,1380321172
+Tortolì,Tortoli,ITA,Sardegna,11081,1380704860
+San Giustino,San Giustino,ITA,Umbria,11213,1380320414
+Usmate Velate,Usmate Velate,ITA,Lombardy,10293,1380244054
+Cislago,Cislago,ITA,Lombardy,10394,1380157328
+Sant’Agata de’ Goti,Sant'Agata de' Goti,ITA,Campania,11151,1380379201
+Sant’Antìoco,Sant'Antioco,ITA,Sardegna,11152,1380700326
+Aulla,Aulla,ITA,Tuscany,11092,1380929075
+Polistena,Polistena,ITA,Calabria,10373,1380105837
+Cerreto Guidi,Cerreto Guidi,ITA,Tuscany,11010,1380624568
+Fino Mornasco,Fino Mornasco,ITA,Lombardy,9865,1380369319
+Santa Croce Camerina,Santa Croce Camerina,ITA,Sicilia,10955,1380471228
+Montechiarugolo,Montechiarugolo,ITA,Emilia-Romagna,10976,1380440367
+Cameri,Cameri,ITA,Piedmont,10907,1380438629
+Corleone,Corleone,ITA,Sicilia,11128,1380757468
+Trevignano,Trevignano,ITA,Veneto,10759,1380274035
+Capena,Capena,ITA,Lazio,10799,1380341916
+Peschiera del Garda,Peschiera del Garda,ITA,Veneto,10583,1380651599
+Bertinoro,Bertinoro,ITA,Emilia-Romagna,10947,1380444887
+Campolongo Maggiore,Campolongo Maggiore,ITA,Veneto,10678,1380044601
+Montale,Montale,ITA,Tuscany,10777,1380772390
+Monte San Pietro,Monte San Pietro,ITA,Emilia-Romagna,10960,1380640178
+Giardini,Giardini,ITA,Sicilia,9337,1380845340
+Induno Olona,Induno Olona,ITA,Lombardy,10266,1380997586
+Motta di Livenza,Motta di Livenza,ITA,Veneto,10801,1380977215
+Gemona del Friuli,Gemona del Friuli,ITA,Friuli-Venezia Giulia,10869,1380484180
+Martinengo,Martinengo,ITA,Lombardy,10560,1380797479
+Siano,Siano,ITA,Campania,9883,1380722708
+Locate di Triulzi,Locate di Triulzi,ITA,Lombardy,10216,1380874886
+Grezzana,Grezzana,ITA,Veneto,10805,1380574933
+Cori,Cori,ITA,Lazio,10893,1380042566
+Celano,Celano,ITA,Abruzzo,10885,1380585394
+Montecchio Emilia,Montecchio Emilia,ITA,Emilia-Romagna,10578,1380143176
+San Felice sul Panaro,San Felice sul Panaro,ITA,Emilia-Romagna,10802,1380210816
+Barberino di Mugello,Barberino di Mugello,ITA,Tuscany,10924,1380222882
+Alberobello,Alberobello,ITA,Puglia,10725,1380601560
+Lomazzo,Lomazzo,ITA,Lombardy,9929,1380152646
+Medesano,Medesano,ITA,Emilia-Romagna,10850,1380708551
+Salò,Salo,ITA,Lombardy,10603,1380884084
+Canelli,Canelli,ITA,Piedmont,10430,1380411144
+Trabia,Trabia,ITA,Sicilia,10430,1380880595
+Cadelbosco di Sopra,Cadelbosco di Sopra,ITA,Emilia-Romagna,10691,1380403982
+Massa Lombarda,Massa Lombarda,ITA,Emilia-Romagna,10646,1380884282
+Casaluce,Casaluce,ITA,Campania,9893,1380325825
+Montignoso,Montignoso,ITA,Tuscany,10311,1380952094
+Barano d’Ischia,Barano d'Ischia,ITA,Campania,10001,1380481625
+San Maurizio Canavese,San Maurizio Canavese,ITA,Piedmont,10312,1380000031
+Ramacca,Ramacca,ITA,Sicilia,10866,1380742630
+Itri,Itri,ITA,Lazio,10761,1380610336
+Fiuggi,Fiuggi,ITA,Lazio,10511,1380033712
+Randazzo,Randazzo,ITA,Sicilia,10763,1380459051
+Vigonovo,Vigonovo,ITA,Veneto,9998,1380294468
+Lerici,Lerici,ITA,Liguria,10133,1380014455
+Nizza Monferrato,Nizza Monferrato,ITA,Piedmont,10313,1380659931
+Vanzago,Vanzago,ITA,Lombardy,9224,1380790144
+Coriano,Coriano,ITA,Emilia-Romagna,10522,1380789233
+Poirino,Poirino,ITA,Piedmont,10576,1380649865
+Salemi,Salemi,ITA,Sicilia,10647,1380693933
+Silea,Silea,ITA,Veneto,10163,1380124192
+Torre Santa Susanna,Torre Santa Susanna,ITA,Puglia,10510,1380320981
+Atessa,Atessa,ITA,Abruzzo,10580,1380170014
+Recco,Recco,ITA,Liguria,9683,1380351038
+Roccapiemonte,Roccapiemonte,ITA,Campania,8977,1380643125
+Castrolibero,Castrolibero,ITA,Calabria,9809,1380182426
+Castelletto sopra Ticino,Castelletto sopra Ticino,ITA,Piedmont,9969,1380975237
+Vittuone,Vittuone,ITA,Lombardy,9152,1380734235
+Conselve,Conselve,ITA,Veneto,10224,1380837833
+Isola Vicentina,Isola Vicentina,ITA,Veneto,10242,1380131018
+Mussomeli,Mussomeli,ITA,Sicilia,10556,1380692742
+Ozieri,Ozieri,ITA,Sardegna,10575,1380060538
+Bibbiano,Bibbiano,ITA,Emilia-Romagna,10241,1380476344
+Rignano Flaminio,Rignano Flaminio,ITA,Lazio,10328,1380240196
+Castelnovo ne’ Monti,Castelnovo ne' Monti,ITA,Emilia-Romagna,10473,1380855804
+Badia Polesine,Badia Polesine,ITA,Veneto,10348,1380577968
+Urgnano,Urgnano,ITA,Lombardy,9908,1380476962
+Santa Teresa di Riva,Santa Teresa di Riva,ITA,Sicilia,9403,1380661750
+Partanna,Partanna,ITA,Sicilia,10422,1380661937
+Campi Salentina,Campi Salentina,ITA,Puglia,10322,1380290099
+Trescore Balneario,Trescore Balneario,ITA,Lombardy,9814,1380130245
+Cutro,Cutro,ITA,Calabria,10462,1380662035
+Concordia Sagittaria,Concordia Sagittaria,ITA,Veneto,10373,1380975617
+Bagnara Calabra,Bagnara Calabra,ITA,Calabria,10120,1380612708
+San Giorgio del Sannio,San Giorgio del Sannio,ITA,Campania,10064,1380560872
+Valdobbiadene,Valdobbiadene,ITA,Veneto,10349,1380856258
+Altofonte,Altofonte,ITA,Sicilia,10218,1380191830
+Cavriago,Cavriago,ITA,Emilia-Romagna,9917,1380748689
+San Vendemiano,San Vendemiano,ITA,Veneto,9958,1380606267
+Langhirano,Langhirano,ITA,Emilia-Romagna,10346,1380734640
+Aradeo,Aradeo,ITA,Puglia,9381,1380959582
+Vigasio,Vigasio,ITA,Veneto,10134,1380927639
+Cittanova,Cittanova,ITA,Calabria,10284,1380916081
+Quinto di Treviso,Quinto di Treviso,ITA,Veneto,9912,1380847513
+Bomporto,Bomporto,ITA,Emilia-Romagna,10170,1380316410
+Volpago del Montello,Volpago del Montello,ITA,Veneto,10199,1380093991
+Bordighera,Bordighera,ITA,Liguria,10412,1380382900
+Terralba,Terralba,ITA,Sardegna,10196,1380583782
+Vaprio d’Adda,Vaprio d'Adda,ITA,Lombardy,9114,1380992694
+Verucchio,Verucchio,ITA,Emilia-Romagna,10012,1380732031
+Borgosatollo,Borgosatollo,ITA,Lombardy,9271,1380498677
+Vaiano,Vaiano,ITA,Tuscany,10068,1380537845
+San Felice Circeo,San Felice Circeo,ITA,Lazio,10054,1380276515
+Capriolo,Capriolo,ITA,Lombardy,9467,1380206582
+Vignate,Vignate,ITA,Lombardy,9269,1380732370
+Goito,Goito,ITA,Lombardy,10222,1380045082
+Volterra,Volterra,ITA,Tuscany,10290,1380640362
+Crosia,Crosia,ITA,Calabria,9863,1380693919
+Montemarciano,Montemarciano,ITA,Marche,9872,1380357484
+Mandello del Lario,Mandello del Lario,ITA,Lombardy,10313,1380200850
+Cermenate,Cermenate,ITA,Lombardy,9187,1380284601
+Santo Stefano di Magra,Santo Stefano di Magra,ITA,La Spezia,9613,1380931318
+Novi di Modena,Novi di Modena,ITA,Emilia-Romagna,10107,1380996478
+Sermoneta,Sermoneta,ITA,Lazio,10077,1380567899
+Morrovalle,Morrovalle,ITA,Marche,10056,1380099676
+Fiumefreddo di Sicilia,Fiumefreddo di Sicilia,ITA,Sicilia,9505,1380692262
+Sant’Egidio alla Vibrata,Sant'Egidio alla Vibrata,ITA,Abruzzo,9753,1380419333
+Marano Vicentino,Marano Vicentino,ITA,Veneto,9529,1380991447
+Busca,Busca,ITA,Piedmont,10110,1380319466
+Soverato Marina,Soverato Marina,ITA,Calabria,9095,1380490328
+Elmas,Elmas,ITA,Sardegna,9546,1380338965
+Bisignano,Bisignano,ITA,Calabria,10128,1380425072
+Cuorgnè,Cuorgne,ITA,Piedmont,9728,1380069740
+Oppeano,Oppeano,ITA,Veneto,10017,1380024530
+Sedico,Sedico,ITA,Veneto,10119,1380025341
+Brandizzo,Brandizzo,ITA,Piedmont,8822,1380098781
+Oggiono,Oggiono,ITA,Lombardy,9075,1380872370
+Tolmezzo,Tolmezzo,ITA,Friuli-Venezia Giulia,10051,1380228864
+Asola,Asola,ITA,Lombardy,10069,1380570260
+Castellamonte,Castellamonte,ITA,Piedmont,9946,1380202653
+Lizzano,Lizzano,ITA,Puglia,9990,1380351979
+Cetraro,Cetraro,ITA,Calabria,10048,1380260708
+Cingoli,Cingoli,ITA,Marche,10119,1380504372
+Racconigi,Racconigi,ITA,Piedmont,9958,1380738920
+Pogliano Milanese,Pogliano Milanese,ITA,Lombardy,8406,1380266639
+Bucine,Bucine,ITA,Tuscany,10087,1380795711
+Gavirate,Gavirate,ITA,Lombardy,9374,1380270230
+Argelato,Argelato,ITA,Emilia-Romagna,9865,1380559231
+Bruino,Bruino,ITA,Piedmont,8598,1380671134
+Sovicille,Sovicille,ITA,Tuscany,10057,1380780018
+Gambolò,Gambolo,ITA,Lombardy,9916,1380760813
+Melendugno,Melendugno,ITA,Puglia,9999,1380529808
+Meldola,Meldola,ITA,Emilia-Romagna,9978,1380278885
+Macomer,Macomer,ITA,Sardegna,10019,1380523626
+Brembate,Brembate,ITA,Lombardy,8551,1380861163
+Mori,Mori,ITA,Trentino-Alto Adige,9846,1380763112
+Sannicandro di Bari,Sannicandro di Bari,ITA,Puglia,9902,1380017316
+Inverigo,Inverigo,ITA,Lombardy,9146,1380184866
+San Pancrazio Salentino,San Pancrazio Salentino,ITA,Puglia,9882,1380975050
+Garlasco,Garlasco,ITA,Lombardy,9805,1380573289
+Barga,Barga,ITA,Tuscany,9898,1380703342
+Monteriggioni,Monteriggioni,ITA,Tuscany,9937,1380529718
+Santa Margherita Ligure,Santa Margherita Ligure,ITA,Liguria,9124,1380923965
+Gassino Torinese,Gassino Torinese,ITA,Piedmont,9559,1380213272
+Ruffano,Ruffano,ITA,Puglia,9741,1380051043
+Magnago,Magnago,ITA,Lombardy,9167,1380268353
+Campobello di Licata,Campobello di Licata,ITA,Sicilia,9860,1380686879
+Boves,Boves,ITA,Piedmont,9788,1380001815
+Pasian di Prato,Pasian di Prato,ITA,Friuli-Venezia Giulia,9363,1380848051
+Mareno di Piave,Mareno di Piave,ITA,Veneto,9613,1380116236
+Gessate,Gessate,ITA,Lombardy,8821,1380428162
+Conselice,Conselice,ITA,Emilia-Romagna,9779,1380930733
+Montescaglioso,Montescaglioso,ITA,Basilicata,9877,1380149213
+Deruta,Deruta,ITA,Umbria,9713,1380405039
+Castel Bolognese,Castel Bolognese,ITA,Emilia-Romagna,9628,1380286347
+Poggio Renatico,Poggio Renatico,ITA,Emilia-Romagna,9791,1380751237
+Monticello Conte Otto,Monticello Conte Otto,ITA,Veneto,9026,1380040208
+San Giovanni in Marignano,San Giovanni in Marignano,ITA,Emilia-Romagna,9455,1380499308
+Bellinzago Novarese,Bellinzago Novarese,ITA,Piedmont,9646,1380568488
+Resana,Resana,ITA,Veneto,9509,1380160177
+Broni,Broni,ITA,Lombardy,9411,1380772984
+Piombino Dese,Piombino Dese,ITA,Veneto,9539,1380807342
+Triuggio,Triuggio,ITA,Lombardy,8763,1380952473
+Dolianova,Dolianova,ITA,Sardegna,9696,1380728725
+Mozzate,Mozzate,ITA,Lombardy,8971,1380014514
+Sorbolo,Sorbolo,ITA,Emilia-Romagna,9563,1380308347
+Folignano,Folignano,ITA,Marche,9182,1380634465
+Albano Sant’Alessandro,Albano Sant'Alessandro,ITA,Lombardy,8244,1380974052
+Matelica,Matelica,ITA,Marche,9665,1380559495
+Flero,Flero,ITA,Lombardy,8879,1380991865
+Sorisole,Sorisole,ITA,Lombardy,9042,1380705220
+Mendicino,Mendicino,ITA,Calabria,9503,1380513380
+Loria,Loria,ITA,Veneto,9358,1380846175
+Pizzo,Pizzo,ITA,Calabria,9329,1380718003
+Zafferana Etnea,Zafferana Etnea,ITA,Sicilia,9607,1380481155
+San Marzano di San Giuseppe,San Marzano di San Giuseppe,ITA,Puglia,9228,1380017701
+Lavis,Lavis,ITA,Trentino-Alto Adige,8969,1380719126
+Foiano della Chiana,Foiano della Chiana,ITA,Tuscany,9470,1380908085
+Porto Tolle,Porto Tolle,ITA,Veneto,9663,1380225713
+Cavriglia,Cavriglia,ITA,Tuscany,9543,1380422020
+Maserada sul Piave,Maserada sul Piave,ITA,Veneto,9374,1380335265
+Castelleone,Castelleone,ITA,Lombardy,9472,1380741213
+Monte Porzio Catone,Monte Porzio Catone,ITA,Lazio,8718,1380672014
+Nepi,Nepi,ITA,Lazio,9549,1380219863
+Fiesso d’Artico,Fiesso d'Artico,ITA,Veneto,8341,1380559969
+Besozzo,Besozzo,ITA,Lombardy,9005,1380913044
+Traversetolo,Traversetolo,ITA,Emilia-Romagna,9474,1380746065
+Maserà di Padova,Masera di Padova,ITA,Veneto,9127,1380237526
+Costa Volpino,Costa Volpino,ITA,Lombardy,9151,1380902378
+Striano,Striano,ITA,Campania,8522,1380162594
+Gatteo,Gatteo,ITA,Emilia-Romagna,8988,1380526755
+Santa Lucia di Piave,Santa Lucia di Piave,ITA,Veneto,9160,1380105478
+Brugnera,Brugnera,ITA,Friuli-Venezia Giulia,9290,1380420963
+Capriate San Gervasio,Capriate San Gervasio,ITA,Lombardy,8173,1380862185
+Casorate Primo,Casorate Primo,ITA,Lombardy,8680,1380703756
+Castel Gandolfo,Castel Gandolfo,ITA,Lazio,8922,1380661217
+Legnaro,Legnaro,ITA,Veneto,8948,1380237634
+Istrana,Istrana,ITA,Veneto,9197,1380678496
+Fossombrone,Fossombrone,ITA,Marche,9454,1380453878
+Viagrande,Viagrande,ITA,Sicilia,8677,1380277178
+Aragona,Aragona,ITA,Sicilia,9409,1380327627
+Villa Castelli,Villa Castelli,ITA,Puglia,9269,1380015414
+Marnate,Marnate,ITA,Lombardy,7903,1380437400
+La Loggia,La Loggia,ITA,Piedmont,8841,1380737377
+Mosciano Sant’Angelo,Mosciano Sant'Angelo,ITA,Abruzzo,9316,1380020455
+Savignano sul Panaro,Savignano sul Panaro,ITA,Emilia-Romagna,9142,1380928664
+Martano,Martano,ITA,Puglia,9087,1380927847
+Gaggiano,Gaggiano,ITA,Lombardy,9146,1380179034
+Iseo,Iseo,ITA,Lombardy,9168,1380575518
+Belvedere Marittimo,Belvedere Marittimo,ITA,Calabria,9239,1380966116
+Castellabate,Castellabate,ITA,Campania,9233,1380791579
+Parabita,Parabita,ITA,Puglia,9047,1380375061
+Filottrano,Filottrano,ITA,Marche,9332,1380885932
+Carignano,Carignano,ITA,Piedmont,9274,1380791175
+Missaglia,Missaglia,ITA,Lombardy,8700,1380332238
+Asolo,Asolo,ITA,Veneto,9089,1380265519
+Pandino,Pandino,ITA,Lombardy,9035,1380267199
+Trebisacce,Trebisacce,ITA,Calabria,9095,1380416349
+Noventa Vicentina,Noventa Vicentina,ITA,Veneto,9015,1380296259
+Treia,Treia,ITA,Marche,9309,1380389131
+Porcari,Porcari,ITA,Tuscany,8904,1380724366
+Bovalino Marina,Bovalino Marina,ITA,Calabria,8898,1380976160
+Calusco d’Adda,Calusco d'Adda,ITA,Lombardy,8378,1380132128
+Coccaglio,Coccaglio,ITA,Lombardy,8664,1380308103
+Castegnato,Castegnato,ITA,Lombardy,8449,1380778550
+Monteforte d’Alpone,Monteforte d'Alpone,ITA,Veneto,8917,1380147370
+Podenzano,Podenzano,ITA,Emilia-Romagna,9144,1380896533
+Segni,Segni,ITA,Lazio,9192,1380081575
+Pietra Ligure,Pietra Ligure,ITA,Liguria,8481,1380831203
+Cherasco,Cherasco,ITA,Piedmont,9224,1380285683
+Lacchiarella,Lacchiarella,ITA,Lombardy,8959,1380890620
+Tirano,Tirano,ITA,Lombardy,9050,1380191925
+Zanica,Zanica,ITA,Lombardy,8744,1380768500
+Luzzi,Luzzi,ITA,Calabria,9206,1380195756
+Reggiolo,Reggiolo,ITA,Emilia-Romagna,9110,1380617164
+Inveruno,Inveruno,ITA,Lombardy,8605,1380560727
+Teolo,Teolo,ITA,Veneto,9014,1380263826
+Gonzaga,Gonzaga,ITA,Lombardy,9103,1380111111
+Troina,Troina,ITA,Sicilia,9202,1380108043
+Malalbergo,Malalbergo,ITA,Emilia-Romagna,9087,1380289270
+Colorno,Colorno,ITA,Emilia-Romagna,9056,1380485958
+Soresina,Soresina,ITA,Lombardy,8915,1380963622
+Montagnana,Montagnana,ITA,Veneto,9026,1380865759
+Ponte Buggianese,Ponte Buggianese,ITA,Tuscany,8919,1380856163
+Serramanna,Serramanna,ITA,Sardegna,9110,1380463301
+Tarcento,Tarcento,ITA,Friuli-Venezia Giulia,8964,1380332869
+Borgoricco,Borgoricco,ITA,Veneto,8774,1380419285
+Luzzara,Luzzara,ITA,Mantova,8962,1380947969
+Curno,Curno,ITA,Lombardy,7574,1380909741
+Verdello,Verdello,ITA,Lombardy,8082,1380625983
+Zogno,Zogno,ITA,Lombardy,8926,1380207081
+San Cesario di Lecce,San Cesario di Lecce,ITA,Puglia,8169,1380041548
+Petilia Policastro,Petilia Policastro,ITA,Calabria,9073,1380377680
+Aviano,Aviano,ITA,Friuli-Venezia Giulia,9080,1380233722
+Monteroni d’Arbia,Monteroni d'Arbia,ITA,Tuscany,9070,1380362072
+Castagneto Carducci,Castagneto Carducci,ITA,Tuscany,9088,1380067556
+Tombolo,Tombolo,ITA,Veneto,8390,1380779290
+Castelnuovo Berardenga,Castelnuovo Berardenga,ITA,Tuscany,9086,1380912826
+Binasco,Binasco,ITA,Lombardy,7257,1380868639
+Civitella in Val di Chiana,Civitella in Val di Chiana,ITA,Tuscany,9035,1380122075
+Guardiagrele,Guardiagrele,ITA,Abruzzo,8966,1380924817
+Cogoleto,Cogoleto,ITA,Liguria,9123,1380362572
+Cutrofiano,Cutrofiano,ITA,Puglia,8958,1380279562
+Vergiate,Vergiate,ITA,Lombardy,8711,1380696567
+Farra di Soligo,Farra di Soligo,ITA,Veneto,8798,1380004491
+Roccastrada,Roccastrada,ITA,Tuscany,9074,1380310398
+Trissino,Trissino,ITA,Veneto,8709,1380795560
+Felino,Felino,ITA,Emilia-Romagna,8873,1380822010
+Galbiate,Galbiate,ITA,Lombardy,8545,1380652447
+Villafranca Tirrena,Villafranca Tirrena,ITA,Sicilia,8469,1380183849
+Villa Guardia,Villa Guardia,ITA,Lombardy,8041,1380047824
+Subiaco,Subiaco,ITA,Lazio,8916,1380173016
+Ceprano,Ceprano,ITA,Lazio,8823,1380432885
+Campogalliano,Campogalliano,ITA,Emilia-Romagna,8808,1380304896
+Laveno-Mombello,Laveno-Mombello,ITA,Lombardy,8684,1380373466
+Volvera,Volvera,ITA,Piedmont,8639,1380144754
+Morlupo,Morlupo,ITA,Lazio,8689,1380074075
+San Giorgio di Piano,San Giorgio di Piano,ITA,Emilia-Romagna,8749,1380940208
+Albinea,Albinea,ITA,Emilia-Romagna,8830,1380433686
+Montalto di Castro,Montalto di Castro,ITA,Lazio,8978,1380380235
+Cavenago di Brianza,Cavenago di Brianza,ITA,Lombardy,7350,1380364427
+Santa Venerina,Santa Venerina,ITA,Sicilia,8553,1380544316
+Piovene Rocchette,Piovene Rocchette,ITA,Veneto,8344,1380828891
+Breganze,Breganze,ITA,Veneto,8586,1380592094
+Vicopisano,Vicopisano,ITA,Tuscany,8642,1380232149
+Minerbio,Minerbio,ITA,Emilia-Romagna,8760,1380077571
+Ala,Ala,ITA,Trentino-Alto Adige,8887,1380811104
+Airola,Airola,ITA,Campania,8390,1380330190
+Clusone,Clusone,ITA,Lombardy,8608,1380661227
+Lequile,Lequile,ITA,Puglia,8689,1380982000
+San Giuseppe Iato,San Giuseppe Iato,ITA,Sicilia,8634,1380085697
+Capri,Capri,ITA,Campania,7159,1380380320
+Orte,Orte,ITA,Lazio,8795,1380622402
+Castelnuovo di Magra,Castelnuovo di Magra,ITA,Liguria,8346,1380835719
+Minervino Murge,Minervino Murge,ITA,Puglia,8864,1380851317
+Rossano Veneto,Rossano Veneto,ITA,Veneto,8130,1380061637
+Rignano sull’Arno,Rignano sull'Arno,ITA,Tuscany,8718,1380785951
+Vallecrosia,Vallecrosia,ITA,Liguria,6972,1380219554
+Erchie,Erchie,ITA,Puglia,8671,1380916744
+Vestignè,Vestigne,ITA,Piedmont,8796,1380591372
+Cuggiono,Cuggiono,ITA,Lombardy,8290,1380074365
+Castelnuovo di Porto,Castelnuovo di Porto,ITA,Lazio,8564,1380815499
+Pianella,Pianella,ITA,Abruzzo,8652,1380759537
+Castelbuono,Castelbuono,ITA,Sicilia,8688,1380870849
+Boville Ernica,Boville Ernica,ITA,Lazio,8525,1380451454
+Origgio,Origgio,ITA,Lombardy,7827,1380679228
+Casarsa della Delizia,Casarsa della Delizia,ITA,Friuli-Venezia Giulia,8404,1380896711
+Prata di Pordenone,Prata di Pordenone,ITA,Friuli-Venezia Giulia,8426,1380355620
+Castiglione Olona,Castiglione Olona,ITA,Lombardy,7669,1380674700
+Monte San Savino,Monte San Savino,ITA,Tuscany,8675,1380861572
+Fara Gera d’Adda,Fara Gera d'Adda,ITA,Lombardy,8017,1380153168
+Sandrigo,Sandrigo,ITA,Veneto,8457,1380983694
+Solarino,Solarino,ITA,Sicilia,8130,1380867781
+Pino Troinese,Pino Troinese,ITA,Piedmont,8365,1380202238
+Roverbella,Roverbella,ITA,Lombardy,8610,1380072476
+Motta Visconti,Motta Visconti,ITA,Lombardy,7980,1380476224
+Palazzolo Acreide,Palazzolo Acreide,ITA,Sicilia,8665,1380283839
+Calvisano,Calvisano,ITA,Lombardy,8543,1380979757
+Vado Ligure,Vado Ligure,ITA,Liguria,8369,1380862170
+Monte Urano,Monte Urano,ITA,Marche,8218,1380541555
+Chiusi,Chiusi,ITA,Tuscany,8558,1380833273
+Spello,Spello,ITA,Umbria,8565,1380139636
+Castelnovo di Sotto,Castelnovo di Sotto,ITA,Emilia-Romagna,8459,1380194709
+Ronciglione,Ronciglione,ITA,Lazio,8537,1380809605
+San Gavino Monreale,San Gavino Monreale,ITA,Sardegna,8594,1380732961
+Altavilla Milicia,Altavilla Milicia,ITA,Sicilia,8340,1380722110
+Vallo della Lucania,Vallo della Lucania,ITA,Campania,8352,1380915321
+Fermignano,Fermignano,ITA,Marche,8482,1380549467
+Nogara,Nogara,ITA,Veneto,8457,1380539369
+Zoppola,Zoppola,ITA,Friuli-Venezia Giulia,8483,1380194747
+Cologna Veneta,Cologna Veneta,ITA,Veneto,8468,1380368257
+Caerano di San Marco,Caerano di San Marco,ITA,Veneto,8000,1380877910
+Bientina,Bientina,ITA,Tuscany,8377,1380476085
+Vigliano Biellese,Vigliano Biellese,ITA,Piedmont,7738,1380417389
+Santhià,Santhia,ITA,Piedmont,8496,1380355392
+Sortino,Sortino,ITA,Sicilia,8561,1380166703
+Concordia sulla Secchia,Concordia sulla Secchia,ITA,Emilia-Romagna,8440,1380859662
+San Sperate,San Sperate,ITA,Sardegna,8318,1380642850
+Dorgali,Dorgali,ITA,Sardegna,8596,1380320991
+Ferrandina,Ferrandina,ITA,Basilicata,8593,1380483555
+Gavorrano,Gavorrano,ITA,Tuscany,8567,1380086730
+Ittiri,Ittiri,ITA,Sardegna,8541,1380429583
+Leporano,Leporano,ITA,Puglia,8085,1380704169
+Ponte di Piave,Ponte di Piave,ITA,Veneto,8352,1380139061
+Bovezzo,Bovezzo,ITA,Lombardy,7433,1380947416
+Cagli,Cagli,ITA,Marche,8546,1380043671
+Caprino Veronese,Caprino Veronese,ITA,Veneto,8399,1380169646
+Sanluri,Sanluri,ITA,Sardegna,8464,1380893656
+Sala Bolognese,Sala Bolognese,ITA,Emilia-Romagna,8372,1380481382
+Vietri sul Mare,Vietri sul Mare,ITA,Campania,7726,1380728892
+Decimomannu,Decimomannu,ITA,Sardegna,8234,1380640999
+San Damiano d’Asti,San Damiano d'Asti,ITA,Piedmont,8347,1380009161
+Stra,Stra,ITA,Veneto,7635,1380271019
+Fusignano,Fusignano,ITA,Emilia-Romagna,8164,1380509273
+Fabrica di Roma,Fabrica di Roma,ITA,Lazio,8256,1380454826
+Verolanuova,Verolanuova,ITA,Lombardy,8175,1380013756
+Trevi,Trevi,ITA,Umbria,8363,1380228815
+Vedano Olona,Vedano Olona,ITA,Lombardy,7425,1380000127
+Novoli,Novoli,ITA,Puglia,8024,1380699602
+Toritto,Toritto,ITA,Puglia,8352,1380760026
+Fontaniva,Fontaniva,ITA,Veneto,8061,1380336324
+Limena,Limena,ITA,Veneto,7925,1380985920
+Gravellona Toce,Gravellona Toce,ITA,Piedmont,7887,1380387595
+Cariati,Cariati,ITA,Calabria,8156,1380777121
+Tuscania,Tuscania,ITA,Lazio,8369,1380335471
+Rivolta d’Adda,Rivolta d'Adda,ITA,Lombardy,8140,1380739372
+Cairate,Cairate,ITA,Lombardy,7720,1380834709
+Soriano nel Cimino,Soriano nel Cimino,ITA,Lazio,8290,1380421788
+Serramazzoni,Serramazzoni,ITA,Emilia-Romagna,8304,1380218184
+Ponte nell’Alpi,Ponte nell'Alpi,ITA,Veneto,8250,1380095463
+Salice Salentino,Salice Salentino,ITA,Puglia,8253,1380735907
+Monte San Giusto,Monte San Giusto,ITA,Marche,7984,1380864425
+Quarto d’Altino,Quarto d'Altino,ITA,Veneto,8094,1380997037
+Venegono Superiore,Venegono Superiore,ITA,Lombardy,7293,1380790862
+Taglio di Po,Taglio di Po,ITA,Veneto,8271,1380305462
+Bolano,Bolano,ITA,Liguria,7836,1380082046
+Petrosino,Petrosino,ITA,Sicilia,8181,1380015614
+Appiano Gentile,Appiano Gentile,ITA,Lombardy,7750,1380235390
+None,None,ITA,Piedmont,8015,1380601372
+Boiano,Boiano,ITA,Molise,8178,1380000075
+Massa Marittima,Massa Marittima,ITA,Tuscany,8286,1380787314
+Cervaro,Cervaro,ITA,Lazio,8093,1380776920
+Grottaminarda,Grottaminarda,ITA,Campania,8004,1380645112
+Paliano,Paliano,ITA,Lazio,8163,1380488230
+Racalmuto,Racalmuto,ITA,Sicilia,8155,1380516947
+Agira,Agira,ITA,Sicilia,8222,1380026762
+Vobarno,Vobarno,ITA,Lombardy,8112,1380795213
+Campoformido,Campoformido,ITA,Friuli-Venezia Giulia,7891,1380704485
+Villa di Serio,Villa di Serio,ITA,Lombardy,6777,1380419942
+San Giovanni Gemini,San Giovanni Gemini,ITA,Sicilia,7947,1380081812
+Sirmione,Sirmione,ITA,Lombardy,8243,1380492095
+Vicchio,Vicchio,ITA,Tuscany,8183,1380147726
+Fuscaldo,Fuscaldo,ITA,Calabria,8108,1380035792
+Costabissara,Costabissara,ITA,Veneto,7658,1380724517
+Gattinara,Gattinara,ITA,Piedmont,7987,1380771638
+San Daniele del Friuli,San Daniele del Friuli,ITA,Friuli-Venezia Giulia,7987,1380825326
+Chiaramonte Gulfi,Chiaramonte Gulfi,ITA,Sicilia,8126,1380174666
+Caccamo,Caccamo,ITA,Sicilia,8139,1380996978
+Campomarino,Campomarino,ITA,Molise,8074,1380978488
+Grumello del Monte,Grumello del Monte,ITA,Lombardy,7427,1380073258
+Montorio al Vomano,Montorio al Vomano,ITA,Abruzzo,8013,1380355385
+Cellole,Cellole,ITA,Campania,7937,1380912492
+Tavullia,Tavullia,ITA,Marche,7961,1380534066
+Pisogne,Pisogne,ITA,Lombardy,7982,1380126656
+Breda di Piave,Breda di Piave,ITA,Veneto,7835,1380193059
+Levico Terme,Levico Terme,ITA,Trentino-Alto Adige,8000,1380366298
+Serra Riccò,Serra Ricco,ITA,Liguria,7826,1380977437
+Tricesimo,Tricesimo,ITA,Friuli-Venezia Giulia,7687,1380616438
+Loreggia,Loreggia,ITA,Veneto,7708,1380349194
+Borgonovo Val Tidone,Borgonovo Val Tidone,ITA,Emilia-Romagna,7952,1380291635
+Turbigo,Turbigo,ITA,Lombardy,7246,1380436810
+Carmignano di Brenta,Carmignano di Brenta,ITA,Veneto,7576,1380865488
+Agerola,Agerola,ITA,Campania,7695,1380930118
+Cologne,Cologne,ITA,Lombardy,7534,1380978069
+Avella,Avella,ITA,Campania,7810,1380357719
+Colico,Colico,ITA,Lombardy,7853,1380065009
+Sacrofano,Sacrofano,ITA,Lazio,7799,1380148911
+Manziana,Manziana,ITA,Lazio,7737,1380388146
+Maracalagonis,Maracalagonis,ITA,Sardegna,7980,1380940994
+Casteltermini,Casteltermini,ITA,Sicilia,7976,1380103683
+Candelo,Candelo,ITA,Piedmont,7548,1380203589
+Arcugnano,Arcugnano,ITA,Veneto,7853,1380512911
+Anacapri,Anacapri,ITA,Campania,6962,1380517700
+Lodi Vecchio,Lodi Vecchio,ITA,Lombardy,7570,1380932168
+Tropea,Tropea,ITA,Calabria,6307,1380907827
+Palagianello,Palagianello,ITA,Puglia,7834,1380534422
+Cumiana,Cumiana,ITA,Piedmont,7873,1380099522
+Cartoceto,Cartoceto,ITA,Marche,7936,1380424902
+Chiavenna,Chiavenna,ITA,Lombardy,7313,1380091510
+Bosa,Bosa,ITA,Sardegna,7927,1380394751
+Santa Maria di Licodia,Santa Maria di Licodia,ITA,Sicilia,7691,1380407911
+Torrile,Torrile,ITA,Emilia-Romagna,7774,1380344244
+Rizziconi,Rizziconi,ITA,Calabria,7783,1380169444
+Marmirolo,Marmirolo,ITA,Lombardy,7789,1380686272
+Toscolano,Toscolano,ITA,Lombardy,7836,1380210700
+Mozzecane,Mozzecane,ITA,Mantova,7656,1380129440
+Meta,Meta,ITA,Campania,7947,1380384845
+Galliera Veneta,Galliera Veneta,ITA,Veneto,7133,1380559312
+Cambiago,Cambiago,ITA,Lombardy,6954,1380040342
+Teggiano,Teggiano,ITA,Campania,7794,1380448832
+Villa Cortese,Villa Cortese,ITA,Lombardy,6171,1380565612
+Pasiano,Pasiano,ITA,Friuli-Venezia Giulia,7736,1380395743
+Olginate,Olginate,ITA,Lombardy,7024,1380738021
+Pelago,Pelago,ITA,Tuscany,7751,1380886752
+Tavernelle in Val di Pesa,Tavernelle in Val di Pesa,ITA,Tuscany,7753,1380226593
+Crescentino,Crescentino,ITA,Piedmont,7814,1380206817
+Carpaneto Piacentino,Carpaneto Piacentino,ITA,Emilia-Romagna,7733,1380575433
+Pantelleria,Pantelleria,ITA,Trapani,7759,1380052255
+San Colombano al Lambro,San Colombano al Lambro,ITA,Lombardy,7394,1380488087
+San Gimignano,San Gimignano,ITA,Tuscany,7774,1380284251
+Lamporecchio,Lamporecchio,ITA,Tuscany,7493,1380540694
+Soncino,Soncino,ITA,Lombardy,7648,1380080366
+Curtarolo,Curtarolo,ITA,Veneto,7317,1380841148
+San Zenone,San Zenone,ITA,Veneto,7435,1380698121
+Carnago,Carnago,ITA,Lombardy,6722,1380955579
+Marcellina,Marcellina,ITA,Lazio,7325,1380658702
+Castellalto,Castellalto,ITA,Abruzzo,7578,1380202976
+Mirabella Eclano,Mirabella Eclano,ITA,Campania,7573,1380835964
+Vergato,Vergato,ITA,Emilia-Romagna,7664,1380394083
+Barge,Barge,ITA,Piedmont,7699,1380375651
+Pratola Peligna,Pratola Peligna,ITA,Abruzzo,7528,1380174758
+Vigarano Mainarda,Vigarano Mainarda,ITA,Emilia-Romagna,7592,1380744842
+Fivizzano,Fivizzano,ITA,Tuscany,7730,1380696349
+Zelo Buon Persico,Zelo Buon Persico,ITA,Lombardy,7373,1380127964
+San Giórgio di Nogaro,San Giorgio di Nogaro,ITA,Friuli-Venezia Giulia,7467,1380176860
+Vitulazio,Vitulazio,ITA,Campania,7436,1380059985
+Città della Pieve,Citta della Pieve,ITA,Umbria,7686,1380916406
+Vico del Gargano,Vico del Gargano,ITA,Puglia,7674,1380345368
+Fossò,Fosso,ITA,Veneto,7041,1380564331
+San Marco Evangelista,San Marco Evangelista,ITA,Campania,6577,1380252613
+Vezzano Ligure,Vezzano Ligure,ITA,Liguria,7320,1380612925
+Solesino,Solesino,ITA,Veneto,7025,1380626849
+Corte Franca,Corte Franca,ITA,Lombardy,7201,1380139929
+Nicolosi,Nicolosi,ITA,Sicilia,7528,1380972579
+San Filippo della Mela,San Filippo della Mela,ITA,Sicilia,7006,1380039450
+Villa d’Almè,Villa d'Alme,ITA,Lombardy,6672,1380680826
+Spinetoli,Spinetoli,ITA,Marche,7132,1380655751
+Melissano,Melissano,ITA,Puglia,7129,1380948949
+Sarnico,Sarnico,ITA,Lombardy,6688,1380952465
+Cotignola,Cotignola,ITA,Emilia-Romagna,7479,1380722112
+Caluso,Caluso,ITA,Piedmont,7496,1380121917
+Robbiate,Robbiate,ITA,Lombardy,6337,1380168658
+Sant’Angelo di Piove di Sacco,Sant'Angelo di Piove di Sacco,ITA,Veneto,7170,1380144573
+Sonnino,Sonnino,ITA,Lazio,7560,1380577561
+Santa Giustina in Colle,Santa Giustina in Colle,ITA,Veneto,7269,1380101493
+Mezzolombardo,Mezzolombardo,ITA,Trentino-Alto Adige,7156,1380887233
+Carosino,Carosino,ITA,Puglia,7028,1380171256
+Adro,Adro,ITA,Lombardy,7168,1380142410
+Staranzano,Staranzano,ITA,Friuli-Venezia Giulia,7297,1380243610
+Saltara,Saltara,ITA,Marche,6966,1380388404
+Borgetto,Borgetto,ITA,Sicilia,7374,1380821957
+Roccasecca,Roccasecca,ITA,Lazio,7481,1380703698
+Ferno,Ferno,ITA,Lombardy,6850,1380735829
+Calimera,Calimera,ITA,Puglia,7009,1380271121
+Mapello,Mapello,ITA,Lombardy,6840,1380352332
+Povegliano Veronese,Povegliano Veronese,ITA,Veneto,7233,1380000036
+Pederobba,Pederobba,ITA,Veneto,7353,1380634271
+Brisighella,Brisighella,ITA,Emilia-Romagna,7579,1380390619
+Naro,Naro,ITA,Sicilia,7580,1380357678
+Cavaria,Cavaria,ITA,Lombardy,5834,1380159888
+Castello di Godego,Castello di Godego,ITA,Veneto,7190,1380652290
+Castel Madama,Castel Madama,ITA,Lazio,7328,1380669534
+Passirano,Passirano,ITA,Lombardy,7054,1380750886
+Camerano,Camerano,ITA,Marche,7218,1380509131
+Campofelice di Roccella,Campofelice di Roccella,ITA,Sicilia,7516,1380017803
+Dairago,Dairago,ITA,Lombardy,6420,1380046476
+Cormòns,Cormons,ITA,Friuli-Venezia Giulia,7347,1380211929
+Sant’Agata Bolognese,Sant'Agata Bolognese,ITA,Emilia-Romagna,7344,1380226801
+Montecosaro,Montecosaro,ITA,Marche,7206,1380924563
+Zanè,Zane,ITA,Veneto,6661,1380986807
+Pieve di Cento,Pieve di Cento,ITA,Emilia-Romagna,7068,1380848237
+Nole,Nole,ITA,Piedmont,6895,1380883257
+Canicattini Bagni,Canicattini Bagni,ITA,Sicilia,7032,1380584567
+Sparanise,Sparanise,ITA,Campania,7376,1380104010
+Longiano,Longiano,ITA,Emilia-Romagna,7190,1380164426
+Loreto Aprutino,Loreto Aprutino,ITA,Abruzzo,7369,1380542347
+Volta Mantovana,Volta Mantovana,ITA,Lombardy,7339,1380071964
+Torregrotta,Torregrotta,ITA,Sicilia,7403,1380474493
+Brugine,Brugine,ITA,Veneto,7116,1380598450
+San Marco Argentano,San Marco Argentano,ITA,Calabria,7380,1380093218
+Buttapietra,Buttapietra,ITA,Veneto,7062,1380190627
+Tito,Tito,ITA,Basilicata,7355,1380998863
+Poviglio,Poviglio,ITA,Emilia-Romagna,7285,1380694956
+Balestrate,Balestrate,ITA,Sicilia,6446,1380230420
+Ceriano Laghetto,Ceriano Laghetto,ITA,Lombardy,6526,1380989658
+Arconate,Arconate,ITA,Lombardy,6645,1380614467
+Rufina,Rufina,ITA,Tuscany,7266,1380722057
+Soave,Soave,ITA,Veneto,7108,1380330714
+Sennori,Sennori,ITA,Sardegna,7190,1380248128
+Torrita di Siena,Torrita di Siena,ITA,Tuscany,7276,1380372172
+Lignano Sabbiadoro,Lignano Sabbiadoro,ITA,Friuli-Venezia Giulia,6948,1380049103
+Militello in Val di Catania,Militello in Val di Catania,ITA,Sicilia,7262,1380373319
+Canova,Canova,ITA,Lombardy,6461,1380362881
+Luserna San Giovanni,Luserna San Giovanni,ITA,Piedmont,7297,1380242484
+Carinola,Carinola,ITA,Campania,7248,1380002710
+Roggiano Gravina,Roggiano Gravina,ITA,Calabria,7205,1380055000
+Pontevico,Pontevico,ITA,Lombardy,7118,1380462910
+Noventa di Piave,Noventa di Piave,ITA,Veneto,6966,1380979116
+San Fior di Sopra,San Fior di Sopra,ITA,Veneto,6958,1380305794
+Forte dei Marmi,Forte dei Marmi,ITA,Tuscany,7335,1380170765
+Morciano di Romagna,Morciano di Romagna,ITA,Emilia-Romagna,7020,1380780318
+Manciano,Manciano,ITA,Tuscany,7309,1380441711
+Castiglione della Pescaia,Castiglione della Pescaia,ITA,Tuscany,7289,1380123549
+Campagna Lupia,Campagna Lupia,ITA,Veneto,7225,1380033377
+Cavezzo,Cavezzo,ITA,Emilia-Romagna,7031,1380030096
+Montecassiano,Montecassiano,ITA,Marche,7080,1380111913
+Cordignano,Cordignano,ITA,Veneto,7024,1380719665
+Novafeltria,Novafeltria,ITA,Marche,7119,1380822689
+Quiliano,Quiliano,ITA,Liguria,7137,1380849560
+Arpino,Arpino,ITA,Lazio,7150,1380126299
+Bardolino,Bardolino,ITA,Veneto,7147,1380232353
+Montelabbate,Montelabbate,ITA,Marche,6915,1380654618
+Cernobbio,Cernobbio,ITA,Lombardy,6718,1380668648
+Montalbano Ionico,Montalbano Ionico,ITA,Basilicata,7208,1380159856
+Gioiosa Ionica,Gioiosa Ionica,ITA,Calabria,7059,1380449535
+Chianciano Terme,Chianciano Terme,ITA,Tuscany,7050,1380857036
+Vazzola,Vazzola,ITA,Veneto,6972,1380070151
+Cagnano Varano,Cagnano Varano,ITA,Puglia,7194,1380246314
+Pontremoli,Pontremoli,ITA,Tuscany,7193,1380822946
+Regalbuto,Regalbuto,ITA,Sicilia,7190,1380080138
+Rovello Porro,Rovello Porro,ITA,Lombardy,6122,1380735110
+Rivergaro,Rivergaro,ITA,Emilia-Romagna,7066,1380649581
+Varallo,Varallo,ITA,Piedmont,7146,1380874828
+Roccadaspide,Roccadaspide,ITA,Campania,7116,1380654570
+Altavilla Silentina,Altavilla Silentina,ITA,Campania,7083,1380406274
+Spino d’Adda,Spino d'Adda,ITA,Lombardy,6873,1380688777
+Camerota,Camerota,ITA,Campania,7107,1380140927
+Campli,Campli,ITA,Abruzzo,7110,1380264865
+Gioiosa Marea,Gioiosa Marea,ITA,Sicilia,6942,1380702786
+Pegognaga,Pegognaga,ITA,Lombardy,7046,1380836383
+Cassolnovo,Cassolnovo,ITA,Lombardy,6976,1380613443
+Spezzano Albanese,Spezzano Albanese,ITA,Calabria,6977,1380253808
+Santi Cosma e Damiano,Santi Cosma e Damiano,ITA,Lazio,6972,1380514447
+Cisano Bergamasco,Cisano Bergamasco,ITA,Lombardy,6377,1380449636
+Grazzanise,Grazzanise,ITA,Campania,7041,1380916968
+Sapri,Sapri,ITA,Campania,6716,1380236373
+Cles,Cles,ITA,Trentino-Alto Adige,7009,1380164572
+Trino,Trino,ITA,Piedmont,7085,1380268013
+Roccarainola,Roccarainola,ITA,Campania,6940,1380648445
+Baricella,Baricella,ITA,Emilia-Romagna,7030,1380650790
+Caulonia,Caulonia,ITA,Calabria,7110,1380580191
+Dronero,Dronero,ITA,Piedmont,7058,1380332316
+Vernole,Vernole,ITA,Puglia,7062,1380702076
+Scorrano,Scorrano,ITA,Puglia,6974,1380827925
+Urbania,Urbania,ITA,Marche,7076,1380202419
+Vipiteno,Vipiteno,ITA,Trentino-Alto Adige,6956,1380153774
+Centallo,Centallo,ITA,Piedmont,7002,1380654553
+Venegono Inferiore,Venegono Inferiore,ITA,Lombardy,6124,1380817476
+Fontanellato,Fontanellato,ITA,Emilia-Romagna,7034,1380720808
+Cava Manara,Cava Manara,ITA,Lombardy,6766,1380794557
+Sassoferrato,Sassoferrato,ITA,Marche,7104,1380810685
+Zibido San Giacomo,Zibido San Giacomo,ITA,Lombardy,6872,1380578869
+San Benedetto Po,San Benedetto Po,ITA,Lombardy,7040,1380983594
+Bellante,Bellante,ITA,Abruzzo,6997,1380644975
+Buttigliera Alta,Buttigliera Alta,ITA,Piedmont,6347,1380803456
+Pozzuolo del Friuli,Pozzuolo del Friuli,ITA,Friuli-Venezia Giulia,6927,1380939699
+Orosei,Orosei,ITA,Sardegna,7049,1380565458
+Pantigliate,Pantigliate,ITA,Lombardy,6058,1380699394
+Campomorone,Campomorone,ITA,Liguria,6849,1380212794
+Asciano,Asciano,ITA,Tuscany,7076,1380243353
+Serino,Serino,ITA,Campania,6968,1380739273
+Monte San Vito,Monte San Vito,ITA,Marche,6787,1380093254
+Manoppello,Manoppello,ITA,Abruzzo,6920,1380111241
+Roncoferraro,Roncoferraro,ITA,Lombardy,6982,1380541466
+Casteggio,Casteggio,ITA,Lombardy,6712,1380743153
+Borgo a Mozzano,Borgo a Mozzano,ITA,Tuscany,6994,1380351523
+Borgo,Borgo,ITA,Trentino-Alto Adige,6949,1380621431
+Sommatino,Sommatino,ITA,Sicilia,6877,1380990609
+Lazise,Lazise,ITA,Veneto,6958,1380242480
+Martignacco,Martignacco,ITA,Friuli-Venezia Giulia,6812,1380879452
+Senise,Senise,ITA,Basilicata,6995,1380862835
+Robecco sul Naviglio,Robecco sul Naviglio,ITA,Lombardy,6723,1380121651
+Oliena,Oliena,ITA,Sardegna,7018,1380260676
+Settimo San Pietro,Settimo San Pietro,ITA,Sardegna,6760,1380129108
+Albisola Marina,Albisola Marina,ITA,Liguria,5387,1380580046
+Sant’Agostino,Sant'Agostino,ITA,Emilia-Romagna,6842,1380061693
+Pignola,Pignola,ITA,Basilicata,6908,1380754904
+Busseto,Busseto,ITA,Emilia-Romagna,6939,1380000113
+Gradisca d’Isonzo,Gradisca d'Isonzo,ITA,Friuli-Venezia Giulia,6452,1380271619
+Cerano,Cerano,ITA,Piedmont,6813,1380179896
+Labico,Labico,ITA,Lazio,6469,1380216369
+Villasor,Villasor,ITA,Sardegna,6937,1380092066
+Marina di Gioiosa Ionica,Marina di Gioiosa Ionica,ITA,Calabria,6603,1380197408
+Marcallo con Casone,Marcallo con Casone,ITA,Lombardy,6250,1380958579
+Camerino,Camerino,ITA,Marche,6956,1380888838
+Praia a Mare,Praia a Mare,ITA,Calabria,6717,1380896314
+Olevano sul Tusciano,Olevano sul Tusciano,ITA,Campania,6743,1380798450
+Alliste,Alliste,ITA,Puglia,6702,1380884494
+Villadossola,Villadossola,ITA,Piedmont,6617,1380186607
+Santa Giustina,Santa Giustina,ITA,Veneto,6780,1380782133
+Arosio,Arosio,ITA,Lombardy,5019,1380375727
+Carapelle,Carapelle,ITA,Puglia,6692,1380054959
+Borgo Val di Taro,Borgo Val di Taro,ITA,Emilia-Romagna,6907,1380119589
+San Cipriano Picentino,San Cipriano Picentino,ITA,Campania,6571,1380135252
+Marzabotto,Marzabotto,ITA,Emilia-Romagna,6853,1380674334
+Caraglio,Caraglio,ITA,Piedmont,6782,1380770856
+Lercara Friddi,Lercara Friddi,ITA,Sicilia,6764,1380649215
+Nova Siri,Nova Siri,ITA,Basilicata,6810,1380687471
+Mileto,Mileto,ITA,Calabria,6742,1380814157
+Salgareda,Salgareda,ITA,Veneto,6681,1380495068
+Olevano Romano,Olevano Romano,ITA,Lazio,6664,1380188901
+Camposano,Camposano,ITA,Campania,5320,1380211594
+Susa,Susa,ITA,Piedmont,6340,1380067772
+Ostiglia,Ostiglia,ITA,Lombardy,6741,1380411077
+Mercato Saraceno,Mercato Saraceno,ITA,Emilia-Romagna,6837,1380617152
+Fabbrico,Fabbrico,ITA,Emilia-Romagna,6609,1380004655
+Brendola,Brendola,ITA,Veneto,6624,1380695513
+Notaresco,Notaresco,ITA,Abruzzo,6702,1380457175
+Almenno San Salvatore,Almenno San Salvatore,ITA,Lombardy,5677,1380789789
+Pietraperzia,Pietraperzia,ITA,Sicilia,6817,1380774862
+Nervesa della Battaglia,Nervesa della Battaglia,ITA,Veneto,6675,1380737263
+Montegiorgio,Montegiorgio,ITA,Marche,6723,1380724670
+Dozza,Dozza,ITA,Emilia-Romagna,6588,1380030017
+Mesola,Mesola,ITA,Emilia-Romagna,6778,1380529487
+Curinga,Curinga,ITA,Calabria,6719,1380689150
+Montebello Vicentino,Montebello Vicentino,ITA,Veneto,6542,1380789558
+Piedimonte San Germano,Piedimonte San Germano,ITA,Lazio,6469,1380480027
+Torgiano,Torgiano,ITA,Umbria,6662,1380582848
+Almenno San Bartolomeo,Almenno San Bartolomeo,ITA,Lombardy,6247,1380800182
+Tagliacozzo,Tagliacozzo,ITA,Abruzzo,6755,1380635524
+San Vincenzo,San Vincenzo,ITA,Tuscany,6827,1380493688
+Vidigulfo,Vidigulfo,ITA,Lombardy,6422,1380819708
+Cittaducale,Cittaducale,ITA,Lazio,6719,1380865657
+Castello d’Argile,Castello d'Argile,ITA,Emilia-Romagna,6583,1380829035
+Bolzano Vicentino,Bolzano Vicentino,ITA,Veneto,6480,1380083802
+Landriano,Landriano,ITA,Lombardy,6377,1380349374
+Almese,Almese,ITA,Piedmont,6426,1380541477
+Castel di Sangro,Castel di Sangro,ITA,Abruzzo,6705,1380388583
+Poggio Rusco,Poggio Rusco,ITA,Lombardy,6623,1380983367
+Mede,Mede,ITA,Lombardy,6576,1380359858
+Cellamare,Cellamare,ITA,Puglia,5792,1380610914
+Ciserano,Ciserano,ITA,Lombardy,5696,1380119980
+Cornuda,Cornuda,ITA,Veneto,6267,1380969879
+Serra San Bruno,Serra San Bruno,ITA,Calabria,6604,1380164610
+Montelepre,Montelepre,ITA,Sicilia,6142,1380657387
+San Donaci,San Donaci,ITA,Puglia,6569,1380079813
+Larino,Larino,ITA,Molise,6680,1380779825
+Ghisalba,Ghisalba,ITA,Lombardy,6170,1380779431
+Sutri,Sutri,ITA,Lazio,6643,1380494697
+Diano Marina,Diano Marina,ITA,Liguria,5867,1380967562
+Buia,Buia,ITA,Friuli-Venezia Giulia,6484,1380325334
+Marineo,Marineo,ITA,Sicilia,6541,1380157057
+Verzuolo,Verzuolo,ITA,Piedmont,6480,1380477581
+San Martino Siccomario,San Martino Siccomario,ITA,Lombardy,6278,1380367757
+Pollenza,Pollenza,ITA,Marche,6549,1380036288
+Cellino San Marco,Cellino San Marco,ITA,Puglia,6530,1380757270
+San Cesario sul Panaro,San Cesario sul Panaro,ITA,Emilia-Romagna,6460,1380211215
+Cinquefrondi,Cinquefrondi,ITA,Calabria,6480,1380422852
+Avetrana,Avetrana,ITA,Puglia,6604,1380138710
+Pontenure,Pontenure,ITA,Emilia-Romagna,6499,1380465592
+Trezzano Rosa,Trezzano Rosa,ITA,Lombardy,5183,1380765667
+Montenero di Bisaccia,Montenero di Bisaccia,ITA,Molise,6612,1380475639
+Calci,Calci,ITA,Tuscany,6418,1380924175
+Sumirago,Sumirago,ITA,Lombardy,6149,1380927445
+Misinto,Misinto,ITA,Lombardy,5576,1380402643
+Pizzighettone,Pizzighettone,ITA,Lombardy,6465,1380930237
+Vairano Patenora,Vairano Patenora,ITA,Campania,6515,1380968480
+Albizzate,Albizzate,ITA,Lombardy,5299,1380334087
+Marcaria,Marcaria,ITA,Lombardy,6591,1380492096
+Gualtieri,Gualtieri,ITA,Emilia-Romagna,6471,1380398478
+Castronno,Castronno,ITA,Lombardy,5253,1380975222
+Sammichele di Bari,Sammichele di Bari,ITA,Puglia,6454,1380305600
+Capannoli,Capannoli,ITA,Tuscany,6359,1380201972
+Poggio Mirteto,Poggio Mirteto,ITA,Lazio,6391,1380190658
+Bellona,Bellona,ITA,Campania,6106,1380454185
+Roccella Ionica,Roccella Ionica,ITA,Calabria,6450,1380380070
+Arquata Scrivia,Arquata Scrivia,ITA,Piedmont,6397,1380859302
+Montesano sulla Marcellana,Montesano sulla Marcellana,ITA,Campania,6544,1380877508
+Strongoli,Strongoli,ITA,Calabria,6518,1380686663
+Alessano,Alessano,ITA,Puglia,6371,1380998799
+Gallicano nel Lazio,Gallicano nel Lazio,ITA,Lazio,6343,1380866433
+Siziano,Siziano,ITA,Lombardy,6074,1380000022
+Capranica,Capranica,ITA,Lazio,6430,1380325903
+Meolo,Meolo,ITA,Veneto,6345,1380962924
+Gonnosfanàdiga,Gonnosfanadiga,ITA,Sardegna,6530,1380858245
+Calatafimi,Calatafimi,ITA,Sicilia,6537,1380391833
+Livigno,Livigno,ITA,Lombardy,6550,1380005724
+Arcole,Arcole,ITA,Veneto,6246,1380995504
+Solbiate Olona,Solbiate Olona,ITA,Lombardy,5466,1380476145
+San Giorgio in Bosco,San Giorgio in Bosco,ITA,Veneto,6346,1380077617
+Fossacesia,Fossacesia,ITA,Abruzzo,6358,1380319475
+Quinzano d’Oglio,Quinzano d'Oglio,ITA,Lombardy,6271,1380551482
+Codevigo,Codevigo,ITA,Veneto,6463,1380413300
+Albanella,Albanella,ITA,Campania,6394,1380268149
+Spinazzola,Spinazzola,ITA,Puglia,6515,1380561869
+Castelgomberto,Castelgomberto,ITA,Veneto,6188,1380013876
+Rosolina,Rosolina,ITA,Veneto,6456,1380742061
+Lurago d’Erba,Lurago d'Erba,ITA,Lombardy,5383,1380613330
+Villaverla,Villaverla,ITA,Veneto,6138,1380322956
+Sesto al Reghena,Sesto al Reghena,ITA,Friuli-Venezia Giulia,6367,1380308298
+Sant’Arcangelo,Sant'Arcangelo,ITA,Basilicata,6448,1380614247
+Brolo,Brolo,ITA,Sicilia,5767,1380655802
+Offanengo,Offanengo,ITA,Lombardy,6031,1380137264
+Barzanò,Barzano,ITA,Lombardy,5101,1380374958
+Casorate Sempione,Casorate Sempione,ITA,Lombardy,5687,1380983199
+Brignano Gera d’Adda,Brignano Gera d'Adda,ITA,Lombardy,6009,1380203071
+Sommariva del Bosco,Sommariva del Bosco,ITA,Piedmont,6321,1380939455
+San Michele Salentino,San Michele Salentino,ITA,Puglia,6258,1380878000
+Caneva,Caneva,ITA,Friuli-Venezia Giulia,6339,1380920699
+Medolla,Medolla,ITA,Emilia-Romagna,6253,1380994707
+Sernaglia della Battaglia,Sernaglia della Battaglia,ITA,Veneto,6176,1380651005
+Pimonte,Pimonte,ITA,Campania,6003,1380783654
+Asiago,Asiago,ITA,Veneto,6441,1380181149
+Maiolati Spontini,Maiolati Spontini,ITA,Marche,6187,1380678157
+Monzuno,Monzuno,ITA,Emilia-Romagna,6375,1380257559
+Villanuova sul clisi,Villanuova sul clisi,ITA,Lombardy,5827,1380977092
+Fagagna,Fagagna,ITA,Friuli-Venezia Giulia,6296,1380635920
+Uzzano,Uzzano,ITA,Tuscany,5722,1380153695
+Subbiano,Subbiano,ITA,Tuscany,6373,1380114692
+Belgioioso,Belgioioso,ITA,Lombardy,6201,1380731634
+Porto Cesareo,Porto Cesareo,ITA,Puglia,6272,1380165414
+Collepasso,Collepasso,ITA,Puglia,5979,1380337394
+Strambino,Strambino,ITA,Piedmont,6170,1380340424
+San Marcello Pistoiese,San Marcello Pistoiese,ITA,Tuscany,6370,1380306845
+Torreglia,Torreglia,ITA,Veneto,6119,1380639507
+Cambiano,Cambiano,ITA,Piedmont,6008,1380882262
+Abbadia San Salvatore,Abbadia San Salvatore,ITA,Tuscany,6325,1380713134
+Santa Margherita di Belice,Santa Margherita di Belice,ITA,Sicilia,6338,1380081960
+Mesoraca,Mesoraca,ITA,Calabria,6357,1380910730
+Recoaro Terme,Recoaro Terme,ITA,Veneto,6306,1380727823
+San Canzian d’lsonzo,San Canzian d'lsonzo,ITA,Friuli-Venezia Giulia,6227,1380298920
+Rio Saliceto,Rio Saliceto,ITA,Emilia-Romagna,6136,1380060905
+Monte San Biagio,Monte San Biagio,ITA,Lazio,6308,1380702434
+Ceggia,Ceggia,ITA,Veneto,6123,1380836449
+San Giovanni al Natisone,San Giovanni al Natisone,ITA,Friuli-Venezia Giulia,6137,1380253118
+Fossalta di Portogruaro,Fossalta di Portogruaro,ITA,Veneto,6190,1380188705
+Lesina,Lesina,ITA,Puglia,6347,1380676710
+Cavaion Veronese,Cavaion Veronese,ITA,Veneto,5924,1380203614
+Calcinate,Calcinate,ITA,Lombardy,5985,1380128600
+Nicotera,Nicotera,ITA,Calabria,6155,1380182399
+Rudiano,Rudiano,ITA,Lombardy,5783,1380956651
+Serravalle Scrivia,Serravalle Scrivia,ITA,Piedmont,5993,1380571557
+Cogorno,Cogorno,ITA,Liguria,5731,1380559254
+Vanzaghello,Vanzaghello,ITA,Lombardy,5389,1380955724
+Tortorici,Tortorici,ITA,Sicilia,6259,1380219119
+Ravarino,Ravarino,ITA,Emilia-Romagna,6132,1380393882
+San Polo d’Enza in Caviano,San Polo d'Enza in Caviano,ITA,Emilia-Romagna,6156,1380007944
+Palosco,Palosco,ITA,Lombardy,5808,1380470828
+Mattinata,Mattinata,ITA,Puglia,6261,1380784623
+Crocetta del Montello,Crocetta del Montello,ITA,Veneto,6106,1380041232
+Spirano,Spirano,ITA,Lombardy,5730,1380146685
+Trasacco,Trasacco,ITA,Abruzzo,6198,1380632843
+San Benigno Canavese,San Benigno Canavese,ITA,Piedmont,6044,1380831732
+Roveredo in Piano,Roveredo in Piano,ITA,Friuli-Venezia Giulia,5939,1380396605
+Besnate,Besnate,ITA,Lombardy,5558,1380017651
+Remanzacco,Remanzacco,ITA,Friuli-Venezia Giulia,6104,1380920800
+Carloforte,Carloforte,ITA,Sardegna,6173,1380476395
+Poggiardo,Poggiardo,ITA,Puglia,5992,1380246323
+Montebello Ionico,Montebello Ionico,ITA,Calabria,6179,1380279040
+Lioni,Lioni,ITA,Campania,6153,1380378126
+Godega di Sant’Urbano,Godega di Sant'Urbano,ITA,Veneto,6034,1380973228
+Guidizzolo,Guidizzolo,ITA,Lombardy,6013,1380208130
+Gaiarine,Gaiarine,ITA,Veneto,6070,1380314597
+Casorezzo,Casorezzo,ITA,Lombardy,5454,1380090428
+Tortora,Tortora,ITA,Calabria,6163,1380212733
+Piana degli Albanesi,Piana degli Albanesi,ITA,Sicilia,6157,1380182085
+Collecorvino,Collecorvino,ITA,Abruzzo,6060,1380206873
+Cadeo,Cadeo,ITA,Emilia-Romagna,6083,1380775952
+Silandro,Silandro,ITA,Trentino-Alto Adige,6181,1380061029
+Cammarata,Cammarata,ITA,Sicilia,6197,1380186466
+Casalbordino,Casalbordino,ITA,Abruzzo,6090,1380630995
+Domusnovas,Domusnovas,ITA,Sardegna,6145,1380171179
+Motta San Giovanni,Motta San Giovanni,ITA,Calabria,6086,1380263934
+Poppi,Poppi,ITA,Tuscany,6153,1380100275
+Sermide,Sermide,ITA,Lombardy,6089,1380035295
+Luco dei Marsi,Luco dei Marsi,ITA,Abruzzo,6065,1380940928
+Sant’Elia Fiumerapido,Sant'Elia Fiumerapido,ITA,Lazio,6048,1380132998
+Campo San Martino,Campo San Martino,ITA,Veneto,5753,1380813198
+Ascoli Satriano,Ascoli Satriano,ITA,Puglia,6167,1380002674
+Truccazzano,Truccazzano,ITA,Lombardy,5913,1380259610
+Monterenzio,Monterenzio,ITA,Emilia-Romagna,6110,1380428089
+Monteiasi,Monteiasi,ITA,Puglia,5580,1380807443
+Quinto Vicentino,Quinto Vicentino,ITA,Veneto,5815,1380069264
+Pignataro Maggiore,Pignataro Maggiore,ITA,Campania,5964,1380824879
+Vernio,Vernio,ITA,Tuscany,6048,1380845391
+Santorso,Santorso,ITA,Veneto,5711,1380076544
+Maiano,Maiano,ITA,Friuli-Venezia Giulia,5932,1380390448
+Ronco all’Adige,Ronco all'Adige,ITA,Veneto,6001,1380300826
+Borso del Grappa,Borso del Grappa,ITA,Veneto,5955,1380630337
+Genazzano,Genazzano,ITA,Lazio,5949,1380125595
+Torrebelvicino,Torrebelvicino,ITA,Veneto,5849,1380352175
+Castelsardo,Castelsardo,ITA,Sardegna,5990,1380225405
+Candiolo,Candiolo,ITA,Piedmont,5644,1380973335
+Vizzini,Vizzini,ITA,Sicilia,6072,1380824938
+Fornovo di Taro,Fornovo di Taro,ITA,Emilia-Romagna,6004,1380935720
+Nereto,Nereto,ITA,Abruzzo,5342,1380757880
+San Giovanni Suèrgiu,San Giovanni Suergiu,ITA,Sardegna,6018,1380466391
+Serradifalco,Serradifalco,ITA,Sicilia,5959,1380625234
+Acque Dolci,Acque Dolci,ITA,Sicilia,5663,1380624815
+Rosate,Rosate,ITA,Lombardy,5785,1380337744
+Sannicola,Sannicola,ITA,Puglia,5864,1380119366
+Alezio,Alezio,ITA,Puglia,5732,1380022966
+Ceriale,Ceriale,ITA,Liguria,5571,1380565063
+Gozzano,Gozzano,ITA,Piedmont,5622,1380193799
+Carcare,Carcare,ITA,Liguria,5534,1380281857
+Ostellato,Ostellato,ITA,Emilia-Romagna,6030,1380101691
+Bagnolo Piemonte,Bagnolo Piemonte,ITA,Piedmont,5969,1380596300
+San Lucido,San Lucido,ITA,Calabria,6062,1380376694
+Bagnolo San Vito,Bagnolo San Vito,ITA,Lombardy,5938,1380388850
+Lonate Ceppino,Lonate Ceppino,ITA,Lombardy,5012,1380921454
+Mel,Mel,ITA,Veneto,5968,1380082110
+Bagni di Lucca,Bagni di Lucca,ITA,Tuscany,5997,1380880970
+Corsano,Corsano,ITA,Puglia,5432,1380750040
+Bottanuco,Bottanuco,ITA,Lombardy,5137,1380787331
+Gualdo Cattaneo,Gualdo Cattaneo,ITA,Umbria,5965,1380945429
+Ascea,Ascea,ITA,Campania,5855,1380860574
+Villanova Mondovì,Villanova Mondovi,ITA,Piedmont,5795,1380896418
+Amalfi,Amalfi,ITA,Campania,5102,1380503863
+Castelnuovo di Garfagnana,Castelnuovo di Garfagnana,ITA,Tuscany,5936,1380134087
+San Dorligo della Valle,San Dorligo della Valle,ITA,Friuli-Venezia Giulia,5754,1380967686
+Villa Bartolomea,Villa Bartolomea,ITA,Veneto,5880,1380830897
+Bussoleno,Bussoleno,ITA,Piedmont,5824,1380202712
+Costigliole d’Asti,Costigliole d'Asti,ITA,Piedmont,5822,1380235460
+Romentino,Romentino,ITA,Piedmont,5659,1380255125
+Stornara,Stornara,ITA,Puglia,5802,1380914227
+Robbio,Robbio,ITA,Lombardy,5828,1380388134
+Corigliano d’Otranto,Corigliano d'Otranto,ITA,Puglia,5768,1380475166
+Girifalco,Girifalco,ITA,Calabria,5827,1380521648
+Picerno,Picerno,ITA,Basilicata,5869,1380317960
+Canale,Canale,ITA,Piedmont,5624,1380074530
+Ornago,Ornago,ITA,Lombardy,5075,1380146836
+Montalcino,Montalcino,ITA,Tuscany,5919,1380448742
+Certosa di Pavia,Certosa di Pavia,ITA,Lombardy,5435,1380656106
+Longare,Longare,ITA,Veneto,5684,1380642969
+Loro Ciuffenna,Loro Ciuffenna,ITA,Tuscany,5862,1380886411
+San Donato di Lecce,San Donato di Lecce,ITA,Puglia,5656,1380515343
+Ospedaletto Euganeo,Ospedaletto Euganeo,ITA,Veneto,5651,1380008629
+Ceva,Ceva,ITA,Piedmont,5774,1380071526
+Bracigliano,Bracigliano,ITA,Campania,5524,1380251221
+Fontanelle,Fontanelle,ITA,Veneto,5744,1380757517
+Maiori,Maiori,ITA,Campania,5570,1380049861
+Bagno di Romagna,Bagno di Romagna,ITA,Emilia-Romagna,5874,1380696729
+Rogliano,Rogliano,ITA,Calabria,5758,1380285508
+Sambuca di Sicilia,Sambuca di Sicilia,ITA,Sicilia,5834,1380304239
+Viggiù,Viggiu,ITA,Lombardy,5318,1380696985
+Naturno,Naturno,ITA,Trentino-Alto Adige,5805,1380255321
+Buti,Buti,ITA,Tuscany,5644,1380821860
+Lovere,Lovere,ITA,Lombardy,5224,1380654364
+Gattatico,Gattatico,ITA,Emilia-Romagna,5744,1380501436
+Otranto,Otranto,ITA,Puglia,5799,1380966492
+Campagnola Emilia,Campagnola Emilia,ITA,Emilia-Romagna,5639,1380079790
+Busalla,Busalla,ITA,Liguria,5545,1380199949
+Castelverde,Castelverde,ITA,Lombardy,5685,1380156754
+Camporosso,Camporosso,ITA,Liguria,5559,1380271859
+Cortina d’Ampezzo,Cortina d'Ampezzo,ITA,Veneto,5842,1380876737
+Angera,Angera,ITA,Lombardy,5546,1380505945
+Cilavegna,Cilavegna,ITA,Lombardy,5548,1380595671
+Dello,Dello,ITA,Lombardy,5601,1380817682
+Villa del Conte,Villa del Conte,ITA,Veneto,5522,1380214057
+San Secondo Parmense,San Secondo Parmense,ITA,Emilia-Romagna,5685,1380949840
+Brescello,Brescello,ITA,Emilia-Romagna,5601,1380761256
+Gossolengo,Gossolengo,ITA,Emilia-Romagna,5652,1380816829
+Grotte,Grotte,ITA,Sicilia,5600,1380494162
+Melicucco,Melicucco,ITA,Calabria,5057,1380023560
+Fontevivo,Fontevivo,ITA,Emilia-Romagna,5615,1380233661
+Cancello,Cancello,ITA,Campania,5715,1380462551
+Guagnano,Guagnano,ITA,Puglia,5681,1380508063
+Palmanova,Palmanova,ITA,Friuli-Venezia Giulia,5419,1380049669
+Tuglie,Tuglie,ITA,Puglia,5213,1380526661
+Villanova d’Asti,Villanova d'Asti,ITA,Piedmont,5686,1380941866
+Arce,Arce,ITA,Lazio,5670,1380382012
+Riolo Terme,Riolo Terme,ITA,Emilia-Romagna,5681,1380385873
+Rocca di Neto,Rocca di Neto,ITA,Calabria,5681,1380576399
+Sala Baganza,Sala Baganza,ITA,Emilia-Romagna,5622,1380717499
+San Paolo di Civitate,San Paolo di Civitate,ITA,Puglia,5740,1380550692
+Casaleone,Casaleone,ITA,Veneto,5648,1380078676
+San Giorgio Piacentino,San Giorgio Piacentino,ITA,Emilia-Romagna,5673,1380825447
+Trivero,Trivero,ITA,Piedmont,5582,1380087690
+Chiaravalle Centrale,Chiaravalle Centrale,ITA,Calabria,5536,1380635176
+Arienzo,Arienzo,ITA,Campania,5374,1380962324
+Davoli,Davoli,ITA,Calabria,5531,1380719793
+Nocera Umbra,Nocera Umbra,ITA,Umbria,5711,1380395330
+Pavia di Udine,Pavia di Udine,ITA,Friuli-Venezia Giulia,5573,1380701443
+Pomarance,Pomarance,ITA,Tuscany,5708,1380347724
+Diamante,Diamante,ITA,Calabria,5295,1380943793
+Cividate al Piano,Cividate al Piano,ITA,Lombardy,5185,1380764117
+Genzano di Lucania,Genzano di Lucania,ITA,Basilicata,5688,1380295959
+Gabicce,Gabicce,ITA,Marche,5713,1380895249
+Passignano sul Trasimeno,Passignano sul Trasimeno,ITA,Umbria,5712,1380195076
+Trevignano Romano,Trevignano Romano,ITA,Lazio,5711,1380570161
+Montepaone,Montepaone,ITA,Calabria,5390,1380685981
+Casalserugo,Casalserugo,ITA,Veneto,5360,1380657815
+Mugnano del Cardinale,Mugnano del Cardinale,ITA,Campania,5270,1380919916
+Mezzocorona,Mezzocorona,ITA,Trentino-Alto Adige,5477,1380920496
+Apice,Apice,ITA,Campania,5578,1380128790
+San Tammaro,San Tammaro,ITA,Campania,5529,1380955411
+Panicale,Panicale,ITA,Umbria,5606,1380132667
+Marsico Vetere,Marsico Vetere,ITA,Basilicata,5531,1380370699
+Quistello,Quistello,ITA,Lombardy,5552,1380219725
+Casoli,Casoli,ITA,Abruzzo,5585,1380549587
+Cupra Marittima,Cupra Marittima,ITA,Marche,5358,1380172642
+Moglia,Moglia,ITA,Lombardy,5487,1380736666
+Montefalco,Montefalco,ITA,Umbria,5577,1380040743
+Sarcedo,Sarcedo,ITA,Veneto,5274,1380353017
+Sannazzaro de’ Burgondi,Sannazzaro de' Burgondi,ITA,Lombardy,5422,1380340782
+Custonaci,Custonaci,ITA,Sicilia,5571,1380150566
+Povegliano,Povegliano,ITA,Veneto,5243,1380303188
+Telgate,Telgate,ITA,Lombardy,5040,1380003658
+Peveragno,Peveragno,ITA,Piedmont,5561,1380074102
+Poncarale,Poncarale,ITA,Lombardy,5229,1380216256
+Boretto,Boretto,ITA,Emilia-Romagna,5345,1380332532
+Borgo San Giacomo,Borgo San Giacomo,ITA,Lombardy,5455,1380654488
+Caiazzo,Caiazzo,ITA,Campania,5489,1380929954
+Bentivoglio,Bentivoglio,ITA,Emilia-Romagna,5513,1380564832
+Forino,Forino,ITA,Campania,5357,1380484980
+Botricello,Botricello,ITA,Calabria,5274,1380794261
+Sovere,Sovere,ITA,Lombardy,5319,1380581521
+Ispra,Ispra,ITA,Lombardy,5276,1380906735
+Dicomano,Dicomano,ITA,Tuscany,5517,1380401737
+Cavour,Cavour,ITA,Piedmont,5492,1380149959
+San Cipirello,San Cipirello,ITA,Sicilia,5347,1380583334
+Soleto,Soleto,ITA,Puglia,5422,1380015252
+Castiglione dei Pepoli,Castiglione dei Pepoli,ITA,Emilia-Romagna,5514,1380277344
+Galliera,Galliera,ITA,Emilia-Romagna,5451,1380351220
+Aquino,Aquino,ITA,Lazio,5319,1380899687
+Torchiarolo,Torchiarolo,ITA,Puglia,5419,1380913681
+Codognè,Codogne,ITA,Veneto,5339,1380362160
+San Vito Chietino,San Vito Chietino,ITA,Abruzzo,5270,1380544768
+Anghiari,Anghiari,ITA,Tuscany,5536,1380349890
+Gandino,Gandino,ITA,Lombardy,5390,1380782429
+Povoletto,Povoletto,ITA,Friuli-Venezia Giulia,5425,1380441033
+Cavallermaggiore,Cavallermaggiore,ITA,Piedmont,5455,1380202284
+Neviano,Neviano,ITA,Puglia,5228,1380455424
+Canzo,Canzo,ITA,Lombardy,5081,1380469929
+Favria,Favria,ITA,Piedmont,5186,1380195353
+Cotronei,Cotronei,ITA,Calabria,5465,1380204637
+Montemiletto,Montemiletto,ITA,Campania,5288,1380486867
+Montanaro,Montanaro,ITA,Piedmont,5262,1380230956
+Rivanazzano,Rivanazzano,ITA,Lombardy,5326,1380530649
+San Pietro di Feletto,San Pietro di Feletto,ITA,Veneto,5234,1380867789
+Stornarella,Stornarella,ITA,Puglia,5344,1380645650
+Villapiana,Villapiana,ITA,Calabria,5367,1380677180
+Presicce,Presicce,ITA,Puglia,5285,1380473301
+Lanzo Torinese,Lanzo Torinese,ITA,Piedmont,5011,1380498555
+Lagonegro,Lagonegro,ITA,Basilicata,5442,1380265044
+Casal Velino,Casal Velino,ITA,Campania,5322,1380175534
+Caprarola,Caprarola,ITA,Lazio,5395,1380893873
+Lanusei,Lanusei,ITA,Sardegna,5387,1380623849
+Castelvetro Piacentino,Castelvetro Piacentino,ITA,Emilia-Romagna,5331,1380232050
+Acquapendente,Acquapendente,ITA,Lazio,5439,1380580784
+Calatabiano,Calatabiano,ITA,Sicilia,5274,1380854766
+Sant’Omero,Sant'Omero,ITA,Abruzzo,5317,1380920835
+Limana,Limana,ITA,Veneto,5335,1380229001
+Borgo Ticino,Borgo Ticino,ITA,Piedmont,5089,1380202251
+Basiliano,Basiliano,ITA,Friuli-Venezia Giulia,5345,1380244607
+Colle Umberto,Colle Umberto,ITA,Veneto,5093,1380739037
+Fragagnano,Fragagnano,ITA,Puglia,5232,1380282306
+Giavera del Montello,Giavera del Montello,ITA,Veneto,5200,1380946162
+Padula,Padula,ITA,Campania,5377,1380999882
+Illasi,Illasi,ITA,Veneto,5243,1380746180
+Monte Libretti,Monte Libretti,ITA,Lazio,5326,1380604533
+Castrignano del Capo,Castrignano del Capo,ITA,Puglia,5193,1380953891
+Santa Teresa Gallura,Santa Teresa Gallura,ITA,Sardegna,5390,1380285830
+Gazzo Veronese,Gazzo Veronese,ITA,Veneto,5347,1380154816
+Gizzeria,Gizzeria,ITA,Calabria,5296,1380663383
+Linguaglossa,Linguaglossa,ITA,Sicilia,5337,1380994101
+Esine,Esine,ITA,Lombardy,5249,1380267907
+Ripi,Ripi,ITA,Lazio,5249,1380274309
+Gazzaniga,Gazzaniga,ITA,Lombardy,5058,1380376033
+Vitorchiano,Vitorchiano,ITA,Lazio,5235,1380685962
+Gagliano del Capo,Gagliano del Capo,ITA,Puglia,5098,1380346309
+Centuripe,Centuripe,ITA,Sicilia,5373,1380878040
+Monticelli d’Ongina,Monticelli d'Ongina,ITA,Emilia-Romagna,5287,1380578222
+Rodigo,Rodigo,ITA,Lombardy,5272,1380104449
+Pagnacco,Pagnacco,ITA,Friuli-Venezia Giulia,5059,1380620089
+Giussago,Giussago,ITA,Lombardy,5186,1380110911
+Muro Lucano,Muro Lucano,ITA,Basilicata,5344,1380461691
+Polla,Polla,ITA,Campania,5273,1380751106
+Oppido Mamertina,Oppido Mamertina,ITA,Calabria,5290,1380522360
+Albaredo d’Adige,Albaredo d'Adige,ITA,Veneto,5190,1380651165
+Carsoli,Carsoli,ITA,Abruzzo,5314,1380187064
+Rapolano Terme,Rapolano Terme,ITA,Tuscany,5305,1380445443
+Veronella,Veronella,ITA,Veneto,5116,1380233363
+Gottolengo,Gottolengo,ITA,Lombardy,5184,1380589186
+Sarroch,Sarroch,ITA,Sardegna,5283,1380404263
+Castellucchio,Castellucchio,ITA,Lombardy,5235,1380289373
+Maruggio,Maruggio,ITA,Puglia,5241,1380026754
+Campegine,Campegine,ITA,Emilia-Romagna,5121,1380961118
+Chiusa,Chiusa,ITA,Trentino-Alto Adige,5235,1380850244
+Chions,Chions,ITA,Friuli-Venezia Giulia,5180,1380593707
+Muravera,Muravera,ITA,Sardegna,5273,1380369687
+Canino,Canino,ITA,Lazio,5284,1380407095
+Santa Caterina Villarmosa,Santa Caterina Villarmosa,ITA,Sicilia,5253,1380500599
+Coreglia Antelminelli,Coreglia Antelminelli,ITA,Tuscany,5220,1380843158
+Correzzola,Correzzola,ITA,Veneto,5194,1380749840
+Castelnuovo Scrivia,Castelnuovo Scrivia,ITA,Piedmont,5193,1380774121
+Camogli,Camogli,ITA,Liguria,5300,1380655976
+Guglionesi,Guglionesi,ITA,Molise,5246,1380987639
+Longarone,Longarone,ITA,Veneto,5254,1380377286
+Cerda,Cerda,ITA,Sicilia,5176,1380258226
+Maser,Maser,ITA,Veneto,5094,1380125256
+Cannobio,Cannobio,ITA,Piedmont,5190,1380434972
+Vigone,Vigone,ITA,Piedmont,5163,1380417182
+Malles Venosta,Malles Venosta,ITA,Trentino-Alto Adige,5265,1380499484
+San Giovanni Ilarione,San Giovanni Ilarione,ITA,Veneto,5085,1380229296
+Corropoli,Corropoli,ITA,Abruzzo,5054,1380840037
+Laces,Laces,ITA,Trentino-Alto Adige,5216,1380857316
+Marano sul Panaro,Marano sul Panaro,ITA,Emilia-Romagna,5167,1380277654
+Ardore,Ardore,ITA,Calabria,5114,1380232839
+Centola,Centola,ITA,Campania,5153,1380770205
+Bucchianico,Bucchianico,ITA,Abruzzo,5126,1380705405
+Lagundo,Lagundo,ITA,Trentino-Alto Adige,5046,1380481780
+Mansuè,Mansue,ITA,Veneto,5070,1380627972
+Castelbellino,Castelbellino,ITA,Marche,5009,1380236985
+Capistrello,Capistrello,ITA,Abruzzo,5154,1380870677
+Portoscuso,Portoscuso,ITA,Sardegna,5104,1380645895
+Samassi,Samassi,ITA,Sardegna,5110,1380063070
+Tricarico,Tricarico,ITA,Basilicata,5202,1380468453
+Vaglia,Vaglia,ITA,Tuscany,5134,1380323034
+Laureana di Borrello,Laureana di Borrello,ITA,Calabria,5080,1380663314
+Grassano,Grassano,ITA,Basilicata,5077,1380685952
+Baselga di Pinè,Baselga di Pine,ITA,Trentino-Alto Adige,5075,1380841185
+Celle Ligure,Celle Ligure,ITA,Liguria,5184,1380951643
+Villadose,Villadose,ITA,Veneto,5014,1380834835
+Maratea,Maratea,ITA,Basilicata,5088,1380025790
+Condofuri,Condofuri,ITA,Calabria,5053,1380341785
+Assoro,Assoro,ITA,Sicilia,5090,1380782326
+Montecastrilli,Montecastrilli,ITA,Umbria,5037,1380086045
+Lesignano de’ Bagni,Lesignano de' Bagni,ITA,Emilia-Romagna,5005,1380179999
+Mineo,Mineo,ITA,Sicilia,5088,1380655777
+Bevagna,Bevagna,ITA,Umbria,5013,1380608015
+Bella,Bella,ITA,Basilicata,5014,1380839352
+Agnone,Agnone,ITA,Molise,5008,1380842283
+Tolfa,Tolfa,ITA,Lazio,5006,1380746768

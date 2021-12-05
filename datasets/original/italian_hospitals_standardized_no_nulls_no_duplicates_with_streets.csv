@@ -1,0 +1,600 @@
+city,admin_name,name,ID,address
+Borgaro Torinese,Piemonte,CRI,1287732721,Borso del Grappa 141
+Castellamonte,Piemonte,Ospedale Civile di Castellamonte,506720441,Via Caneva 111
+Collegno,Piemonte,Guardia Medica,3521390394,Via Umberto Terracini 4
+Giaveno,Piemonte,Ospedale Civile di Giaveno,1013180642,Via Rametti 84
+Orbassano,Piemonte,Ospedale San Luigi - Emergency,3538127650,Regione Gonzole 89
+Pianezza,Piemonte,IRM,2975475598,Via Torino 60
+Pomaretto,Piemonte,Ospedale di Pomaretto,1582482972,Via Maggiore Ribet 85
+Rivoli,Piemonte,Ospedale di Rivoli - Emergency,3521386459,Corso Primo Levi 25
+Torino,Piemonte,Azienda Asl TO2 Circoscrizione 7,3342035128,Via Pietro Cavezzale 6A
+Torino,Piemonte,Ospedale CTO - Emergency,3538149953,Via Gianfranco Zuretti 29
+Torino,Piemonte,Ospedale Koelliker,2524447312,Corso Galileo Ferraris 64
+Torino,Piemonte,Ospedale Maria Vittoria - Emergency,3538127633,Corso Alessandro Tassoni 46/A
+Torino,Piemonte,Ospedale Martini - Emergency,3538127618,Via Luigi Ferdinando Marsigli 25
+Torino,Piemonte,Ospedale Mauriziano - Emergency,3538149967,Corso Carlo e Nello Rosselli 88
+Torino,Piemonte,Ospedale Molinette - Emergency,3538127651,Corso Bramante 125
+Torino,Piemonte,Ospedale Sant'Anna - Emergency,3538127652,Via Ventimiglia 1
+Torino,Piemonte,Poliambulatorio ASL TO1,3896547668,Via Candiolo 165
+Torino,Piemonte,Presidio Ospedaliero Major,3352096005,Via Santa Giulia 60
+Torino,Piemonte,Presidio sanitario ?Vittorio Valletta?,3858667665,Via Arturo Farinelli 197
+Torino,Piemonte,Pronto soccorso pediatrico,3451061182,Via Gianfranco Zuretti 23
+Torino,Piemonte,"RSA """"Cardinal Ballestrero",3858824567,Via Plava 141
+Venaria Reale,Piemonte,Ospedale Venaria - Emergency,3538322174,Via Saccarelli 180
+Vinovo,Piemonte,Croce Verde,872054634,Via Altina 62
+Gattinara,Piemonte,Asl Vc,2294634302,Nocera Inferiore 134
+Varallo,Piemonte,Casa Serena,2632598165,Via Brigate Garibaldi 63
+Vercelli,Piemonte,Ambulatorio Veterinario,2943298582,Via Gran Paradiso 94
+Vercelli,Piemonte,Ambulatorio Veterinario,2968790196,Via Gran Paradiso 156
+Vercelli,Piemonte,Clinica Santa Rita,2872066082,Viale dell'Aeronautica Francis Lombardi 14-16
+Vercelli,Piemonte,Guardia Medica,2814119513,Corso Mario Abbiate 181
+Vercelli,Piemonte,Piastra Polifunzionale,2809752409,Corso Mario Abbiate 134
+Vercelli,Piemonte,Pronto Soccorso,2800570544,Corso Mario Abbiate 175
+Vercelli,Piemonte,Studio di fisioterapia clinica Adriano Reis,3035467608,Cisano Bergamasco 124
+Ghemme,Piemonte,Guardia Medica di Ghemme,2425413775,Via al Castello 120
+Ghemme,Piemonte,Ospedale di Ghemme,2425413776,Via al Castello 67
+Nebbiuno,Piemonte,Croce Rossa Italiana - Volontari del Vergante,2844465977,Assoro 125
+Novara,Piemonte,Farmacia dell'Ospedale,2039728477,Corso della Liberazione 85
+Novara,Piemonte,Pronto Soccorso ASL Novara,3385724639,Baluardo Massimo D'Azeglio 59
+Borgo San Dalmazzo,Piemonte,ASL Cuneo n.1,1445651410,Piazza dell'Abbazia 134
+Boves,Piemonte,Azienda Sanitaria Locale cn1 Centralino,1448031743,Via Don Giambattista Cavallera 175
+Bra,Piemonte,Casa di cura privata Città di BRA,1870099273,Strada Montenero 1
+Busca,Piemonte,Azienda Sanitaria Locale cn1,1446961749,Saviano 90
+Caraglio,Piemonte,Ospedale di Caraglio ASL CN1,1803194882,Via Valgrana 6
+Chiusa Di Pesio,Piemonte,Azienda Sanitaria Locale cn1,1448063765,Vicolo Filanda 124
+Chiusa Di Pesio,Piemonte,"Residenza per anziani """"La Meridiana""""",1391573415,Via Paschero Sottano 114
+Entracque,Piemonte,Centro Socio Assistenziale San Michele,1446273813,Via del Lago 71
+Fossano,Piemonte,Ospedale Maggiore,1010828999,Via Ospedale 7
+Peveragno,Piemonte,Azienda Sanitaria Locale cn1 Prenotazioni,1447981808,Trecastagni 26
+Peveragno,Piemonte,Croce Rossa Italiana Delegazione di Peveragno,1447984261,Via Angelo Campana 198
+Robilante,Piemonte,Istituto Climatico,1512114795,Strada statale 20 del Colle di Tenda e di Valle Roja 191
+Rodello,Piemonte,"Casa di cura """"La Residenza""""",3431226791,Via Roma 68
+Villanova Mondovi',Piemonte,Azienda Sanitaria locale cn1,1447884401,Lariano 52
+Nizza Monferrato,Piemonte,Ospedale Santo Spirito,1177271563,Piazza Garibaldi 166
+Acqui Terme,Piemonte,Casa di cura Villa Igea,3160224386,Acqui Terme SP232
+Alessandria,Piemonte,Hospice Il Gelso,3456136050,Via San Pio V 41
+Alessandria,Piemonte,Pronto Soccorso,3184542612,Spalto Marengo 146
+Alessandria,Piemonte,SALUS,3461258398,Via Trotti 21
+Casalnoceto,Piemonte,centro paolo VI,916881543,Via Gavino Lugano 69
+Novi Ligure,Piemonte,Ospedale San Giacomo,931802977,Via dell'Ospedale 6
+Brusson,Valle d'Aosta,Casa Di Cura Per La Salute Della Mente,1821113074,Strada Regionale 45 della Valle D'Ayas 129
+Brusson,Valle d'Aosta,Continuità Assistenziale (Ex Guardia Medica) AS,1297316345,Albano Laziale 35
+Donnas,Valle d'Aosta,Poliambulatorio di Donnas,1761381053,Via Roma 198
+Saint-Christophe,Valle d'Aosta,Servizio Ausili AUSL Valle d'Aosta,2349121564,Località Grand Chemin 22
+Valtournenche,Valle d'Aosta,Centro Traumatologico,3536731833,Via Circonvallazione 54
+Verres,Valle d'Aosta,Clinica Veterinaria di Verres,3740528835,Via Amilcare Cretier 16
+Albenga,Liguria,"Santa Maria di Misericordia""""",3022331437,Via Martiri della Foce 159
+Finale Ligure,Liguria,P.A. Croce Verde Finalborgo,2519502535,Piazza Milite Ignoto 8
+Savona,Liguria,Emergency Room,861803093,Via Genova 53
+Savona,Liguria,RSA del Santuario,368280172,Piazza Santuario 182
+Zuccarello,Liguria,Soccorso Cinofilo Liguria - Campo Addestramento,2774569646,Valle Auzza 122
+Zuccarello,Liguria,Soccorso Cinofilo Liguria - Sede Operativa,2774570245,Via Q. Delfino 53
+Campo Ligure,Liguria,Opera Pia San Michele Arcangelo,603938253,Bisignano 173
+Cicagna,Liguria,Ospedaletto,3092330573,Strada Statale della Fontanabuona 59
+Genova,Liguria,Croce Rossa Italiana - Comitato Locale di Genova,2775158723,Corso Aldo Gastaldi 11/5
+Genova,Liguria,Croce Rossa Italiana - Comitato Locale di Genova,3149433919,Corso Aldo Gastaldi 11/5
+Genova,Liguria,Hospice Gigi Ghirotti,1427976790,Piazza Ospedale Pastorino 3
+Genova,Liguria,Ospedale Pastorino,3784314302,Via Ezio Faggioni 118
+Genova,Liguria,Pronto Soccorso,1655214176,Corso Onofrio Scassi 1
+Genova,Liguria,Pronto Soccorso,2286538221,Corso Onofrio Scassi 1
+Genova,Liguria,Pronto Soccorso Ostetrico,1149150256,Statte 150
+Genova,Liguria,Pubblica Assistenza Nerviese,1743778682,105 rosso 167
+Bisuschio,Lombardia,Centro Diurno di Bisuschio,3872646923,Roncaccio SS344
+Cittiglio,Lombardia,Ospedale di Cittiglio,872506122,Via Provinciale 55
+Cunardo,Lombardia,Le Terrazze,602211592,Via Ugo Foscolo 29
+Luino,Lombardia,Ospedale Luini Confalonieri,1869897812,Via Enrico Forlanini 6
+Saronno,Lombardia,LABORATORIO ANALISI MEDICHE GESTIONE LABORATORI,3216127174,Via Prealpi 122
+Saronno,Lombardia,Meditel clinica ambulatorio,1907133077,Inzago 13
+Saronno,Lombardia,Pronto Soccorso,3215382613,Piazza Don Giuseppe Borella 1
+Cagno,Lombardia,Ambulatorio,2445650941,Via Alessandro Volta 9
+Como,Lombardia,Villa Aprica,429876745,Via Roncate 74
+Menaggio,Lombardia,ASL Menaggio,1740868546,Civita Castellana 123
+Menaggio,Lombardia,"Ospedale """"Sant'Anna"""" di Menaggio",280213549,Via Virginia Casartelli 97
+Tirano,Lombardia,Struttura sanitaria di Tirano - Poliambulatori,1456629565,Marano sul Panaro 67
+Abbiategrasso,Lombardia,Centro Diagnostico Fleming,2606776652,Via San Carlo 22
+Bresso,Lombardia,Centro Polifunzionale di Emergenza Croce Rossa I,2282025039,Civitanova Marche 33
+Cernusco Sul Naviglio,Lombardia,Casa di Cura Anziani,1641747487,Tagliacozzo 2
+Garbagnate Milanese,Lombardia,Casa Riposo S. Pertini,539588673,Boretto 158
+Garbagnate Milanese,Lombardia,Ospedale S. Corona Garbagnate - Salvini,539389756,Verona 124
+Milano,Lombardia,Clinica Columbus,281587946,Via Michelangelo Buonarroti 48
+Milano,Lombardia,Istituto Scientifico Ospedale San Luca,2791491258,Piazzale Brescia 8
+Milano,Lombardia,Ospedal Buzzi,541052343,Albano Laziale 128
+Milano,Lombardia,Ospedale Gaetano Pini,260044832,Via Gaetano Pini 140
+Milano,Lombardia,Ospedale Luigi Sacco,275707305,Via Giovanni Battista Grassi 187
+Milano,Lombardia,Ospedale San Giuseppe,272877453,Via San Vittore 12
+Milano,Lombardia,Poliambulatorio Cesare Pozzo,278208919,Via Giovanni Arrivabene 65
+Milano,Lombardia,Poliambulatorio Sassi,2678697562,Via Giuseppe Antonio Sassi 173
+Milano,Lombardia,S. Ambrogio,2106322765,Via Olona 18
+Milano,Lombardia,S. Ambrogio-Prontosoccorso,2106323310,Muggiò 165
+Ponte San Pietro,Lombardia,Policlinico San Pietro,365883717,Via della Resistenza 168
+Romano Di Lombardia,Lombardia,Ospedale di Romano,1937258648,Vicolo Alessandro Manzoni 117
+Spirano,Lombardia,Ospizio,1687457780,Via Antonio Locatelli 45
+Carpenedolo,Lombardia,Casa Di Riposo S.Maria Castello,1819494689,Via Antonio Gramsci 166
+Gargnano,Lombardia,Guardia Medica,1996725069,Via Repubblica 72
+Gavardo,Lombardia,Pronto Soccorso,3351874372,Via Santa Maria 104
+Lograto,Lombardia,Ambulatorio medico,2145385340,Via Moretto 59
+Manerbio,Lombardia,Ospedale di Manerbio,3939620367,Via Lungo Mella Francesco Valsecchi 73
+Montichiari,Lombardia,Spedali Civili Brescia Montichiari,2148204881,Via Mantova 1
+Rodengo-Saiano,Lombardia,Pronto Soccorso Avis,2242220553,Surbo 33
+Roe' Volciano,Lombardia,Fondazione Casa di Riposo di Roè Volciano - ONL,2833986032,Inverigo 57
+Casei Gerola,Lombardia,Casa di riposo San Fortunato,3826599061,Via San Fortunato 157
+Casei Gerola,Lombardia,Studio Medico,3826601913,Piazza Unità d'Italia 25
+Godiasco,Lombardia,Fondazione Don Carlo Gnocchi - Centro Santa Mari,2463395761,Istrana 135
+Godiasco,Lombardia,Villa Esperia - Casa di Cura e Riabilitazione,2462838795,Viale dei Salici 3
+Montescano,Lombardia,Istituto per la Riabilitazione Maugeri,600862762,Via Montescano 159
+Pavia,Lombardia,Clinica Città di Pavia,645900549,Anzio 133
+Pavia,Lombardia,C.N.A.O. - Centro Nazionale di Adroterapia Oncol,2852940512,Montecchio Maggiore 122
+Pavia,Lombardia,DEA,2579533175,Strada Campeggi 113
+Pavia,Lombardia,Fondazione Salvatore Maugeri,1628293885,Via Salvatore Maugeri 80
+Pavia,Lombardia,Istituto di Medicina del Lavoro,681739610,Urbino 187
+Pavia,Lombardia,Istituto Santa Margherita,3068442200,Via Monte Penice 191
+Stradella,Lombardia,Croce Rossa Italiana - Stradella,2513622263,Casa Massimini SP85
+Varzi,Lombardia,"Ospedale Civile di Varzi """"SS. Annunziata""""",3939620559,Via Repetti 108
+Varzi,Lombardia,Pronto Soccorso - OC Varzi,2958452870,Via Repetti 178
+Voghera,Lombardia,Ospedale Civile di Voghera - Accesso Pronto Socc,1978580077,Venafro 192
+Voghera,Lombardia,Ospedale civile di voghera entrata posteriore,2200633476,Largo Angelo Lavezzari 71
+Castelverde,Lombardia,Opera Pia Redentore,676278746,Via P. Gardinali 95
+Crema,Lombardia,Ospedale Maggiore di Crema,283583053,Piazzale Brigata Henry Reeve 167
+Cremona,Lombardia,Casa di cura Figlie di San Camillo,2090726100,Via Costantino Lazzari 52
+Cremona,Lombardia,Casa di cura San Camillo,2090726090,Via Mantova 2
+Rivolta D'Adda,Lombardia,Ospedale di Rivolta d'Adda,2593163397,Ciriè 179
+Soresina,Lombardia,Guardia Medica,3428462806,Via Aldo Moro 90
+Sospiro,Lombardia,Clinica Sospiro,628037181,Riolo Terme 117
+San Benedetto Po,Lombardia,Poli ambulatorio,2845125874,Via Cavallotti 74
+Viadana,Lombardia,ospitale civile,3523075426,Largo Alcide de Gasperi 56
+Badia,Trentino-Alto Adige,Ambulatorio dr. Spechtenhauser /medical facility,2359091864,Este 92
+Corvara In Badia,Trentino-Alto Adige,medical facility,2347041428,Monserrato 75
+Merano,Trentino-Alto Adige,Privatklinik Martinsbrunn,1026932691,Laurinstraße - Via Laurin 70
+Sarentino,Trentino-Alto Adige,Spital Sarnthein,1597396516,Spitalweg - Vicolo Dell Ospedale 107
+Terlano,Trentino-Alto Adige,Sanitätssprengel,2756012609,Niederthorstraße - Via Niederthor 7
+Baselga Di Pine',Trentino-Alto Adige,Poliambulatorio comunale - Medici Generici - Ped,2590602528,Manfredonia 124
+Denno,Trentino-Alto Adige,Guardia Medica,2590418162,Via Cesare Battisti 198
+Levico Terme,Trentino-Alto Adige,Poliambulatorio di Levico Terme,558635245,Via G. Slucca de Matteoni 147
+Mezzolombardo,Trentino-Alto Adige,Guardia Medica,2590431393,Via Alessandro Manzoni 125
+Mori,Trentino-Alto Adige,Guardia Medica,2590424734,Via Riccardo Zandonai 55
+Pergine Valsugana,Trentino-Alto Adige,Ex Villa Rosa,474985898,Località Fratte 17
+Segonzano,Trentino-Alto Adige,Guardia Medica,2503395889,Strada Provinciale 71 Fersina - Avisio 10
+Taio,Trentino-Alto Adige,Guardia Medica,2590432394,Piazza San Vittore 56
+Trento,Trentino-Alto Adige,Guardia Medica,2590424266,Via Paolo Orsi 68
+Trento,Trentino-Alto Adige,Studio Odontoiatrico,3637095818,Via di Mura 127
+Tres,Trentino-Alto Adige,Medico di base,3374682876,Piazza prof. C. Zadra 105
+Albaredo D'Adige,Veneto,Usll20,1519319976,Via degli Alpini 101
+Bardolino,Veneto,Distretto Sanitario,835482201,Rizziconi 168
+Bardolino,Veneto,Medical Clinic,824408688,Via Canevon 105
+Brenzone,Veneto,Infermeria di Casa Madre delle Piccole Suore del,3988496870,Vernio 67
+Garda,Veneto,White Cross ambulance,671619973,Via Cristoforo Colombo 8
+Grezzana,Veneto,Studio Medico Associato,3364333150,Via Giuseppe Saragat 163
+Malcesine,Veneto,Ospedale di Malcesine,2339818894,Via Gardesana 161
+Verona,Veneto,Pronto soccorso,1332150759,Via Don Angelo Sempreboni 71
+Verona,Veneto,Pronto Soccorso,1490269001,Via Don Angelo Sempreboni 148
+Villafranca Di Verona,Veneto,Ospedale Marcello Magalini,1804969211,Via Ospedale Marcello Magalini 5
+Arsiero,Veneto,Guardia Medica,1493334562,Via Cartari 1
+Asiago,Veneto,Ospedale civile di Asiago,2378284620,Via Martiri di Granezza 28
+Bassano Del Grappa,Veneto,Ospedale San Bassiano,304230205,Via dei Lotti 40
+Bassano Del Grappa,Veneto,Vecchio Ospedale Psichiatrico,1559078833,Giussano 180
+Caldogno,Veneto,Centro Diagnostico Veneto,338916073,Via Sette 85
+Roana,Veneto,Istituto Ortopedico Elioterapico,875665169,sentiero SelvArt 64
+Santorso,Veneto,Nuovo Ospedale Santorso,1650859424,Breganze 178
+Schio,Veneto,Croce Rossa Italiana - Comitato Locale di Schio,2620114768,Via San Camillo de Lellis 1
+Schio,Veneto,Defibrillatore (DAE) 24H,3498514926,Via Guglielmo Marconi 3
+Thiene,Veneto,Ospedale di Thiene,444692252,Origgio 187
+Vicenza,Veneto,Casa di Cura privata Eretenia,3284592570,Viale Eretenio 120
+Vicenza,Veneto,Centro Diurno Anziani,3971286697,Via Vittorio Bachelet 27
+Vicenza,Veneto,Guardia Medica - Servizio di continuità assiste,276392454,Valdagno 113
+Vicenza,Veneto,ingresso Palazzina Uffici dell'Ospedale,257360634,Viale Rodolfi 66
+Belluno,Veneto,Obitorio,3641023482,Viale Europa 182
+Cortina D'Ampezzo,Veneto,Codivilla,2369237060,Chiave 12
+Feltre,Veneto,Ospedale Civile,633282730,Via Bagnols sur Ceze 61
+Castelfranco Veneto,Veneto,Sanitaria,2094785552,Via San Pio X 30
+Conegliano,Veneto,La Nostra Famiglia,894283612,Via Costa 150
+Crespano Del Grappa,Veneto,SUEM 118  GUARDIA MEDICA,1388471311,Via Monte Grappa 180
+Monastier Di Treviso,Veneto,Casa di Cura Giovanni XXIII,582732952,Via Antonio Calvani 186
+Pieve Di Soligo,Veneto,Farmacia Schiratti di Schiratti Samuele,1461910080,Randazzo 38
+Preganziol,Veneto,Park Villa Napoleon - casa di cura neuropsichiat,1330957451,Anguillara Sabazia 35
+Villorba,Veneto,"Casa di riposo e Centro diurno """"Gino e Pierina",2348043780,Martinsicuro 100
+Mira,Veneto,Consultorio USL 13,1120722373,Piazza Mercato 122
+San Michele Al Tagliamento,Veneto,Azienda ULSS 10,1482481262,Canova 54
+San Michele Al Tagliamento,Veneto,First Aid,1963439942,Viale delle Ninfee 181
+Venezia,Veneto,Istituto Carlo Steeb,895559828,Via Alberoni 87
+Montagnana,Veneto,Ospedale di Montagnana,1600857902,Via Lovara 45
+Padova,Veneto,Centro di foniatria,2954858744,Via Bergamo 10
+Padova,Veneto,Croce Rossa,2963468734,Via della Croce Rossa 91
+Padova,Veneto,Dipartimento Socio Sanitario ai Colli,3124119148,Via dei Colli 83
+Padova,Veneto,Villa Maria,1005263880,Via delle Melette 148
+Piazzola Sul Brenta,Veneto,Distretto Sanitario,3735141153,Via dei Contarini 170
+Selvazzano Dentro,Veneto,Ulss di Selvazzano,1540781487,Noicattaro 152
+Cividale Del Friuli,Friuli-Venezia Giulia,Croce Rossa Italiana,2288834785,Agnone 27
+Cividale Del Friuli,Friuli-Venezia Giulia,Hospital,3218834559,Assisi 60
+Flaibano,Friuli-Venezia Giulia,Ambulatorio,2975045843,Via Vittorio Veneto 15
+Palmanova,Friuli-Venezia Giulia,Ospedale Civile di Palmanova,621603401,Via Natisone 136
+Tolmezzo,Friuli-Venezia Giulia,Sant?Antonio Abate,1918387355,Via Forni di Sotto 6
+Udine,Friuli-Venezia Giulia,Dipartimento di Salute Mentale A.S.S. 4,1462112178,Via Fonderia 190
+Udine,Friuli-Venezia Giulia,Istituto di Medicina Fisica e Riabilitazione Ger,1821567397,Cologno al Serio 7
+Monfalcone,Friuli-Venezia Giulia,Pronto Soccoso,2929114188,Novara 158
+Trieste,Friuli-Venezia Giulia,Casa di cura Salus,1482133308,Via Bonaparte 4/6
+Trieste,Friuli-Venezia Giulia,Pronto Soccorso,3217837479,Via Trento Trieste 33
+Trieste,Friuli-Venezia Giulia,Pronto Soccorso Cattinara,3217873909,Cesenatico 33
+Castel San Giovanni,Emilia-Romagna,Ospedale civile,924449750,Atessa 13
+Piacenza,Emilia-Romagna,defibrillatore (DAE),3069871601,Vigonza 76
+Pianello Val Tidone,Emilia-Romagna,Pia Casa Castagnetti,1319945702,Viale Castagnetti 86
+Rottofreno,Emilia-Romagna,Casa della Salute,2315622764,Via Mario Alicata 118
+Borgo Val Di Taro,Emilia-Romagna,Santa Maria,1455072062,Via degli Emigranti 147
+Fidenza,Emilia-Romagna,Assistenza Pubblica Fidenza,2582319720,Località Vaio 58
+Fidenza,Emilia-Romagna,Italian Red Cross,2582316110,Strada della Bionda 72
+Fidenza,Emilia-Romagna,Ospedale di Vaio,441922074,Località Vaio 198
+Fontanellato,Emilia-Romagna,Centro Cardinal Ferrari,411882584,Viale IV Novembre 17
+Medesano,Emilia-Romagna,Croce rossa di Medesano,1748577183,Montalto di Castro 195
+Parma,Emilia-Romagna,Ospedale Maggiore,441349778,Via Edmondo De Amicis 24
+Tizzano Val Parma,Emilia-Romagna,Croce Rossa (Pronto Soccorso),3384733654,Via Aldo Moro 12
+Castelnovo Ne'Monti,Emilia-Romagna,Ospedale S. Anna,1944314039,Via Roma 2
+Montecchio Emilia,Emilia-Romagna,Ospedale Ercole Franchini,317847269,Strada Barilla 2
+Sant'Ilario D'Enza,Emilia-Romagna,USL Sant'Ilario d'Enza - Distretto Montecchio Em,2244650201,Gozzano 27
+Mirandola,Emilia-Romagna,Santa Maria Bianca,1775959558,Via Giovanni Pico 181
+Modena,Emilia-Romagna,Casa di cura Villa Igea,2151903121,Monte San Giusto 96
+Modena,Emilia-Romagna,Ospedale sant'Agostino-Estense,973891908,Via Pietro Giardini 1355
+Modena,Emilia-Romagna,Pronto Soccorso,1538402646,Largo Del Pozzo 18
+Modena,Emilia-Romagna,Pronto Soccorso,2157172449,Largo Del Pozzo 130
+Modena,Emilia-Romagna,Villa Rosa,1591090156,Via Asiago 191
+Bologna,Emilia-Romagna,Ambulatorio,3190973943,Via Massenzio Masìa 21
+Bologna,Emilia-Romagna,Casa di cura Villa Bellombra,343166389,Via Bellombra 174
+Bologna,Emilia-Romagna,Cliniche Dentali,3810931037,Asti 104
+Bologna,Emilia-Romagna,CUP Metropolitano,1544177765,Via Montebello 6
+Bologna,Emilia-Romagna,Istituto Ortopedico Rizzoli,1637036206,Via Francesco Delitala 35
+Bologna,Emilia-Romagna,Ospedale Militare,474385036,Via Riva di Reno 30
+Bologna,Emilia-Romagna,Poliambulatorio Zanolini,3979367432,Via Antonio Zanolini 2
+Bologna,Emilia-Romagna,Villa Erbosa,440950148,Bolognina 21
+Bologna,Emilia-Romagna,Villa Regina,527877200,Via Castiglione 115
+Bologna,Emilia-Romagna,Villa Torri (ospedale privato),3982181498,Rodigo 15
+Budrio,Emilia-Romagna,Centro Protesi INAIL,1639926848,Via Rabuina 194
+Casalecchio Di Reno,Emilia-Romagna,Villa Chiara,1653392145,Vialetto Carlo Martinez Collado 65
+Castel San Pietro Terme,Emilia-Romagna,Ospedale di Castel San Pietro Terme,1631842426,Viale Alfredo Oriani 42
+Castiglione Dei Pepoli,Emilia-Romagna,Casa di cura / Primo intervento,3801840737,Via Fiera 25
+Imola,Emilia-Romagna,Montecatone Rehabilitation Institute,827782011,Via Montecatone 37
+Imola,Emilia-Romagna,Polo Territoriale Città di Imola (Ospedale Vecc,246493812,Forino 168
+Loiano,Emilia-Romagna,Ospedale di Loiano,691691088,Via G.B. Simiani 114
+San Giovanni In Persiceto,Emilia-Romagna,Ospedale Santissimo Salvatore,412480085,Via Enzo Palma 159
+San Pietro In Casale,Emilia-Romagna,"Polo Sanitario """"Anacleto Bonora""""",456203291,Via Asia 179
+Vergato,Emilia-Romagna,Ospedale di Vergato,811406978,Via dell'Ospedale 63
+Argenta,Emilia-Romagna,Ospedale Civile Mazzolani-Vandini,2335579801,Via Nazionale Ponente 120
+Bondeno,Emilia-Romagna,Ospedale Fratelli Borselli,3361796794,Via Dazio 91
+Comacchio,Emilia-Romagna,Ospedale San Camillo,1045853384,Via Raimondo Felletti 23
+Copparo,Emilia-Romagna,Ospedale San Giuseppe,2321777045,Piazzale Papa Giovanni Ventitreesimo 55
+Ferrara,Emilia-Romagna,"Casa di cura """"Salus""""",2263405659,Via Arianuova 164
+Ferrara,Emilia-Romagna,Centro di Medicina dello Sport,2627789359,Via Gustavo Bianchi 154
+Ferrara,Emilia-Romagna,Guardia Medica - Servizi socio sanitari,2107657889,Via Francesco Gandini 108
+Lagosanto,Emilia-Romagna,Ospedale del Delta,296858314,Via Valle Oppio 193
+Portomaggiore,Emilia-Romagna,Ospedale Carlo Eppi,2328753349,Via Edmondo De Amicis 81
+Bagnara Di Romagna,Emilia-Romagna,Poliambulatorio,1166552706,Via Don Montanari 108
+Faenza,Emilia-Romagna,Pronto Soccorso,546597683,Muravera 157
+Fusignano,Emilia-Romagna,Presidio Ospedaliero,1716107790,Via Vincenzo Monti 195
+Lugo,Emilia-Romagna,Ospedale Umberto I,299846736,Viale Dante Alighieri 10
+Ravenna,Emilia-Romagna,Casa di Cura Domus Nova,568095443,Via Paolo Pavirani 56
+Ravenna,Emilia-Romagna,Casa di cura San Francesco,528899706,Via Amalasunta 9
+Ravenna,Emilia-Romagna,Ospedale Santa Maria delle Croci,266550908,Viale Vincenzo Randi 5
+Cesenatico,Emilia-Romagna,Ospedale di Cesenatico,2163556775,Viale Cesare Abba 148
+Forli',Emilia-Romagna,"Casa di Cura """"Villa Igea""""",295030604,Rignano Flaminio 45
+Forli',Emilia-Romagna,"Casa di Cura """"Villa Serena""""",295017561,Montecorvino Rovella 72
+Forli',Emilia-Romagna,"Ospedale Privato """"Primus"""", gruppo Villa Maria",1138002831,Piacenza 169
+Forli',Emilia-Romagna,Pronto Soccorso,303496338,Via Carlo Forlanini 180
+Mercato Saraceno,Emilia-Romagna,Ospedale Capelli,1713423344,Via Decio Raggi 192
+Cagli,Marche,"Ospedale Civile """"A. Celli""""",3887554332,Via dell'ospedale 108
+Fossombrone,Marche,Ospedale Civile Fossombrone,1435016188,Via Fratelli Kennedy 168
+Frontone,Marche,Infermeria FISPS,2268215239,Anello Rifugio Vernosa 30
+Mondolfo,Marche,Ospedale Bartolini,2872559641,Piazza Bartolini 106
+Pergola,Marche,Ospedale SS Donnino e Carlo,2146013324,Via Giuseppe Di Vittorio 167
+Pesaro,Marche,ASUR,1858573726,Via Nanterre 150
+Urbania,Marche,DISTRETTO SANITARIO N° 2 DI URBANIA,3229583110,Via Roma 54
+Ancona,Marche,"Ospedale Cardiologico """"Giovanni Maria Lancisi""""",1260345488,Via Conca 54
+Ancona,Marche,"Ospedale Pediatrico """"G. Salesi""""",519171100,Forlimpopoli 25
+Chiaravalle,Marche,Ospedale M. Montessori,848204101,Via Fratelli Rosselli 176
+Cupramontana,Marche,Ambulatori,3063336686,Via Marianna Ferranti 9
+Sirolo,Marche,Croce Azzurra,3358233591,Via del Gelso 52
+Corridonia,Marche,Ospedale,519018205,Viale Italia 189
+Potenza Picena,Marche,Santo Stefano,364424585,Piazzale Santo Stefano 192
+Recanati,Marche,Casa di riposo IRCER,1413042519,Via XX Settembre 149
+Ascoli Piceno,Marche,Casa di Cura San Giuseppe,595790313,Via dei Narcisi 153
+Ascoli Piceno,Marche,Casa di Cura Villa San Marco,644135437,Via Salerno 93
+Offida,Marche,"Poliambulatorio di Offida (ex Ospedale Civile """"",672467096,Vazzola 116
+Camaiore,Toscana,Ospedale Versilia,256836182,Strada Statale Aurelia 335
+Lucca,Toscana,Casa di Cura Santa Zita,2302888821,Via del Panificio 13
+Lucca,Toscana,Fisioterapia,1798963327,Castello d’Argile 184
+Lucca,Toscana,Presidio Osepdaliero Piana di Lucca,248898429,Castelli Calepio 155
+Massarosa,Toscana,Misericordia,1549453127,Via Vittoria Manzoni 55
+Massarosa,Toscana,Misericordia di Stiava,1997884009,Cavaion Veronese 132
+Montecarlo,Toscana,Misericordia di Montecarlo,1925413884,Via della Verruca 181
+Lamporecchio,Toscana,Casa della Salute,2940769836,Via Pier Paolo Pasolini 13
+Bagno A Ripoli,Toscana,Ospedale S. Maria Annunziata,1753752061,Via dell'Antella 16
+Borgo San Lorenzo,Toscana,Pronto soccorso,534447403,Viale della Resistenza 180
+Firenze,Toscana,Centro Sangue,938223605,Via Luigi Boccherini 12
+Firenze,Toscana,CTO,715801424,Largo Palagi 1
+Firenze,Toscana,Ospedale di Santa Maria Nuova,3111530034,Via Folco Portinari 189
+Firenze,Toscana,Ospedale Piero Palagi,3111530402,Via San Bernardino da Siena 136
+Firenze,Toscana,Ospedale Santa Chiara,1268791137,Lentini 103
+Greve In Chianti,Toscana,Opsedale Rosa Libri,1088821976,Langhirano 95
+Pontassieve,Toscana,Dentist,1938471740,Piazza Aldo Moro 99
+Pontassieve,Toscana,Dentist,1938471753,Piazza Aldo Moro 121
+Scandicci,Toscana,Humanitas,533694525,Via Giuseppe Bessi 163
+Sesto Fiorentino,Toscana,Azienda Usl 10 Di Firenze,2209929226,Via Antonio Gramsci 119
+Figline E Incisa Valdarno,Toscana,Frate Sole,1047704499,Via San Romolo 19
+Figline E Incisa Valdarno,Toscana,Ospedale Serristori,2284593680,Via Giovanni da Verrazzano 120
+Figline E Incisa Valdarno,Toscana,USL 20/b,2284594838,Via Giovanni da Verrazzano 140
+Bibbona,Toscana,first aid (temp. Doctor),3053392453,Monte San Savino 63
+Marciana Marina,Toscana,Guardia Medica - Medical Assistance,465614224,Viale Margherita 137
+Piombino,Toscana,Villa Marina,1755087444,Via Salivoli 144
+Porto Azzurro,Toscana,Guardia Medica - Medical Assistance,464313412,Via Neghelli 46
+Cascina,Toscana,Guardia Medica,2430869207,Via della Vittoria 88
+Cascina,Toscana,Studi Medici Associati,1811225653,Via Tosco Romagnola 55
+Castelfranco Di Sotto,Toscana,Distretto socio-sanitario Galleno,2354813963,Via Don Giuseppe Arzilli 187
+Montecatini Val Di Cecina,Toscana,Guardia Medica,2360521272,Via Ernesto Solvay 67
+Pisa,Toscana,Casa di Cura San Rossore,1854247433,Viale delle Cascine 152/F
+Pisa,Toscana,Centro Medico,1798962277,Via delle Bocchette 1
+Pisa,Toscana,IRCCS Stella Maris,1279453276,Viale del Tirreno 37
+Pisa,Toscana,Pronto Soccorso,3512154941,Via Pietro Trivella 86
+Terricciola,Toscana,ASL 5 Unità Cure Primarie,1668362969,Via Giuseppe Verdi 8
+Vecchiano,Toscana,Pronto Soccorso,2634502193,Via del Mare 162
+Bibbiena,Toscana,Ospedale del Casentino,1392433677,Strada della Verna 173
+Cortona,Toscana,"Ospedale della Valdichiana """"Santa Margherita""""",1601712730,Strada Provinciale Siena - Cortona 114
+Montevarchi,Toscana,La Gruccia,729191106,San Filippo della Mela 130
+Montepulciano,Toscana,Ospedali Riuniti Valdichiana Senese,1715089667,Strada Provinciale Traversa di Montepulciano 113
+Poggibonsi,Toscana,Ospedale dell'Alta Val d'Elsa,263362557,Maltraverso SS68
+Torrita Di Siena,Toscana,Consultorio Antares,2524317095,Via Ottavio Maestri 4
+Grosseto,Toscana,Infermeria,3598244294,Chiavari 199
+Grosseto,Toscana,Ospedale della misericordia,755792646,Via Cavour 46
+Grosseto,Toscana,Pronto scoccorso,3670208706,Cameri 140
+Bastia,Umbria,Centro ASL,2429716499,Ginosa 101
+Citta' Di Castello,Umbria,Ospedale di Città di Castello,703223321,Via Luigi Angelini 10
+Foligno,Umbria,Nuovo Ospedale San Giovanni Battista,912145480,Via Massimo Arcamone 5
+Perugia,Umbria,Clinica Liotti,1490046090,Giaveno 1
+Perugia,Umbria,Santa Maria della Misericordia,1576533901,Via del Basalto 91
+Umbertide,Umbria,Ospedale Civile di Umbertide,1660262133,Via Cavour 40
+Castel Viscardo,Umbria,Asl,3149436864,Cagnano Varano 199
+Narni,Umbria,Presidio ospedaliero Narni,2683339413,Via Cappuccini Nuovi 3
+Orvieto,Umbria,Ospedale Santa Maria della Stella,3204463936,Località Ciconia 112
+San Venanzo,Umbria,U.S.L. Distretto Socio Sanitario,2550482145,Cervaro 56
+Acquapendente,Lazio,Ospedale Santa Maria della Scala,1732954478,Via Cesare Battisti 68
+Capranica,Lazio,Villa Paola,246965787,Piazzale Madonna del Piano 1
+Civita Castellana,Lazio,Ospedale Andosilla di Civita Castellana,490454523,Via San Salvatore 153
+Orte,Lazio,Centro Salute Orte,1818883486,Via Daniele Manin 170
+Tarquinia,Lazio,Ospedale,2128115697,Via Igea 137
+Viterbo,Lazio,Bel Colle,245879588,Belluno 58
+Scandriglia,Lazio,Farmacia,3955223564,Strada provinciale 39 di Scandriglia e Orvinio 181
+Albano Laziale,Lazio,Ospedale Regina Apostolorum,1602697582,Via Tacito 123
+Ariccia,Lazio,Luigi Spolverini,902522337,Via delle Cerquette 2
+Bracciano,Lazio,Ospedale Pubblico Padre Pio,911787320,Sant’Agostino 100
+Genzano Di Roma,Lazio,Istituto S.Giovanni Di Dio Fate Bene Fratelli,262336538,Como 93
+Genzano Di Roma,Lazio,Ospedale de Santis,825972097,Via Panorama 65
+Monterotondo,Lazio,Gonfalone,1983448219,Viale Bruno Buozzi 163
+Morlupo,Lazio,Croce Rossa Morlupo,2819141133,Via Giuseppe Di Vittorio 191
+Nemi,Lazio,Villa delle Querce,1035723052,Via delle Vigne 36
+Palombara Sabina,Lazio,San Salvatore,799400828,Viale Risorgimento 161
+Rocca Di Papa,Lazio,ASL,2440169911,Viale Enrico Ferri 34
+Roma,Lazio,ARES118,1196645632,Prato 189
+Roma,Lazio,Aurelia Hospital,434692525,Via Bogliasco 41
+Roma,Lazio,Distretto di salute mentale A.S.L. Roma D,2824672193,Via Adolfo Cozza 129
+Roma,Lazio,I.F.O. Istituto Regina Elena e Istituto San Gall,804465318,Mugnano di Napoli 63
+Roma,Lazio,Ospedale Israelitico,365299638,Via Fulda 14
+Roma,Lazio,Ospedale San Giovanni Battista,262114028,Via Luigi Ercole Morselli 13
+Roma,Lazio,Policlinico Tor Vergata,924590499,Viale Oxford 92
+Roma,Lazio,Pronto Soccorso,248528643,San Rocco 103
+Roma,Lazio,Pronto Soccorso,2318096925,San Rocco 113
+Roma,Lazio,Villa Sandra,428571538,Via Portuense 798
+Roma,Lazio,Villa Stuart,3034658080,Via di villa stuart 147
+Roma,Lazio,Villa Tiberia,1925831648,Via Emilio Praga 26
+Tivoli,Lazio,San Giovanni Evangelista,748775623,Via Antonio Parrozzani 3
+Valmontone,Lazio,Croce Rossa,839208231,Via Porta Napoletana 136
+Ladispoli,Lazio,POSTAZIONE 118,2936704791,Via della Luna 146
+Fiumicino,Lazio,Ospedale Pediatrico Bambin Gesu,251871299,San Marcello Pistoiese 112
+Gaeta,Lazio,Sala Mortuaria,3400475533,Pontassieve 16
+Castel Volturno,Campania,Clinica Pineta Grande,1759748613,Viale Filippo Lippi 54
+Solopaca,Campania,Covermark Point camouflage,3762483426,Via Roma 20
+Telese Terme,Campania,Fondazione Salvatore Maugeri,1482097122,Via Bagni Vecchi 179
+Agerola,Campania,Guardia Medica,2452231029,Via Armando Diaz 17
+Arzano,Campania,Distretto Sanitario,2455948307,Via Antonio Meucci 158
+Boscotrecase,Campania,"Pronto Soccorso, presidio ospedaliero di Boscotr",2245070714,Pontecorvo 165
+Capri,Campania,Ospedale G. Capilupi Capri,717588934,Caserta 45
+Frattaminore,Campania,Ospedale di Frattamaggiore San Giovanni di Dio,944699669,Bentivoglio 39
+Ischia,Campania,Istituto di Igiene mentale Buzziconia,2985999241,Traversa V. Marone 19
+Napoli,Campania,AOU Federico II,1180796146,Modena 39
+Napoli,Campania,Fatebenefratelli,1563719945,Viale Principe di Napoli 137
+Napoli,Campania,Santobono,434788443,Arenella 147
+Ottaviano,Campania,Casa di cura Trusso,1457151225,Via Vicinale Trecase 22
+Pollena Trocchia,Campania,Presidio Sanitario Apicella,3807622459,Via Giuseppe Verdi 177
+Portici,Campania,Guardia medica,2311452925,Via della Salute 102
+Procida,Campania,Ospedale Civile Albano Francescano,536513332,Via Vittorio Emanuele 69
+San Gennaro Vesuviano,Campania,Casa di cura La Madonnina,2778473426,Via Cozzolino 24
+San Giuseppe Vesuviano,Campania,Clinica Santa Lucia,1462176201,Via Provinciale Aielli 132
+Vico Equense,Campania,Ospedale De Luca e Rossano,686531791,Via Colonella 179
+Montella,Campania,Misericordia Montella,1436186943,Via Scipione Capone 12
+Battipaglia,Campania,Clinica Salus,1105817999,Via Federico Confalonieri 4
+Battipaglia,Campania,Santa Maria della Speranza,1089138199,Via Fiorignano 76
+Buonabitacolo,Campania,Guardia Medica,2251338911,Via Giovanni Falcone 121
+Celle Di Bulgheria,Campania,Guardia Medica,1704258810,Via Canonico De Luca 71
+Eboli,Campania,Campolongo Hospital,1107808246,Via della Marina 81
+Oliveto Citra,Campania,San Francesco D'Assisi,1089165860,Oliveto Citra SP9/b
+Padula,Campania,Clinica Fischietti,2251342126,Padula SS19
+Petina,Campania,Guardia medica,3441511946,Largo Olmo 140
+Polla,Campania,"Ospedaliero """"Luigi Curto""""",3508293448,Varallo 140
+Ravello,Campania,Amalfi Coast Hospital,2089784335,Via Cigliano 89
+Roccadaspide,Campania,Distretto ASL SA3 di Roccadaspide,546428302,Roccadaspide SS166
+Roccadaspide,Campania,Ospedale di Roccadaspide,450198361,Roccadaspide SP414
+Torchiara,Campania,Guardia Medica,2806634148,Sant'Antuono SP256
+Castel Del Monte,Abruzzo,Ambulatorio Medico,2725529566,Via del Gran Sasso 1
+Castel Di Sangro,Abruzzo,Presidio Ospedaliero,1497306398,Via Sangrina 166
+L'Aquila,Abruzzo,San Salvatore,309825644,Via Felice Natellis 153
+L'Aquila,Abruzzo,Villa Letizia,3776497182,Via Amiternina 21
+Pescocostanzo,Abruzzo,Guardia Medica,2956884002,Via Maiella 27
+Pratola Peligna,Abruzzo,Croce Verde,1604313268,Via Francesco Colella 26
+Sulmona,Abruzzo,"Ospedale Civile """"SS. Annunziata""""",1389962789,Viale Giuseppe Mazzini 97
+Silvi,Abruzzo,Presidio sanitario Silvi,2962649633,Argelato 149
+Pescara,Abruzzo,"Casa di Cura Privata """"Pierangeli""""",414248160,Piazza Luigi Pierangeli 1
+Chieti,Abruzzo,Ospedale Clinicizzato Ss. Annunziata,283246152,Via dei Vestini 9
+Campobasso,Molise,Ospedale Antonio Cardarelli,2774114656,Contrada Tappino 185
+Campobasso,Molise,Pronto Soccorso,2672544500,Viale Luigi Montalbò 149
+Castelnuovo Della Daunia,Puglia,Clinica De Luca,2288509818,Viale Aldo Moro 22
+Cerignola,Puglia,Tatarella,293551107,Cerignola 22
+Foggia,Puglia,"Casa Divina Provvidenza """"Don Uva""""",836076221,Via Michele Menichella 134
+Foggia,Puglia,Clinica Colonnello D'Avanzo,351142744,Viale Ofanto 152
+Lesina,Puglia,Pronto Soccorso Estivo,1241563267,Viale Mercurio 155
+San Marco In Lamis,Puglia,Ospedale di San Marco in Lamis,2293620765,Via Sannicandro 76
+Sannicandro Garganico,Puglia,a.s.l.fg,2156948851,Via Matteo del Campo 99
+San Severo,Puglia,Ospedale Teresa Masselli Mascia,1240376403,Via Governolo 10
+San Severo,Puglia,Ospedale Teresa Masselli Mascia,1240376442,Via Governolo 181
+Bari,Puglia,Ambulatorio medico - Croce Rossa Italiana,1433747566,Padiglione 202 18
+Bari,Puglia,Ambulatorio Primo Soccorso - First Aid - Croce R,1412486593,Clusone 146
+Bari,Puglia,ex C.T.O,616872053,Lungomare Giambattista e Pietro Starita 195
+Bari,Puglia,First Aid - university,2124054724,Via Scipione Crisanzio 82
+Bari,Puglia,Mater Dei,1291624453,Viale Louis Pasteur 6
+Bari,Puglia,Prontosoccorso policlinico,3874499030,Cerda 32
+Gioia Del Colle,Puglia,Centro Nazionale Riabilitativo per Hanseniani,2137514980,Strada Provinciale Gioia del Colle alla Santeramo in Colle verso Laterza 149
+Gravina In Puglia,Puglia,Guardia Medica,3354040309,Via Bari 193
+Gravina In Puglia,Puglia,Pronto Soccorso,3342451831,Via Bari 35
+Polignano A Mare,Puglia,Punto di primo intervento,567243847,Via Don Luigi Sturzo 162
+Ruvo Di Puglia,Puglia,Diagnostica s.r.l.,3536974724,Via Pietro Gobetti 10
+Sammichele Di Bari,Puglia,Guardia Medica,2393726733,Via Michelangelo Buonarroti 167
+Terlizzi,Puglia,Pronto Soccorso,323970296,Via Pasquale Fiore 116
+Triggiano,Puglia,"Ospedale """"Francesca Fallacara""""",1443084160,Via Oriente 132
+Triggiano,Puglia,"Ospedale """"Francesca Fallacara"""" Padiglione Nord",1443084176,Viale Aldo Moro 162
+Castellaneta,Puglia,Ospedale castellaneta,2808373547,Via del Mercato 1
+Grottaglie,Puglia,ASL,2454234307,Via Primo Maggio 91
+Grottaglie,Puglia,Pronto Soccorso 118,2374710402,Vedelago 172
+Martina Franca,Puglia,Civile di Martina Franca,590052359,Via Irene del Vecchio 3
+Taranto,Puglia,Ospedale Militare Marittimo,1376709969,Taranto 152
+Statte,Puglia,Ospedale G. Moscati,1375792171,Certaldo 109
+Latiano,Puglia,guardia medica,2097713322,Via Papa Giovanni XXIII 23
+Galatina,Puglia,Clinica S. Francesco,2154757521,Piazza Fortunato Cesari 4
+Gallipoli,Puglia,"Ospedale """"Sacro Cuore""""",1350293449,Gallipoli SP361
+Lecce,Puglia,Clinica Petrucciani,2347705644,Via Antonio Maglio 23
+Nardo',Puglia,Ospedale Civile Giuseppe Sambiasi,966256936,Via della Libertà 109
+Salice Salentino,Puglia,Poliambulatorio San Francesco,2504509546,Via Senatore Arcangelo de Castris 17
+Trepuzzi,Puglia,118,3918739670,Puglia Lecce
+Forenza,Basilicata,Pronto Soccorso,3213388604,Strada Provinciale 10 Venosina 34
+Potenza,Basilicata,Croce Rossa Italiana,3739240400,Via Parco Sant'Antonio La Macchia 101
+Senise,Basilicata,ASL,3127463474,Via Papa Giovanni XIII 31
+Matera,Basilicata,Guardia Medica,2506049647,Piazza Firenze 1
+Pisticci,Basilicata,Ospedale di Tinchi,2442861478,Viale Magna Grecia 147
+Acri,Calabria,Presidio ospedalaliere Beato Angelo,2358340869,Via Ippocrate 107
+Cosenza,Calabria,Pronto Soccorso,1409086932,Via Zara 128
+Luzzi,Calabria,Poliambulatorio,2272013482,Via Incoronata 187
+San Fili,Calabria,Casa di cura Villa Igea,3706948465,Via Cozzi 37
+San Giovanni In Fiore,Calabria,Pronto soccorso,1863503079,Via Vallone 102
+Villapiana,Calabria,Farmacia D.ssa De Franco Rosa,3623935700,Via Marsala 1
+Maida,Calabria,Ambulatorio Medico,2549611958,Vico III Mattia Preti 78
+Locri,Calabria,Ospedale di Locri,447451624,Contrada Verga 48
+Palmi,Calabria,Guardia Medica,1717736577,Rovello Porro 51
+Pazzano,Calabria,Guardia Medica,1667062959,Via Preiato 144
+Polistena,Calabria,"Presidio Ospedaliero """"Santa Maria degli Unghere",2758237665,Paceco 117
+Taurianova,Calabria,Ospedale di Taurianova,1362136151,Via La Villa 44
+Taurianova,Calabria,Veterinario,2431244667,Via Francesco Sofia Alessio 190
+Alcamo,Sicilia,"Ospedale """"San Vito e Santo Spirito""""",1503692847,Via Aminta 105
+Bagheria,Sicilia,poliambulatorio USL,1879138982,Via Franz Liszt 194
+Bagheria,Sicilia,Punto di primo intervento,3563294320,Via Papa Giovanni XXIII 61
+Bagheria,Sicilia,USL medicina di base,2018466720,Via Sallustio 98
+Bagheria,Sicilia,USL servizio veterinario,2018466722,Via Bernardo Mattarella 175
+Cefalu',Sicilia,Pronto Soccorso,3298106707,Via del Terzo Millennio 96
+Corleone,Sicilia,ASP office,3970918223,Via Duca d'Aosta 69
+Corleone,Sicilia,Hospital,3970921973,Corleone 176
+Geraci Siculo,Sicilia,Medical Assistance,3442497762,Via del Progresso 93
+Palermo,Sicilia,Casa di cura Demma,3942565372,Viale Regina Margherita 93
+Palermo,Sicilia,Casa di cura NOTO Pasqualino,3942564368,Via Dante 110
+Petralia Sottana,Sicilia,"Ospedale """"Madonna dell'Alto""""",1511807213,Petralia Sottana SP54
+Pollina,Sicilia,Guardia Medica Finale,2264288522,Via Giovanni Boccaccio 137
+San Giuseppe Jato,Sicilia,guardia medica,3874635259,Via Macello 5
+Lipari,Sicilia,Ambulance,759589649,Via Favaloro 144
+Lipari,Sicilia,Centro Diriabilitazione Neuropsicomotoria,2320159644,Ostiglia 45
+Messina,Sicilia,Casa di Cura Villa Igea,1665759739,Via Consolare Valeria 31
+Messina,Sicilia,Ospedale Papardo,1647430093,Viale Ferdinando Stagno d'Alcontres 13
+Messina,Sicilia,Villa Salus,1678302426,Viale Regina Margherita 81
+San Piero Patti,Sicilia,P. T. E.,3120527367,Morrovalle 197
+Agrigento,Sicilia,Ambulatorio medico,2341948097,Via San Giuseppe 129
+Agrigento,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455389,Santa Maria di Sala 37
+Agrigento,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455406,Barano d’Ischia 45
+Agrigento,Sicilia,Servizio continuità assistenziale (ex Guardia M,2176931644,Ciriè 28
+Alessandria Della Rocca,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455468,Boiano 183
+Aragona,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455414,Chiari 74
+Bivona,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455475,Gossolengo 147
+Burgio,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455473,Pontecorvo 139
+Caltabellotta,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455467,Passignano sul Trasimeno 110
+Caltabellotta,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455469,Cuneo 108
+Camastra,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455387,Ponte San Pietro 167
+Campobello Di Licata,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455386,Spilimbergo 189
+Canicatti',Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455407,Arosio 15
+Casteltermini,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455466,Trabia 47
+Castrofilippo,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455405,Gassino Torinese 194
+Cattolica Eraclea,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455409,Pavullo nel Frignano 99
+Cattolica Eraclea,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455418,Isola della Scala 56
+Cianciana,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455465,Settimo Torinese 149
+Comitini,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455415,San Polo d’Enza in Caviano 54
+Favara,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455398,Giaveno 29
+Joppolo Giancaxio,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455408,Sarezzo 192
+Lampedusa E Linosa,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455381,Rovellasca 122
+Licata,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455382,Rossano 127
+Licata,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455383,Costigliole d’Asti 72
+Lucca Sicula,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455471,Canosa di Puglia 110
+Menfi,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455474,Castiglione del Lago 165
+Montallegro,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455410,Cinisello Balsamo 137
+Montevago,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455480,Celle Ligure 87
+Naro,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455391,Partanna 31
+Palma Di Montechiaro,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455384,Sernaglia della Battaglia 84
+Palma Di Montechiaro,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455385,Barzanò 178
+Porto Empedocle,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455390,Cairate 25
+Porto Empedocle,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455395,Arosio 127
+Racalmuto,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455412,San Cataldo 105
+Racalmuto,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455413,Salò 5
+Raffadali,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455411,Campomarino 166
+Ravanusa,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455388,San Pietro Vernotico 121
+Realmonte,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455397,Rocca di Neto 100
+Realmonte,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455396,Verona 112
+Ribera,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455417,Pistoia 165
+Ribera,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455437,Pineto 151
+Sambuca Di Sicilia,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455478,Cascina 170
+San Biagio Platani,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455446,Arce 85
+San Giovanni Gemini,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455477,Capriate San Gervasio 195
+Santa Elisabetta,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455416,Cisterna di Latina 66
+Santa Margherita Di Belice,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455479,Villa Cortese 167
+Sant'Angelo Muxaro,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455433,Montichiari 42
+Santo Stefano Quisquina,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455476,Tombolo 77
+Siculiana,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455403,Santa Maria di Sala 143
+Villafranca Sicula,Sicilia,Servizio continuità assistenziale (ex Guardia M,2142455472,Cornuda 89
+Caltanissetta,Sicilia,Ospedale San Elia,2713620698,Fontevivo 198
+Enna,Sicilia,Umberto 1°,529486348,Via Umberto 53
+Piazza Armerina,Sicilia,Ospedale Michele Chiello,1664732380,Viale Conte Ruggero 65
+Aci Castello,Sicilia,Guardia Medica,2412380560,Via Stazione 15
+Caltagirone,Sicilia,Gravina,312672489,Caltagirone 52
+Catania,Sicilia,NAS Sigonella Hospital,1956584790,Strada statale della Valle del Dittaino 124
+Nicolosi,Sicilia,Analisi Service,3809824961,Recale 187
+Pedara,Sicilia,AUSL3 Azienda Unità Sanitaria Locale,1240849873,Campobello di Mazara 171
+Valverde,Sicilia,Guardia Medica,3404194550,Traversa A di Via Seminara 57
+Zafferana Etnea,Sicilia,Guardia medica,1214187752,Viale dei Giardini 7
+Ragusa,Sicilia,Guardia Medica,3855605457,Via Gaetano Schembri 82
+Ragusa,Sicilia,Guardia Medica,2249465540,Via Gaetano Schembri 134
+Santa Croce Camerina,Sicilia,Medlab,3777530657,Via Cristoforo Colombo 3
+Santa Croce Camerina,Sicilia,Radiologia Dott. Gerratana,3796102194,Via Conte Rosso 180
+Buscemi,Sicilia,Guardia medica,3136636640,Via Armando Diaz 73
+Lentini,Sicilia,Flight Line Clinic,1956529094,SP69/II 179
+Alghero,Sardegna,Ospedale Civile di Alghero,1163107779,Via Don Giovanni Minzoni 92
+Alghero,Sardegna,Ospedale Marino Regina Margherita,1163107774,Viale I Maggio 2
+Onani',Sardegna,Ambulatorio Onanì,2544242086,Via san Pietro 110
+Maracalagonis,Sardegna,Guardia Medica,3350116131,Via dell'Acquario 46
+Roveredo In Piano,Friuli-Venezia Giulia,RSA,1835568061,Via Viola 28
+Cabras,Sardegna,118,3118753598,Via Tharros 13
+Mogoro,Sardegna,Guardia medica,2614920362,Via Cagliari 86
+Ponderano,Piemonte,Ospedale degli Infermi,3185119556,Via dei Ponderanesi 112
+Introbio,Lombardia,A.S.L. Presidio di Introbio,2621644202,Località Sceregalli 160
+Introbio,Lombardia,"R.S.A. """"Villa Serena"""" - Casa di Riposo",2621644204,Zagarolo 146
+Lodi,Lombardia,Ospedale Maggiore,564682203,Via San Giacomo 194
+Rimini,Emilia-Romagna,Ospedale dei villeggianti,1934414893,Ciclabile lungomare di Rimini 111
+Prato,Toscana,Casa di cura Villa Fiorita,2357663100,Via di Galceti 59
+Crotone,Calabria,ASP,1584061157,Via Nazioni Unite 32
+Omegna,Piemonte,Ospedale Madonna del Popolo,1313078620,Lungo Lago Buozzi 95
+Pieve Vergonte,Piemonte,Distretto Sanitario ASL 14,3196013184,Via Mario Massari 191
+Pieve Vergonte,Piemonte,Veterinario,3726707110,Via Dottor G. Cicoletti 101
+Santa Teresa Gallura,Sardegna,Guardia Medica,2839889768,Via Eleonora d'Arborea 189
+Carbonia,Sardegna,Ospedale Sirai,1529348762,Via Don Luigi Orione 118
+Carate Brianza,Lombardia,Bianalisi s.r.l. Analisi Mediche,3655972703,Via Don Costante Mattavelli 1
+Limbiate,Lombardia,Villa Bianca - Multimedica,1301169753,Via Fratelli Bandiera 3
+Lissone,Lombardia,Croce Verde Lissonese,2429516858,Via Alberto da Giussano 56
+Seregno,Lombardia,Centro Psico - Sociale Seregno,905797149,Via Ivo Oliveti 17
+Varedo,Lombardia,Varedo Soccorso,2912402416,Via Rovigo 73
+Andria,Puglia,Guardia Medica,418759967,Via Antonio Canal 23
+Minervino Murge,Puglia,Ospedale Civile,667117500,Strada provinciale delle Murge 17
+Trani,Puglia,San Nicola Pellegrino,387221877,Viale Padre Pio 88

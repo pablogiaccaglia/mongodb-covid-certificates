@@ -4,12 +4,15 @@ from enum import Enum
 import datetime
 import random
 import string
-from collections import namedtuple
 from functools import partial
 
 import base45
 import pandas as pd
 import qrcodeutils
+
+import json
+import googlemaps
+from collections import namedtuple
 
 """ paths of CSV files in the 'final' folder """
 italianHospitalsCSVPath = 'datasets/final/italian_hospitals_standardized_no_nulls_no_duplicates_with_streets.csv'
@@ -27,6 +30,9 @@ ProductionAndExpirationDates = namedtuple("ProductionAndExpirationDates", ['prod
 partialPersonInfo = namedtuple("PartialPersonInfo", ['id', 'sex', 'age', 'phoneNumber'])
 CityInfoTuple = namedtuple("CityInfoTuple", ["name", "ID", "country"])
 Hub_ServiceMappingTuple = namedtuple("Hub_ServiceMapping", ['HealthcareServiceID', 'HubID'])
+Location = namedtuple("Location", ["route", "streetNumber", "city", "postalCode", "longitude", "latitude", "formattedAddress"])
+
+gmapsClient = googlemaps.Client(key = 'AIzaSyDGvxRkblk9QmNoL-RS-ExEbFz29e67SNw')
 
 
 def getRandomDate(start_date = datetime.date(2020, 11, 1), end_date = datetime.date(2021, 10, 1)) -> datetime:
@@ -430,10 +436,10 @@ def getRandomUniqueCertificateIdentifier() -> str:
 
 
 def encodeAndCompress(encoder, text: str) -> bytes:
-    textBytes = text.encode('ascii')
+    textBytes = text.encode()
     base45Text = encoder(textBytes)
-    compressedText = zlib.compress(base45Text)
 
+    compressedText = zlib.compress(base45Text)
     return compressedText
 
 
@@ -443,9 +449,75 @@ def generateQRCodeText(text: str) -> str:
     bytesImage = qrcodeutils.imageToBytesArray(image = qrcodeImage)
     decoded = bytesImage
 
-    return str(base64.b64encode(decoded))
+    return base64.b64encode(decoded).decode()
 
 
-def generateQRCode(text: str) -> str:
+def generateQRCodeBytes(byt: bytes) -> bytes:
+    qrcodeImage = qrcodeutils.bytesToQRCode(byt = byt)
+
+    qrcodeImage.save("cazzo.png")
+
+    bytesImage = qrcodeutils.imageToBytesArray(image = qrcodeImage)
+
+    return bytesImage
+
+
+def generateQRCode(text: str) -> bytes:
     encoded = encodeAndCompress(encoder = base45.b45encode, text = text)
-    return generateQRCodeText(text = str(encoded))
+    encodedQRCode = generateQRCodeBytes(byt = encoded)
+    return base64.b64encode(encodedQRCode)
+
+
+def getLocationInfo(gmaps: googlemaps.Client, location: str) -> Location:
+    # Geocoding an address
+    geocode_result = gmaps.geocode(location)
+
+    parsed = json.loads(json.dumps(geocode_result[0]))
+
+   # print(json.dumps(parsed, indent=4, sort_keys=True))
+
+    addressComponents = parsed['address_components']
+
+    streetNumber = None
+    route = None
+    city = None
+    postalCode = None
+
+    for component in addressComponents:
+        if "street_number" in component['types']:
+            streetNumber = component['long_name']
+
+        if "route" in component['types']:
+            route = component['long_name']
+
+        if "locality" in component['types']:
+            city = component['long_name']
+
+        if "postal_code" in component['types']:
+            postalCode = component['long_name']
+
+    formattedAddress = parsed['formatted_address']
+
+    geometry = parsed['geometry']
+    longitude = geometry['location']['lng']
+    latitude = geometry['location']['lat']
+
+    if city is None:
+        for component in addressComponents:
+            if "political" in component['types']:
+                city = component['long_name']
+                break
+
+    if postalCode is not None:
+        postalCode = int(postalCode)
+
+    if longitude is not None:
+        longitude = float(longitude)
+
+    if latitude is not None:
+        latitude = float(latitude)
+
+    return Location(route = route, streetNumber = streetNumber, city = city, postalCode = postalCode,
+                    longitude = longitude, latitude = latitude, formattedAddress = formattedAddress)
+
+

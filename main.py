@@ -8,7 +8,12 @@ client = MongoClient(uri)
 print(str(client.stats))
 # print(str(client.list_database_names()))
 
-smbud = client['SMBUD']
-print(str(smbud.list_collection_names()))
+smbudDb = client['SMBUD']
+
+
+def createPersonDocument(db) -> None:
+    personDoc = db['person']
+
+
 
 

@@ -21,10 +21,17 @@ italianStreetsCSVPath = 'datasets/original/italian_streets_no_duplicates_standar
 vaccinesCSVPath = 'datasets/final/italian_vaccines.csv'
 peopleCSVPath = 'datasets/original/people.csv'
 peopleCSVPathWithPhoneNumbers = 'datasets/original/people_with_phone_numbers.csv'
+peopleCSVPathFinal = 'datasets/final/people_with_phone_numbers_with_address_info_with_healtcare_info_with_emergency_contact_info.csv'
 covidTestsCSVPath = 'datasets/final/covid_tests.csv'
 vaccineLotsCSVPath = 'datasets/original/covid_vaccine_lots.csv'
 vaccineHub_HealthServiceMappingCSVPath = 'datasets/final/vaccineHubs-services id mapping.csv'
 testHub_HealthServiceMappingCSVPath = 'datasets/final/TestHubs-services id mapping.csv'
+givenVaccineCSVPathFinal = 'datasets/final/given_vaccines_with_encoded_qr.csv'
+givenTestsCSVPathFinal = 'datasets/final/given_tests.csv'
+vaccineLotsCSVPathFinal = 'datasets/final/covid_vaccine_lots.csv'
+healthcareServicesCSVPathFinal = 'datasets/final/asl italia 3_converted_standardized_no_duplicates_with_service_type_with_ID_with_coordinates.csv'
+vaccineHubsCSVPathFinal = 'datasets/final/punti-somministrazione-tipologia_standardized_no_duplicates_with_ID_with_location_info_with_service_id.csv'
+testHubsCSVPathFinal = 'datasets/final/italian pharmacies_converted_no_duplicates_with_ID_no_nulls_standardized_with_service_id.csv'
 
 ProductionAndExpirationDates = namedtuple("ProductionAndExpirationDates", ['productionDate', 'expirationDate'])
 partialPersonInfo = namedtuple("PartialPersonInfo", ['id', 'sex', 'age', 'phoneNumber'])
@@ -381,19 +388,19 @@ def getRandomManufacturer() -> VaccineManufacturer:
 
 def getCovidTestResultCode(covidTest: CovidTest, isPositive: bool) -> int:
     key = "Detected" if isPositive else "Not Detected"
-    return CovidTestResult[covidTest.name][key]
+    return CovidTestResult[covidTest.name].value[key]
 
 
 def getCovidTestType(covidTest: CovidTest) -> str:
-    return CovidTestType[covidTest.name]
+    return CovidTestType[covidTest.name].value
 
 
 def getCovidTestCertificateValidityDays(covidTest: CovidTest) -> int:
-    return CovidTestCertificateValidityDays[covidTest.name]
+    return CovidTestCertificateValidityDays[covidTest.name].value
 
 
 def getCovidTestResultWaitDays(covidTest: CovidTest) -> int:
-    return CovidTestResultWaitDays[covidTest.name]
+    return CovidTestResultWaitDays[covidTest.name].value
 
 
 def getVaccineName(manufacturer: VaccineManufacturer) -> VaccineBrandName:
@@ -462,10 +469,10 @@ def generateQRCodeBytes(byt: bytes) -> bytes:
     return bytesImage
 
 
-def generateQRCode(text: str) -> bytes:
+def generateQRCode(text: str) -> str:
     encoded = encodeAndCompress(encoder = base45.b45encode, text = text)
     encodedQRCode = generateQRCodeBytes(byt = encoded)
-    return base64.b64encode(encodedQRCode)
+    return str(base64.b64encode(encodedQRCode))[2:-1]
 
 
 def getLocationInfo(gmaps: googlemaps.Client, location: str) -> Location:

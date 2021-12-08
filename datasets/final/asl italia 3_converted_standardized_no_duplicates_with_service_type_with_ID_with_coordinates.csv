@@ -1,0 +1,252 @@
+Region Code,Region,Name,Type,Address,CAP,City,State,ID,Longitude,Latitude
+180,Calabria,A.S.P. Cosenza,A.S.P.,Viale Degli Alimena 8,87100,Cosenza,Italy,EUD323,16.2573168,39.2982773
+160,Puglia,Asl Bari,Asl,Lungomare Starita 6,70123,Bari,Italy,EPR491,16.8433437,41.1361465
+160,Puglia,Asl Foggia,Asl,Piazza Libertà 1,71100,Foggia,Italy,MON797,15.5512146,41.4556173
+160,Puglia,Asl Lecce,Asl,Via Miglietta 5,73100,Lecce,Italy,NNM629,18.178179,40.3445551
+140,Molise,Asrem,Asrem,Via Petrella 1,86100,Campobasso,Italy,LDL379,14.6572343,41.5551292
+41,Bolzano,ASL Sanitaria Della P.A. Di Bolzano,ASL,Via Cassa Di Risparmio 4,39100,Bolzano,Italy,BGT682,11.3394888,46.506952
+130,Abruzzo,ASL Lanciano-Vasto-Chieti,ASL,Via Martiri Lancianesi 19,66100,Chieti,Italy,ZIN632,14.7034917,42.11326649999999
+130,Abruzzo,ASL Lanciano-Vasto-Chieti,ASL,Chieti  Via Martiri Lancianesi 19,66100,Chieti,Italy,PYN367,14.7034917,42.11326649999999
+150,Campania,A.S.L. Avellino,A.S.L.,Via Degli Imbimbo 10/12,83100,Avellino,Italy,KVV707,14.7878022,40.9199749
+150,Campania,A.S.L. Benevento,A.S.L.,Via Oderisio 1,82100,Benevento,Italy,OWR810,14.7840726,41.1301355
+150,Campania,A.S.L. Caserta,A.S.L.,Via Unita' Italiana 28,81100,Caserta,Italy,WBB625,14.3410565,41.0719371
+30,Lombardia,A.S.L. Della Provincia Di Bergamo,A.S.L.,Via Gallicciolli 4,24121,Bergamo,Italy,KNC791,9.6969471,45.6923489
+30,Lombardia,A.S.L. Della Provincia Di Brescia,A.S.L.,V.Le Duca Degli Abruzzi 15,25124,Brescia,Italy,VPN912,10.5324915,45.6073399
+30,Lombardia,A.S.L. Della Provincia Di Como,A.S.L.,Via Pessina 6,22100,Como,Italy,YNZ652,9.1399438,45.73912379999999
+30,Lombardia,A.S.L. Della Provincia Di Cremona,A.S.L.,Via S. Sebastiano 14,26100,Cremona,Italy,LMV523,9.679924999999999,45.3623971
+30,Lombardia,A.S.L. Della Provincia Di Lecco,A.S.L.,C.So Carlo Alberto 120,23900,Lecco,Italy,EYM572,9.3201533,45.9179335
+30,Lombardia,A.S.L. Della Provincia Di Lodi,A.S.L.,P.Zza Ospedale 1,26900,Lodi,Italy,WNV621,9.4110097,45.2328412
+30,Lombardia,A.S.L. Della Provincia Di Lodi,A.S.L.,P.Zza Ospitale 10,26900,Lodi,Italy,PGB797,9.4110097,45.2328412
+30,Lombardia,A.S.L. Della Provincia Di Mantova,A.S.L.,Via Dei Toscani 1,46100,Mantova,Italy,GRL317,10.6104893,45.0895873
+30,Lombardia,A.S.L. Della Provincia Di Milano 1,A.S.L.,Via Savonarola 3,20025,Legnano,Italy,MFB639,9.1868847,45.45476790000001
+30,Lombardia,A.S.L. Della Provincia Di Milano 2,A.S.L.,Via Viii Giugno 69,20077,Melegnano,Italy,IHX807,9.1868847,45.45476790000001
+30,Lombardia,A.S.L. Della Provincia Di Pavia,A.S.L.,Viale Indipendenza 3,27100,Pavia,Italy,TVA129,9.1102463,45.1403354
+30,Lombardia,A.S.L. Della Provincia Di Sondrio,A.S.L.,Via Nazario Sauro 33,23100,Sondrio,Italy,ONW502,9.8945989,46.1704732
+30,Lombardia,A.S.L. Della Provincia Di Sondrio,A.S.L.,Via Nazario Sauro 38,23100,Sondrio,Italy,BLK724,9.8945989,46.1704732
+30,Lombardia,A.S.L. Della Provincia Di Varese,A.S.L.,Via Ottorino Rossi 9,21100,Varese,Italy,BKZ355,8.8965105,45.6126167
+30,Lombardia,A.S.L. Di Milano,A.S.L.,C.So Italia 19,20122,Milano,Italy,PDH180,9.1868847,45.45476790000001
+30,Lombardia,A.S.L. Di Vallecamonica-Sebino,A.S.L.,Via Nissolina 2,25043,Breno,Italy,PVQ950,10.1116659,45.8058841
+150,Campania,A.S.L. Napoli 1 Centro,A.S.L.,Centro Direzionale Is. F/9,80143,Napoli,Italy,SUM259,14.225719,40.8783362
+150,Campania,A.S.L. Napoli 1 Centro,A.S.L.,Via Comunale Del Principe 13/A,80145,Napoli,Italy,IYQ638,14.225719,40.8783362
+150,Campania,A.S.L. Napoli 2 Nord,A.S.L.,Via Corrado Alvaro 8,80078,Pozzuoli,Italy,TQO722,14.2704525,40.9420757
+150,Campania,A.S.L. Napoli 3 Sud,A.S.L.,C.So Alcide De Gasperi 167,80053,Castellammare Di Stabia,Italy,FME348,14.5130374,40.7208226
+30,Lombardia,A.S.L. Provincia Di Monza E Brianza,A.S.L.,Viale Elvezia 2,20052,Monza,Italy,OOD328,9.2535018,45.5920985
+30,Lombardia,A.S.L. Provincia Di Monza E Brianza,A.S.L.,Viale Elvezia 2,20900,Monza,Italy,VPB942,9.2535018,45.5920985
+150,Campania,A.S.L. Salerno,A.S.L.,Via Nizza 146,84124,Salerno,Italy,CGP901,14.7779833,40.6745528
+180,Calabria,A.S.P. Catanzaro,A.S.P.,Via Vinicio Cortese 25,88100,Catanzaro,Italy,NHT590,16.58466,38.9185072
+180,Calabria,A.S.P. Crotone,A.S.P.,Via Corigliano 1,88900,Crotone,Italy,MIC152,17.1304375,39.06892
+180,Calabria,A.S.P. Reggio Calabria,A.S.P.,Via Sant'Anna Ii Tronco 18/P,89128,Reggio Di Calabria,Italy,BPV344,15.6544871,38.1031286
+180,Calabria,A.S.P. Vibo Valentia,A.S.P.,Via Dante Alighieri 1,89900,Vibo Valentia,Italy,CKX812,16.0959788,38.6754362
+50,Veneto,Asl Adria,Asl,Piazza Degli Etruschi 9,45011,Adria,Italy,YIG934,12.0536914,45.0484307
+60,Friuli Venezia Giulia,Asl Alto Friuli,Asl,"P.Za Portuzza, 1",33013,Gemona Del Friuli,Italy,ETL234,13.0112806,46.4053761
+60,Friuli Venezia Giulia,Asl Alto Friuli,Asl,P.Za Portuzza 2,33013,Gemona Del Friuli,Italy,DEW121,13.0112806,46.4053761
+60,Friuli Venezia Giulia,Asl Alto Friuli - Collinare - Medio Friuli,Asl,P.Za Portuzza 2,33013,Gemona Del Friuli,Italy,QIF409,13.1405801,46.276311
+20,Valle D'Aosta,Asl Aosta,Asl,Via Guido Rey 1,11100,Aosta,Italy,KWH628,7.299739799999999,45.7351355
+90,Toscana,Asl Arezzo,Asl,Via Fonte Veneziana 8,52100,Arezzo,Italy,QPO151,11.8694026,43.4587425
+90,Toscana,Asl Arezzo,Asl,Via Curtatone 54,52100,Arezzo,Italy,DUD466,11.8694026,43.4587425
+50,Veneto,Asl Arzignano,Asl,Via Trento  4,36071,Arzignano,Italy,PYP243,11.3299871,45.51862759999999
+50,Veneto,Asl Arzignano,Asl,Via Trento 4,36071,Arzignano,Italy,VNL903,11.3299871,45.51862759999999
+60,Friuli Venezia Giulia,As Friuli Occidentale,As,Via Della Vecchia Ceramica 1,33170,Pordenone,Italy,OKV642,12.8397165,45.9542311
+100,Umbria,Asl 1 - Citta' Di Castello,Asl,Via Luigi Angelini 10,6012,Citta' Di Castello,Italy,NGV265,12.2534788,43.474059
+100,Umbria,Asl 3 - Foligno,Asl,Piazza Giacomini 40,6034,Foligno,Italy,RQI379,12.7231838,42.93340800000001
+100,Umbria,Asl 4 - Terni,Asl,Via Bramante 37,5100,Terni,Italy,KCC342,12.6512938,42.5473139
+160,Puglia,Asl Ba,Asl,Lungomare Starita 6,70123,Bari,Italy,WYX663,16.8433437,41.1361465
+160,Puglia,Asl Bat,Asl,Via Fornaci 201,70031,Andria,Italy,WJN243,16.2891256,41.2281372
+160,Puglia,Asl Br,Asl,Via Dalmazia 13,72100,Brindisi,Italy,YCD664,17.9373048,40.6443971
+160,Puglia,Asl Br,Asl,Via Napoli 8,72100,Brindisi,Italy,CHA746,17.9373048,40.6443971
+160,Puglia,Asl Bt,Asl,Via Fornaci 201,70031,Andria,Italy,MFA944,16.2891256,41.2281372
+10,Piemonte,Asl Citta' Di Torino,Asl,Corso Svizzera 164,10149,Torino,Italy,NAS950,7.673421099999999,45.0587458
+10,Piemonte,Asl Citta' Di Torino,Asl,Via San Secondo  29,10128,Torino,Italy,JQC608,7.673421099999999,45.0587458
+160,Puglia,Asl Fg,Asl,Piazza Libertà 1,71100,Foggia,Italy,KHH413,15.5609255,41.4445332
+160,Puglia,Asl Le,Asl,Via Miglietta 5,73100,Lecce,Italy,RKD620,18.178179,40.3445551
+160,Puglia,Asl Ta,Asl,Viale Virgilio 31,74100,Taranto,Italy,GEL278,17.2479552,40.4620506
+50,Veneto,Asl Asolo,Asl,Via Forestuzzo  41,31011,Asolo,Italy,QWN136,11.9125861,45.7969731
+50,Veneto,Asl Asolo,Asl,Via Forestuzzo 41,31011,Asolo,Italy,AAT125,11.9125861,45.7969731
+190,Sicilia,Asp Agrigento,Asp,Via Manzoni  140,92100,Agrigento,Italy,PDN298,13.5999973,37.3026713
+190,Sicilia,Asp Caltanissetta,Asp,Via Cusmano 10,93100,Caltanissetta,Italy,WCT538,14.023059,37.4893411
+190,Sicilia,Asp Catania,Asp,Via S. Maria La Grande 5,95124,Catania,Italy,RQJ914,15.0838452,37.5081525
+190,Sicilia,Asp Di Trapani,Asp,Via Mazzini 1,91100,Trapani,Italy,LTD802,12.51065,38.01566
+190,Sicilia,Asp Enna,Asp,Viale Diaz 23,94100,Enna,Italy,YIQ387,14.3939449,37.7467712
+190,Sicilia,Asp Messina,Asp,Via Del Vespro  289,98100,Messina,Italy,MCT570,15.5496802,38.1744582
+190,Sicilia,Asp Paleasl Roma Rmo,Asp,Via G. Cusmano 24,90100,Palermo,Italy,FVF551,13.358434,38.125725
+190,Sicilia,Asp Ragusa,Asp,P.Zza Igea 1,97100,Ragusa,Italy,UKO687,14.7251267,36.9143581
+190,Sicilia,Asp Ragusa,Asp,P.Zza Igea 1 1,97100,Ragusa,Italy,AJX813,14.7251267,36.9143581
+190,Sicilia,Asp Siracusa,Asp,C.So Gelone 17,96100,Siracusa,Italy,NMO294,15.2954473,37.0622362
+60,Friuli Venezia Giulia,Asu Friuli Centrale,Asu,Via Pozzuolo 330,33100,Udine,Italy,TQN503,13.2229911,46.0356028
+60,Friuli Venezia Giulia,Asu Giuliano Isontina,Asu,Via Costantinides  2,34128,Trieste,Italy,MCN644,13.8030764,45.6235119
+60,Friuli Venezia Giulia,Asui Di Trieste,Asui,Via Giovanni Sai 1-3,34128,Trieste,Italy,ILG881,13.8017209,45.6572202
+60,Friuli Venezia Giulia,Asui Di Udine,Asui,Via Pozzuolo 330,33100,Udine,Italy,XOD580,13.2229911,46.0356028
+110,Marche,Asur Marche,Asur,Via Caduti Del Lavoro 40,60131,Ancona,Italy,XOR129,13.5109733,43.6172867
+110,Marche,Asur Marche,Asur,Via G. Oberdan 2,60122,Ancona,Italy,JTS637,13.5109733,43.6172867
+30,Lombardia,Ats Dell'Insubria,Ats,Via O. Rossi 9,21100,Varese,Italy,OQU741,8.847273999999999,45.79934129999999
+30,Lombardia,Ats Della Brianza,Ats,Viale Elvezia 2,20900,Monza,Italy,QZR500,9.2535018,45.5920985
+30,Lombardia,Ats Della Citta' Metropolitana Di Milano,Ats,Corso Italia 19,20122,Milano,Italy,UEF985,9.1868847,45.45476790000001
+30,Lombardia,Ats Della Montagna,Ats,Via N. Sauro 38,23100,Sondrio,Italy,BJP534,9.874351899999999,46.1681693
+30,Lombardia,Ats Della Val Padana,Ats,Via Dei Toscani 1,46100,Mantova,Italy,MPG442,10.7899046,45.1638731
+30,Lombardia,Ats Di Bergamo,Ats,Via Gallicciolli 4,24121,Bergamo,Italy,DJX394,9.6726435,45.6944724
+30,Lombardia,Ats Di Brescia,Ats,Viale Duca Degli Abruzzi 15,25122,Brescia,Italy,VOF717,,
+30,Lombardia,Ats Di Pavia,Ats,Viale Indipendenza 1,27100,Pavia,Italy,HVM398,9.1554345,45.1935065
+100,Umbria,Ausl Umbria N.1,Ausl,Via G. Guerra  21/17,6127,Perugia,Italy,RJH842,12.3655462,43.1050888
+100,Umbria,Ausl Umbria N.2,Ausl,Viale Bramante  37,5100,Terni,Italy,QWU663,12.6349947,42.5708852
+130,Abruzzo,ASL Avezzano-Sulmona-L'Aquila,ASL,L'Aquila  Via G. Bellisari Snc,67100,L'Aquila,Italy,IUH885,13.9334096,42.0388526
+130,Abruzzo,ASL Avezzano-Sulmona-L'Aquila,ASL,Via G. Bellisari Snc,67100,L'Aquila,Italy,PQI989,13.9334096,42.0388526
+130,Abruzzo,ASL Avezzano-Sulmona-L'Aquila,ASL,L'Aquila  Via G. Bellisari Snc -,67100,L'Aquila,Italy,TZJ357,13.9334096,42.0388526
+200,Sardegna,ASL Per La Tutela Della Salute,ASL,Via Monte Grappa 82,7100,Sassari,Italy,JCJ658,9.1192718,39.2303016
+170,Basilicata,ASL Sanitaria Locale Di Matera  Asm,ASL,Via Montescaglioso 20,75100,Matera,Italy,DCP897,16.6179902,40.6501272
+170,Basilicata,ASL Sanitaria Locale Di Potenza Asp,ASL,Via Torraca 2,85100,Potenza,Italy,NDK558,15.8087951,40.63694419999999
+20,Valle D'Aosta,U.S.L. Valle D'Aosta,U.S.L.,Via Guido Rey 1,11100,Aosta,Italy,TCL973,7.299739799999999,45.7351355
+50,Veneto,Ulss N.1 Dolomiti,Ulss,Via Feltre 57,32100,Belluno,Italy,NFH943,12.2054365,46.13739899999999
+50,Veneto,Ulss N.2 Marca Trevigiana,Ulss,Via S. Ambrogio In Fiera 37,31100,Treviso,Italy,OFP967,12.2602365,45.659399
+50,Veneto,Ulss N.3 Serenissima,Ulss,Via Don Federico Tosatto 147,30174,Venezia,Italy,LEX327,12.2301217,45.5112052
+50,Veneto,Ulss N.4 Veneto Orientale,Ulss,P.Zza De Gasperi 5,30027,San Dona' Di Piave,Italy,DHK869,12.5729068,45.629925
+50,Veneto,Ulss N.5 Polesana,Ulss,V.Le Tre Martiri 89,45100,Rovigo,Italy,EKA884,11.8102568,45.0760602
+50,Veneto,Ulss N.6 Euganea,Ulss,Via E. Degli Scrovegni 14,35131,Padova,Italy,YPG650,11.8846965,45.4127245
+50,Veneto,Ulss N.7 Pedemontana,Ulss,Via Dei Lotti 40,36061,Bassano Del Grappa,Italy,LTU805,11.747005,45.7487652
+50,Veneto,Ulss N.8 Berica,Ulss,V.Le Rodolfi 37,36100,Vicenza,Italy,VZX103,11.5509008,45.5558671
+50,Veneto,Ulss N.9 Scaligera,Ulss,Via Valverde 42,37122,Verona,Italy,UHJ139,10.9868569,45.43520880000001
+80,Emilia Romagna,Usl Bologna,Usl,Via Castiglione 29,40124,Bologna,Italy,ACS370,11.346797,44.4897727
+80,Emilia Romagna,Usl Cesena,Usl,P.Zza Leonardo Sciascia 111/2,47522,Cesena,Italy,VKC530,12.2363668,44.1449006
+80,Emilia Romagna,Usl Della Asl Romagna,Usl,Via De Gasperi 8,48100,Ravenna,Italy,VNY701,12.1980114,44.4140521
+80,Emilia Romagna,Usl Ferrara,Usl,Via A.Cassoli 30,44100,Ferrara,Italy,CCJ364,11.6087525,44.840613
+80,Emilia Romagna,Usl Ferrara,Usl,Via A.Cassoli 30,44121,Ferrara,Italy,NWM296,11.6087525,44.840613
+80,Emilia Romagna,Usl Forli',Usl,Corso Repubblica 171/D,47100,Forli',Italy,XWO807,12.0408403,44.21720819999999
+80,Emilia Romagna,Usl Imola,Usl,Viale  Amendola 2,40026,Imola,Italy,YCO359,11.7077899,44.367849
+80,Emilia Romagna,Usl Modena,Usl,Via S.Giovanni Del Cantone 23,41100,Modena,Italy,DBL376,10.931823,44.6469614
+80,Emilia Romagna,Usl Paasl Roma Rma,Usl,Strada Del Quartiere 2/A,43123,Parma,Italy,CBI640,12.5364378,41.9432522
+80,Emilia Romagna,Usl Piacenza,Usl,Corso Vittorio Emanuele Ii° 169,29100,Piacenza,Italy,FKW519,9.6757469,45.0571943
+80,Emilia Romagna,Usl Piacenza,Usl,Via Antonio Anguissola 15,29121,Piacenza,Italy,NFT196,9.6757469,45.0571943
+80,Emilia Romagna,Usl Ravenna,Usl,Via A. De Gasperi 8,48100,Ravenna,Italy,IJL566,12.199185,44.4148112
+80,Emilia Romagna,Usl Reggio Emilia,Usl,Via Amendola 2,42122,Reggio Nell'Emilia,Italy,BCI780,10.6644117,44.6870353
+80,Emilia Romagna,Usl Rimini,Usl,Via Coriano 38,47037,Rimini,Italy,YZI446,12.5790856,44.0404685
+90,Toscana,Usl Toscana Centro,Usl,Piazza Santa Maria Nuova 1,50122,Firenze,Italy,HSQ431,11.0914171,43.879728
+90,Toscana,Usl Toscana Nord-Ovest,Usl,Via Cocchi 7/9,56124,Pisa,Italy,USH749,10.4400613,43.6835734
+90,Toscana,Usl Toscana Sud-Est,Usl,Via Curtatone 54,52100,Arezzo,Italy,TAR468,11.8694026,43.4587425
+60,Friuli Venezia Giulia,Aas Bassa Friulana,Aas,Via Natisone-Fraz. Jalmicco,33057,Palmanova,Italy,NXE277,13.001729,45.7689572
+60,Friuli Venezia Giulia,Aas Bassa Friulana,Aas,Via Natisone 11,33057,Palmanova,Italy,VIQ661,13.001729,45.7689572
+60,Friuli Venezia Giulia,Aas Bassa Friulana - Isontina,Aas,Via Vittorio Veneto 174,34170,Gorizia,Italy,YLS825,13.6328513,45.9336174
+50,Veneto,Aulss Bassano Del Grappa,Aulss,Via Dei Lotti 40,36061,Bassano Del Grappa,Italy,WYH864,11.747005,45.7487652
+50,Veneto,Aulss Belluno,Aulss,Via Feltre  57,32100,Belluno,Italy,FUN163,12.2054365,46.13739899999999
+50,Veneto,Aulss Belluno,Aulss,Via Feltre 57,32100,Belluno,Italy,FJS367,12.2054365,46.13739899999999
+10,Piemonte,Asl Biella,Asl,Via Marconi 23,13900,Biella,Italy,GPM568,8.0606819,45.5663582
+10,Piemonte,Asl Biella,Asl,Via Dei Ponderanesi 2,13875,Ponderano,Italy,UJM101,8.0606819,45.5663582
+50,Veneto,Asl Bussolengo,Asl,Via Citella 52,37012,Bussolengo,Italy,EVB608,10.8452735,45.4655279
+50,Veneto,Asl Bussolengo,Asl,Via Citella 0,37012,Bussolengo,Italy,EAD776,10.8452735,45.4655279
+50,Veneto,Asl Bussolengo,Asl,C. A. Dalla Chiesa 0,37012,Bussolengo,Italy,DVP984,10.8452735,45.4655279
+200,Sardegna,Asl Cagliari,Asl,Via Logudoro 17,9100,Cagliari,Italy,AFG496,9.1195884,39.2120511
+200,Sardegna,Assl Carbonia,Assl,Via Dalmazia,9016,Iglesias,Italy,MER976,8.5162168,39.1725603
+200,Sardegna,Assl Carbonia,Assl,Via Dalmazia 83,9013,Carbonia,Italy,JZH768,8.5162168,39.1725603
+70,Liguria,Asl Chiavarese,Asl,Via C.B.Ghio 9,16043,Chiavari,Italy,DOG795,9.3250646,44.3198971
+70,Liguria,Asl Chiavarese,Asl,Via G.B.Ghio 9,16043,Chiavari,Italy,IVG462,9.3250646,44.3198971
+50,Veneto,Aulss Chioggia,Aulss,Strada Madonna Marina 500,30015,Chioggia,Italy,NGT902,12.2969163,45.2001352
+100,Umbria,Usl Citta' Di Castello,Usl,Via Luigi Angelini 10,6012,Citta` Di Castello,Italy,PWX631,12.2534788,43.474059
+50,Veneto,Aulss Cittadella,Aulss,Via Casa Di Ricovero  40,35010,Cittadella,Italy,MTN706,11.7870199,45.6473489
+50,Veneto,Aulss Cittadella,Aulss,Via Casa Di Ricovero 40,35013,Cittadella,Italy,MBP455,11.7870199,45.6473489
+10,Piemonte,Asl Cuneo Cn1,Asl,Via Carlo Boggio 12,12100,Cuneo,Italy,NPZ990,7.542958400000001,44.3828805
+10,Piemonte,Asl Cuneo Cn2,Asl,Via Vida 10,12051,Alba,Italy,ZOQ459,7.684629999999999,44.77641
+90,Toscana,Ausl Empoli,Ausl,P.Zza Xxiv Luglio 1,50053,Empoli,Italy,VTD485,10.9483749,43.7111843
+90,Toscana,Ausl Empoli,Ausl,Via Dei Cappuccini 79,50053,Empoli,Italy,DTN732,10.9483749,43.7111843
+50,Veneto,Aulss Este Monselice Montagnana,Aulss,Via G. Marconi 19,35043,Montagnana,Italy,GRP215,11.4607543,45.2367248
+50,Veneto,Aulss Feltre,Aulss,Via Bagnols Sur Ceze' 3,32032,Feltre,Italy,HZP532,11.91044,46.023239
+90,Toscana,Ausl Firenze,Ausl,P.Zza S.Maria Nuova 1,50122,Firenze,Italy,TLW337,11.1961422,43.7809099
+100,Umbria,Ausl Foligno,Ausl,Piazza Giacomini 40,6034,Foligno,Italy,VXA702,12.6894206,42.9628554
+60,Friuli Venezia Giulia,As Friuli Centrale,As,Via Pozzuolo 330,33100,Udine,Italy,PRJ602,13.2229911,46.0356028
+60,Friuli Venezia Giulia,As Friuli Occidentale,As,Via Della Vecchia Ceramica,33170,Pordenone,Italy,GBB762,12.8397165,45.9542311
+60,Friuli Venezia Giulia,As Friuli Occidentale,As,Via Della Vecchia Ceramica 1,33170,Pordenone,Italy,ANI333,12.8397165,45.9542311
+120,Lazio,Asl Frosinone,Asl,Viale A. Fabi Snc,3100,Frosinone,Italy,PAV894,13.3478568,41.6385282
+70,Liguria,Asl Genovese,Asl,Via G. Maggio 6,16147,Genova,Italy,EDV780,8.9367852,44.41257479999999
+70,Liguria,Asl Genovese,Asl,Via Bertani 4,16125,Genova,Italy,FOV996,8.9367852,44.41257479999999
+90,Toscana,Asl Grosseto,Asl,Via Monteleoni 6/B,58100,Grosseto,Italy,EJR103,11.1104051,42.7670676
+90,Toscana,Asl Grosseto,Asl,Via Cimabue 109,58100,Grosseto,Italy,TMY945,11.1104051,42.7670676
+70,Liguria,Asl Imperiese,Asl,"Via Aurelia, 97",18032,San Remo,Italy,SJZ607,7.850481999999999,43.8345869
+70,Liguria,Asl Imperiese,Asl,Via Aurelia Ponente 97,18038,Sanremo,Italy,MTM379,7.850481999999999,43.8345869
+70,Liguria,Asl Imperiese,Asl,Via Aurelia Ponente 97,18038,San Remo,Italy,OGK684,7.850481999999999,43.8345869
+60,Friuli Venezia Giulia,Aas Isontina,Aas,Via Vittorio Veneto 24,34170,Gorizia,Italy,IGB255,13.6328513,45.9336174
+60,Friuli Venezia Giulia,Aas Isontina,Aas,Via Vittorio Veneto 174,34170,Gorizia,Italy,DJR317,13.6328513,45.9336174
+130,Abruzzo,Asl Lanciano-Vasto-Chieti,Asl,Via Martiri Lancianesi 19,66100,Chieti,Italy,IRI315,14.7034917,42.11326649999999
+130,Abruzzo,Asl Lanciano-Vasto-Chieti,Asl,Chieti  Via Martiri Lancianesi 19,66100,Chieti,Italy,SOB719,14.7034917,42.11326649999999
+200,Sardegna,Assl Lanusei,Assl,Via Piscinas 5,8045,Lanusei,Italy,CJC181,9.53669,39.87892000000001
+120,Lazio,Ausl Latina,Ausl,V.Le Pierluigi Nervi Torre 2G Snc,4100,Latina,Italy,KYO978,12.8906697,41.46539629999999
+50,Veneto,Asst Legnago,Asst,Via Gianella  1,37045,Legnago,Italy,WNV480,11.3157395,45.1858396
+50,Veneto,Asst Legnago,Asst,Via Gianella 1,37045,Legnago,Italy,QTJ294,11.3157395,45.1858396
+90,Toscana,Ausl Livorno,Ausl,Via Monterotondo 49,57100,Livorno,Italy,TEN268,10.326936,43.5515064
+180,Calabria,Asp Locri,Asp,Ctr. Verga,89044,Locri,Italy,RJZ721,16.2454349,38.2372801
+90,Toscana,Ausl Lucca,Ausl,V. Per S.Alessio M.S. Quiri,55100,Lucca,Italy,WYE217,10.5169899,43.8510551
+90,Toscana,Ausl Lucca,Ausl,V. Per S.Alessio M.S. Quirico,55100,Lucca,Italy,TTV763,10.5169899,43.8510551
+90,Toscana,Ausl Lucca,Ausl,V. Per S.Alessio M.S. Quirico 1,55100,Lucca,Italy,JXA775,10.5169899,43.8510551
+90,Toscana,Ausl Massa Carrara,Ausl,Via Don Minzoni 3,54033,Carrara,Italy,RPY940,10.0785119,44.0366362
+60,Friuli Venezia Giulia,Aas Medio Friuli,Aas,Via Colugna 50,33100,Udine,Italy,IVE632,13.1405801,46.276311
+60,Friuli Venezia Giulia,Aas Medio Friuli,Aas,Via Pozzuolo 330,33100,Udine,Italy,KUZ331,13.1405801,46.276311
+50,Veneto,Asl Mirano,Asl,Via Mariutto 76,30035,Mirano,Italy,EJU774,12.1135959,45.4977599
+50,Veneto,Asl Monselice,Asl,Via G. Marconi 19,35043,Monselice,Italy,MHC923,11.755977,45.2368837
+10,Piemonte,Asl Novara,Asl,Via Dei Mille 2,28100,Novara,Italy,ROQ269,8.6215561,45.4405408
+200,Sardegna,Asl Nuoro,Asl,Via A. Demurtas 1,8100,Nuoro,Italy,DYN292,9.3340059,40.3187669
+200,Sardegna,Assl Olbia,Assl,Viale Aldo Moro,7026,Olbia,Italy,OWK979,9.501244000000002,40.931437
+200,Sardegna,Assl Oristano,Assl,Via Carducci,9170,Oristano,Italy,FKA928,8.5886663,39.90115249999999
+200,Sardegna,Assl Oristano,Assl,Via Carducci 35,9170,Oristano,Italy,CJW102,8.5886663,39.90115249999999
+50,Veneto,Aulss Padova,Aulss,Via E. Degli Scrovegni 14,35100,Padova,Italy,KVF238,11.8846965,45.4127245
+50,Veneto,Aulss Padova,Aulss,Via E. Degli Scrovegni 14,35131,Padova,Italy,AOC851,11.8846965,45.4127245
+100,Umbria,Ausl Perugia,Ausl,Via Guerra 17/21,6127,Perugia,Italy,DZU225,12.3684883,43.1027128
+130,Abruzzo,Ausl Pescara,Ausl,Pescara  Via R. Paolini 47,65100,Pescara,Italy,OWJ353,14.1992988,42.4641258
+130,Abruzzo,Ausl Pescara,Ausl,Via R. Paolini 47,65100,Pescara,Italy,HDO756,14.1992988,42.4641258
+50,Veneto,Aulss Pieve Di Soligo,Aulss,Via Lubin  22,31053,Pieve Di Soligo,Italy,CIS668,12.1760845,45.8988051
+50,Veneto,Aulss Pieve Di Soligo,Aulss,Via Lubin 16,31053,Pieve Di Soligo,Italy,ZBX720,12.1760845,45.8988051
+90,Toscana,Ausl Pisa,Ausl,Via Zamenhof 1,56100,Pisa,Italy,PDW559,10.4198343,43.7106899
+90,Toscana,Ausl Pistoia,Ausl,Viale Matteotti 35,51100,Pistoia,Italy,ZMP466,10.9183214,43.9350393
+90,Toscana,Ausl Pistoia,Ausl,Via S. Pertini 708,51100,Pistoia,Italy,KBG458,10.9183214,43.9350393
+90,Toscana,Asl Prato,Asl,Viale Della Repubblica 240,50047,Prato,Italy,GWF227,11.0914171,43.879728
+90,Toscana,Asl Prato,Asl,Piazza Ospedale 5,59100,Prato,Italy,QWT528,11.0914171,43.879728
+120,Lazio,Asl Rieti,Asl,Viale  Matteucci 9,2100,Rieti,Italy,HXB783,12.8810647,42.4127728
+120,Lazio,Asl Roma Rm/A,Asl,Via Ariosto 3/9,185,Roma,Italy,TJG954,12.4185808,41.940283
+120,Lazio,Asl Roma Rm/B,Asl,Via Filippo Meda 35,157,Roma,Italy,BJU261,12.5511751,41.8596871
+120,Lazio,Asl Roma Rm/C,Asl,Viale Dell'Arte 68,144,Roma,Italy,CMV742,12.5129239,41.8348178
+120,Lazio,Asl Roma Rm/C,Asl,Via Primo Carnera 1,142,Roma,Italy,OJB720,12.5129239,41.8348178
+120,Lazio,Asl Roma Rm/D,Asl,Via Casal Bernocchi 73,125,Roma,Italy,AEL416,12.4597195,41.8811463
+120,Lazio,Asl Roma Rm/E,Asl,B.Go S. Spirito 3,193,Roma,Italy,LMC325,12.4614774,41.9014422
+120,Lazio,Asl Roma Rm/F,Asl,Via Delle Terme Di Traiano 39/A,53,Civitavecchia,Italy,QXU953,12.4185808,41.940283
+120,Lazio,Asl Roma Rm/G,Asl,Via Tiburtina 22/A,19,Tivoli,Italy,UNP598,12.4185808,41.940283
+120,Lazio,Asl Roma Rm/H,Asl,B.Go Garibaldi 12,41,Albano Laziale,Italy,ESR189,12.4185808,41.940283
+120,Lazio,Asl Roma 1,Asl,Borgo Santo Spirito 3,193,Roma,Italy,XRQ434,12.4614774,41.9014422
+120,Lazio,Asl Roma 2,Asl,Via Filippo Meda 35,157,Roma,Italy,BBI770,12.5149542,41.88574149999999
+120,Lazio,Asl Roma 3,Asl,Via Casal Bernocchi 73,125,Roma,Italy,CKD949,12.3807777,41.7842506
+120,Lazio,Asl Roma 4,Asl,Via Delle Terme Di Traiano 39/A,53,Civitavecchia,Italy,IRW724,11.7982248,42.0943266
+120,Lazio,Asl Roma 5,Asl,Via Tiburtina 22/A,19,Tivoli,Italy,QLC185,12.8024679,41.9593325
+120,Lazio,Asl Roma 6,Asl,B.Go Garibaldi 12,41,Albano Laziale,Italy,INL605,12.6606928,41.7266398
+50,Veneto,Aulss Rovigo,Aulss,V.Le Tre Martiri 89,45100,Rovigo,Italy,ICP640,11.8102568,45.0760602
+50,Veneto,Aulss S. Dona' Di Piave,Aulss,P.Zza De Gasperi  5,30027,San Dona' Di Piave,Italy,MDK337,12.5729068,45.629925
+50,Veneto,Aulss S. Dona' Di Piave,Aulss,P.Zza De Gasperi 5,30027,San Dona' Di Piave,Italy,MIX554,12.5729068,45.629925
+200,Sardegna,Assl Sanluri,Assl,Via Ungaretti Sn,9036,Sanluri,Italy,LIL640,8.9057984,39.5585372
+200,Sardegna,Assl Sanluri,Assl,Via Ungaretti Snc,9036,Sanluri,Italy,YRG124,8.9057984,39.5585372
+200,Sardegna,Asl Sassari,Asl,Via Zanfarino 44,7100,Sassari,Italy,TWD641,8.5540634,40.7195993
+200,Sardegna,Asl Sassari,Asl,Via Catalocchino 8,7100,Sassari,Italy,AVU400,8.5540634,40.7195993
+70,Liguria,Asl Savonese,Asl,Via Paleocapa 22,17100,Savona,Italy,KMD288,8.481980499999999,44.3064778
+70,Liguria,Asl Savonese,Asl,Via Manzoni 14,17100,Savona,Italy,MWP304,8.481980499999999,44.3064778
+90,Toscana,Ausl Siena,Ausl,Via Roma 75/76,53100,Siena,Italy,VJM766,11.3220335,43.3309437
+70,Liguria,Asl Spezzino,Asl,Via Xxiv Maggio 139,19124,La Spezia,Italy,GDI330,9.821826999999999,44.103195
+130,Abruzzo,Asl Teramo,Asl,Teramo  Circ.Ne Ragusa 1,64100,Teramo,Italy,LBK363,13.701071,42.6622572
+130,Abruzzo,Asl Teramo,Asl,Circ.Ne Ragusa 1,64100,Teramo,Italy,JUU895,13.701071,42.6622572
+100,Umbria,Usl Terni,Usl,Via Bramante 37,5100,Terni,Italy,IRG482,12.6349947,42.5708852
+50,Veneto,Aulss Thiene,Aulss,Via Rasa  9,36016,Thiene,Italy,ZFG782,11.4142636,45.7272738
+10,Piemonte,Asl To1,Asl,Via S.Secondo 29,10128,Torino,Italy,URE898,7.670988100000001,45.0389343
+10,Piemonte,Asl To2,Asl,Corso Svizzera 164,10149,Torino,Italy,ATJ802,7.6894869,45.0775349
+10,Piemonte,Asl To3,Asl,Via Martiri Xxx Aprile 30,10093,Collegno,Italy,CLN139,7.5752691,45.0831404
+10,Piemonte,Asl To4,Asl,Via Po 11,10034,Chivasso,Italy,OHD906,7.8900764,45.18700560000001
+10,Piemonte,Asl To5,Asl,Via San Domenico 21,10023,Chieri,Italy,PNQ613,7.693742500000001,44.9976108
+42,Prov. Auton. Trento,Apss Trento,Apss,"Via De Gasperi, 79",38100,Trento,Italy,ZVV449,11.1304231,46.0430263
+42,Prov. Auton. Trento,Apss Trento,Apss,Via De Gasperi 79,38100,Trento,Italy,AFQ215,11.1304231,46.0430263
+50,Veneto,Aulss Treviso,Aulss,Borgo Cavalli  42,31100,Treviso,Italy,LUL292,12.2602365,45.659399
+50,Veneto,Aulss Treviso,Aulss,Borgo Cavalli 42,31100,Treviso,Italy,OEZ787,12.2602365,45.659399
+60,Friuli Venezia Giulia,Asu Triestina,Asu,Via Del Farneto 3,34142,Trieste,Italy,VAV932,13.6392236,45.7735083
+60,Friuli Venezia Giulia,Asu Triestina,Asu,Via Sai 1,34128,Trieste,Italy,PRD739,13.6392236,45.7735083
+60,Friuli Venezia Giulia,Asu Triestina,Asu,Via Giovanni Sai 1-3,34128,Trieste,Italy,YLX492,13.6392236,45.7735083
+60,Friuli Venezia Giulia,Asu Triestina,Asu,Via Giovanni Sai 1-3,34128,Trieste,Italy,PAF532,13.6392236,45.7735083
+100,Umbria,Usl 2 - Perugia,Usl,Via Guerra 17/21,6127,Perugia,Italy,SWD766,12.3637121,43.1300184
+10,Piemonte,Asl Vercelli,Asl,C.So Mario Abbiate 21,13100,Vercelli,Italy,XWY315,8.407784,45.3236388
+10,Piemonte,Asl Vco,Asl,Via Mazzini 117,28887,Omegna,Italy,SEQ979,8.5642291,45.9292342
+50,Veneto,Aulss Veneziana,Aulss,Via Don Tosatto 147,30174,Venezia,Italy,AUY200,12.35677,45.43166
+50,Veneto,Aulss Veneziana,Aulss,Via Don Federico Tosatto 147,30174,Venezia,Italy,AFT468,12.35677,45.43166
+50,Veneto,Aulss Verona,Aulss,Via Valverde  42,37122,Verona,Italy,JRX379,10.9868569,45.43520880000001
+50,Veneto,Aulss Verona,Aulss,Via Valverde 42,37122,Verona,Italy,LGI667,10.9868569,45.43520880000001
+90,Toscana,Usl Versilia,Usl,Via Vetraia 5,55049,Viareggio,Italy,ZTH890,10.159265,44.0153802
+90,Toscana,Usl Versilia,Usl,Via Aurelia 335,55043,Camaiore,Italy,GWP648,10.159265,44.0153802
+50,Veneto,Ulss Vicenza,Ulss,V.Le Rodolfi 37,36100,Vicenza,Italy,HBM301,11.5509008,45.5558671
+120,Lazio,Asl Viterbo,Asl,Via Enrico Fermi 15,1100,Viterbo,Italy,PEW367,12.1220663,42.3950363

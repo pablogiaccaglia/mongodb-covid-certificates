@@ -155,7 +155,10 @@ def getParentRelationship(age: int, emergencyPersonInfo: utils.partialPersonInfo
     if age - emergencyPersonInfo.age > 20:
 
         if utils.generateRandomNumber(5) % 2 == 0:
-            return "child"
+            if emergencyPersonInfo.sex == "male":
+                return "son"
+            else:
+                return "daughter"
         else:
             if utils.generateRandomNumber(5) % 2 == 0:
                 return "nephew"
@@ -165,7 +168,10 @@ def getParentRelationship(age: int, emergencyPersonInfo: utils.partialPersonInfo
     if emergencyPersonInfo.age - age > 20:
 
         if utils.generateRandomNumber(5) % 2 == 0:
-            return "child"
+            if emergencyPersonInfo.sex == "male":
+                return "son"
+            else:
+                return "daughter"
         else:
             if utils.generateRandomNumber(5) % 2 == 0:
 
@@ -233,7 +239,6 @@ def addEmergencyContactInfoToPeopleCSV(csvPath, delimiter = ',') -> None:
     return outputString
 
 
-## approx 140 lots
 def createsVaccineLotsList() -> list:
     vaccineLotsList = []
 
@@ -281,16 +286,26 @@ def assignVaccinesToPeople():
     assign1DoseToPeople(lotsDict = data)
 
 
+def checkIfAlready2DosesAssigned(csvPath: str, personID: str) -> bool:
+    dictReader = DictReader(open(csvPath), delimiter = ',')
+
+    for data in dictReader:
+        if data['id'] == personID:
+            return True
+
+    return False
+
+
 def assign1DoseToPeople(lotsDict):
     peopleData = csv.reader(open(utils.peopleCSVPath))
     data = sorted(peopleData, key = operator.itemgetter(4), reverse = False)
 
-    val = math.floor(len(lotsDict) * 0.25)
+    val = math.floor(len(lotsDict) * 0.5)
     maxNumOfVaccinatedWith1Dose = val
     numOfVaccinatedWith1Dose = 0
     dailyNumberOfVaccinesWith1Dose = math.floor(val / 30)
     currentDailyNumberOfVaccinesWith1Dose = 0
-    currentDate = datetime.date(2021, 11, 7)
+    currentDate = datetime.date(2021, 12, 1)
 
     vaccinesAmountLot = 0
 
@@ -300,7 +315,7 @@ def assign1DoseToPeople(lotsDict):
 
     lot = lotsDict.pop(0)
 
-    dictWriter = DictWriter(open("datasets/final/given_vaccines.csv", 'a'),
+    dictWriter = DictWriter(open("datasets/converted/given_vaccines.csv", 'a'),
                             fieldnames = ["PersonID",
                                           "VaccinationDate",
                                           "DoseNumber",
@@ -321,9 +336,10 @@ def assign1DoseToPeople(lotsDict):
                                           "Schema version"],
                             delimiter = ',')
 
-    dictWriter.writeheader()
-
     for entry in data:
+
+        if checkIfAlready2DosesAssigned(csvPath = "datasets/final/people_with_phone_numbers_with_address_info_with_healtcare_info_with_emergency_contact_info.csv", personID = entry[5]):
+            continue
 
         currentDailyNumberOfVaccinesWith1Dose += 1
         numOfVaccinatedWith1Dose += 1
@@ -379,7 +395,7 @@ def assign2DosesToPeople(lotsDict):
     peopleData = csv.reader(open(utils.peopleCSVPath))
     data = sorted(peopleData, key = operator.itemgetter(4), reverse = False)
 
-    val = math.floor(len(data) * 0.25)
+    val = math.floor(len(data) * 0.75)
     maxNumOfVaccinatedWith2Doses = val
     numOfVaccinatedWith2Doses = 0
     dailyNumberOfVaccinesWith2Doses = math.floor(val / 120)
@@ -399,7 +415,7 @@ def assign2DosesToPeople(lotsDict):
             lot2 = lotsDict.pop(i)
             break
 
-    dictWriter = DictWriter(open("datasets/final/given_vaccines.csv", 'w'),
+    dictWriter = DictWriter(open("datasets/converted/given_vaccines.csv", 'w'),
                             fieldnames = ["PersonID",
                                           "VaccinationDate",
                                           "DoseNumber",
@@ -500,18 +516,18 @@ def assign2DosesToPeople(lotsDict):
                    'Certificate valid until':        dateOfSecondDose + datetime.timedelta(days = 3 + 270),
                    'Schema version':                 '1.0.0'}
 
-        dictWriter.writerow(row)
-        vaccinesAmountLot2 = vaccinesAmountLot2 + 2
+            dictWriter.writerow(row)
+            vaccinesAmountLot2 = vaccinesAmountLot2 + 2
 
 
 def findDatesOfVaccination(csvPath: str, personID: str) -> list:
-    dictReader = DictReader(open(csvPath), delimiter = '')
+    dictReader = DictReader(open(csvPath), delimiter = ',')
 
     datesOfVaccination = []
 
     for row in dictReader:
         if row['PersonID'] == personID:
-            datesOfVaccination.append(utils.parseDate(row['VaccinationDate']))
+            datesOfVaccination.append(utils.parseDate(row['VaccinationDate']).date())
             if row['Vaccine Product'] == utils.VaccineProductCode.PFIZER or len(datesOfVaccination) == 2:
                 break
 
@@ -521,7 +537,26 @@ def findDatesOfVaccination(csvPath: str, personID: str) -> list:
 def assignCovidTestToPeople():
     peopleData = csv.DictReader(open(utils.peopleCSVPath))
 
-    numberOfTakenTests = [0, 0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 3, 3, 4]
+    numberOfTakenTests = [1, 1, 1, 1, 2, 2, 1, 1, 1, 2, 2, 2, 3, 3, 4]
+
+    dictWriter = DictWriter(open("datasets/final/given_tests.csv", 'w'),
+                            fieldnames = ["PersonID",
+                                          "Test Date",
+                                          'Type',
+                                          "Positive",
+                                          "HealthServiceID",
+                                          "HubID",
+                                          'Certification QR Code',
+                                          "Disease or Agent Targeted",
+                                          'Test Type',
+                                          'Result of the Test',
+                                          "Unique Certificate Identifier",
+                                          'Country of Testing',
+                                          "Certificate valid from",
+                                          "Certificate valid until",
+                                          "Schema version"],
+                            delimiter = ',')
+    dictWriter.writeheader()
 
     for entry in peopleData:
         takes = random.choice(numberOfTakenTests)
@@ -532,7 +567,9 @@ def assignCovidTestToPeople():
 
         for _ in range(takes):
 
-            possibleDate1 = utils.getRandomDate(datetime.date(2020, 3, 10), datesOfVaccination[0])
+            date = datesOfVaccination[0] if len(datesOfVaccination) > 0 else datetime.date(2021, 11, 15)
+
+            possibleDate1 = utils.getRandomDate(datetime.date(2020, 3, 10), date)
 
             if len(datesOfVaccination) == 2:
                 possibleDate2 = utils.getRandomDate(datesOfVaccination[1], datetime.date.today())
@@ -548,30 +585,10 @@ def assignCovidTestToPeople():
             healthServiceID = hub_serviceMapping.HealthcareServiceID
             hubID = hub_serviceMapping.HubID
 
-            dictWriter = DictWriter(open("datasets/final/given_vaccines.csv", 'w'),
-                                    fieldnames = ["PersonID",
-                                                  "Test Date",
-                                                  'Test Type',
-                                                  'Positive'
-                                                  "HealthServiceID",
-                                                  "HubID",
-                                                  'Certification QR Code',
-                                                  "Disease or Agent Targeted",
-                                                  'Test Type',
-                                                  'Test Name',
-                                                  'Result of the Test'
-                                                  "Unique Certificate Identifier",
-                                                  'Country of Testing',
-                                                  "Certificate valid from",
-                                                  "Certificate valid until",
-                                                  "Schema version"],
-                                    delimiter = ',')
-            dictWriter.writeheader()
-
             row = {"PersonID":                      personID,
-                   "Test Date":                     date,
+                   "Test Date":                     date.strftime('%Y-%m-%d'),
                    'Type':                          test.value,
-                   'Positive':                      isPositive,
+                   "Positive":                      isPositive,
                    "HealthServiceID":               healthServiceID,
                    "HubID":                         hubID,
                    'Certification QR Code':         None,
@@ -582,12 +599,12 @@ def assignCovidTestToPeople():
                    "Unique Certificate Identifier": utils.getRandomUniqueCertificateIdentifier(),
                    'Country of Testing':            'IT',
 
-                   "Certificate valid from":        date + datetime.timedelta(
-                       days = utils.getCovidTestResultWaitDays(covidTest = test))
+                   "Certificate valid from":        (date + datetime.timedelta(
+                           days = utils.getCovidTestResultWaitDays(covidTest = test))).strftime('%Y-%m-%d')
                                                     if not isPositive else None,
 
-                   "Certificate valid until":       date + datetime.timedelta(
-                       days = utils.getCovidTestCertificateValidityDays(covidTest = test))
+                   "Certificate valid until":       (date + datetime.timedelta(
+                           days = utils.getCovidTestCertificateValidityDays(covidTest = test))).strftime('%Y-%m-%d')
                                                     if not isPositive else None,
 
                    "Schema version":                '1.0.0'}
@@ -595,7 +612,7 @@ def assignCovidTestToPeople():
             dictWriter.writerow(rowdict = row)
 
 
-def standardizeCSVColumns(csvPath: str, columnNames: list, delimiter = ',') -> None:
+def standardizeCSVColumns(csvPath: str, columnNames: list = None, delimiter = ',') -> None:
     """ Given a path of a CSV file and eventually its delimiter,
         converts each row of the given column in the CSV in a
         standard lowercase format with first letter uppercase
@@ -603,6 +620,10 @@ def standardizeCSVColumns(csvPath: str, columnNames: list, delimiter = ',') -> N
 
     try:
         reader = DictReader(open(csvPath), delimiter = delimiter)
+
+        if columnNames is None:
+            columnNames = list(reader.fieldnames)
+
         for columnName in columnNames:
             if columnName not in reader.fieldnames:
                 raise Exception(columnName + " is missing")
@@ -784,6 +805,73 @@ def addLocationInformationToHealthServices(csvPath: str):
         dictWriter.writerow(row)
 
 
+def addCoordinatesToHealthServices(csvPath: str):
+    dictReader = DictReader(open(csvPath), delimiter = ",")
+    headers = list(dictReader.fieldnames)
+
+    fileExtension = csvPath.find('.csv')
+    outputString = csvPath[:fileExtension] + '_with_coordinates' + csvPath[fileExtension:]
+
+    headers.append("Longitude")
+    headers.append("Latitude")
+
+    dictWriter = DictWriter(open(outputString, 'w'), fieldnames = headers, delimiter = ',')
+    dictWriter.writeheader()
+
+    for row in dictReader:
+
+        try:
+            locationInfo = utils.getLocationInfo(gmaps = utils.gmapsClient,
+                                                 location = row['Name'] + " " + row['Region'])
+
+            row["Longitude"] = locationInfo.longitude
+            row["Latitude"] = locationInfo.latitude
+
+        except Exception as e:
+            print(str(e))
+            pass
+
+        dictWriter.writerow(row)
+
+
+def findHealthServiceIDFromHub(hubID: str, serviceMappingCSVPath: str = None) -> str:
+    dictReaderServices = DictReader(open(serviceMappingCSVPath), delimiter = ",")
+
+    for row in dictReaderServices:
+        if row['Hub ID'] == hubID:
+            return row['Healthcare ID']
+
+    return "None"
+
+
+def addHealtcareServiceIDToHubCSV(hubCsvPath: str, serviceMappingCSVPath: str) -> None:
+    dictReaderHubs = DictReader(open(hubCsvPath), delimiter = ",")
+
+    headers = list(dictReaderHubs.fieldnames)
+    headers.append('healtcareServiceID')
+
+    fileExtension = hubCsvPath.find('.csv')
+    outputString = hubCsvPath[:fileExtension] + '_with_service_id' + hubCsvPath[fileExtension:]
+
+    dictWriterHubs = DictWriter(open(outputString, 'w'), fieldnames = headers, delimiter = ",")
+    dictWriterHubs.writeheader()
+
+    for row in dictReaderHubs:
+        row['healtcareServiceID'] = findHealthServiceIDFromHub(hubID = row['ID'],
+                                                               serviceMappingCSVPath = serviceMappingCSVPath)
+        dictWriterHubs.writerow(row)
+
+
+def removePeople():
+    dictReaderHubs = DictReader(open(hubCsvPath), delimiter = ",")
+
+    fileExtension = csvPath.find('.csv')
+    outputString = csvPath[:fileExtension] + '_with_coordinates' + csvPath[fileExtension:]
+
+    dictWriter = DictWriter(open(outputString, 'w'), fieldnames = headers, delimiter = ',')
+    dictWriter.writeheader()
+
+
 if __name__ == '__main__':
     #  path1 = addPhoneNumberToPeopleCSV(utils.peopleCSVPath)
     #  path2 = addAddressInformationToPeopleCSV(path1)
@@ -802,21 +890,34 @@ if __name__ == '__main__':
 
     # addRandomIDToCSV("datasets/final/asl italia 3_converted_standardized_no_duplicates_with_service_type.csv")
 
-    """
-        assignHubsToHealthcareServices(
-                hubsCSVPath = "datasets/final/punti-somministrazione-tipologia_standardized_no_duplicates_with_ID.csv",
-                healthcareServicesCSVPath = "datasets/final/asl italia 3_converted_standardized_no_duplicates_with_service_type_with_ID.csv",
-                outputFilePath = "datasets/final/vaccineHubs-services id mapping.csv")
-    
-        assignHubsToHealthcareServices(
-                hubsCSVPath = "datasets/final/italian pharmacies_converted_no_duplicates_no_nulls_with_ID.csv",
-                healthcareServicesCSVPath = "datasets/final/asl italia 3_converted_standardized_no_duplicates_with_service_type_with_ID.csv",
-                outputFilePath = "datasets/final/TestHubs-services id mapping.csv")
-                
-                """
-
     # createVaccineLotsCSV()
-    # assignVaccinesToPeople()
+   # assignVaccinesToPeople()
     # addQRCodesTextToCSV(csvPath = "datasets/final/given_vaccines.csv", fieldName = 'Certification QR Code')
-    addLocationInformationToHealthServices(
-        csvPath = "datasets/final/punti-somministrazione-tipologia_standardized_no_duplicates_with_ID.csv")
+
+    """assignHubsToHealthcareServices(
+                hubsCSVPath = "datasets/final/punti-somministrazione-tipologia_standardized_no_duplicates_with_ID_with_location_info.csv",
+                healthcareServicesCSVPath = "datasets/final/asl italia 3_converted_standardized_no_duplicates_with_service_type_with_ID.csv",
+                outputFilePath = "datasets/final/vaccineHubs-services id mapping.csv") """
+
+    """ assignHubsToHealthcareServices(
+                hubsCSVPath = "datasets/final/italian pharmacies_converted_no_duplicates_with_ID_no_nulls_standardized.csv",
+                healthcareServicesCSVPath = "datasets/final/asl italia 3_converted_standardized_no_duplicates_with_service_type_with_ID.csv",
+                outputFilePath = "datasets/final/TestHubs-services id mapping.csv") """
+
+    """ addLocationInformationToHealthServices(
+    csvPath = "datasets/final/punti-somministrazione-tipologia_standardized_no_duplicates_with_ID.csv") """
+
+    # addCoordinatesToHealthServices(csvPath = "datasets/final/asl italia 3_converted_standardized_no_duplicates_with_service_type_with_ID.csv")
+    #assignCovidTestToPeople()
+
+#  addQRCodesTextToCSV(csvPath = "datasets/converted/given_tests.csv", fieldName = 'Certification QR Code')
+
+# addHealtcareServiceIDToHubCSV(hubCsvPath = "datasets/final/italian pharmacies_converted_no_duplicates_with_ID_no_nulls_standardized.csv", serviceMappingCSVPath = "datasets/final/TestHubs-services id mapping.csv")
+
+# convertCSVDelimiter(csvPath = "datasets/final/given_tests_with_encoded_qr_f.csv", oldDelimiter = ';', newDelimiter = ',')
+
+#  standardizeCSVColumns(csvPath = "datasets/final/covid_vaccine_lots.csv", columnNames = ['Manufacturer', 'Name'])
+
+addQRCodesTextToCSV(csvPath = "datasets/final/given_tests.csv", fieldName = 'Certification QR Code')
+
+    #addEmergencyContactInfoToPeopleCSV(csvPath = "datasets/original/people_with_phone_numbers_with_address_info_with_healtcare_info.csv")

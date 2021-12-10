@@ -27,8 +27,8 @@ vaccineLotsCSVPath = 'datasets/original/covid_vaccine_lots.csv'
 vaccineHub_HealthServiceMappingCSVPath = 'datasets/final/vaccineHubs-services id mapping.csv'
 testHub_HealthServiceMappingCSVPath = 'datasets/final/TestHubs-services id mapping.csv'
 givenVaccineCSVPathFinal = 'datasets/final/given_vaccines_with_encoded_qr.csv'
-givenTestsCSVPathFinal = 'datasets/final/given_tests.csv'
-vaccineLotsCSVPathFinal = 'datasets/final/covid_vaccine_lots.csv'
+givenTestsCSVPathFinal = 'datasets/final/given_tests_with_encoded_qr.csv'
+vaccineLotsCSVPathFinal = 'datasets/final/covid_vaccine_lots_standardized.csv'
 healthcareServicesCSVPathFinal = 'datasets/final/asl italia 3_converted_standardized_no_duplicates_with_service_type_with_ID_with_coordinates.csv'
 vaccineHubsCSVPathFinal = 'datasets/final/punti-somministrazione-tipologia_standardized_no_duplicates_with_ID_with_location_info_with_service_id.csv'
 testHubsCSVPathFinal = 'datasets/final/italian pharmacies_converted_no_duplicates_with_ID_no_nulls_standardized_with_service_id.csv'
@@ -37,9 +37,16 @@ ProductionAndExpirationDates = namedtuple("ProductionAndExpirationDates", ['prod
 partialPersonInfo = namedtuple("PartialPersonInfo", ['id', 'sex', 'age', 'phoneNumber'])
 CityInfoTuple = namedtuple("CityInfoTuple", ["name", "ID", "country"])
 Hub_ServiceMappingTuple = namedtuple("Hub_ServiceMapping", ['HealthcareServiceID', 'HubID'])
-Location = namedtuple("Location", ["route", "streetNumber", "city", "postalCode", "longitude", "latitude", "formattedAddress"])
+Location = namedtuple("Location",
+                      ["route", "streetNumber", "city", "postalCode", "longitude", "latitude", "formattedAddress"])
 
 gmapsClient = googlemaps.Client(key = 'AIzaSyDGvxRkblk9QmNoL-RS-ExEbFz29e67SNw')
+
+
+def generateRandomHexString(lenght: int) -> str:
+    lst = [random.choice(string.hexdigits) for n in range(lenght)]
+    s = "".join(lst)
+    return s
 
 
 def getRandomDate(start_date = datetime.date(2020, 11, 1), end_date = datetime.date(2021, 10, 1)) -> datetime:
@@ -73,44 +80,44 @@ def generateRandomNumber(length: int) -> int:
 
 def getRandomPfizerLotNumber() -> str:
     """ Generates a Random Pfizer lot number,
-        whose structure is 2 letters + 4 digits.
+        whose structure is 24 chars.
 
         Example: EL9269"""
 
-    return generateRandomString(2) + str(generateRandomNumber(4))
+    return generateRandomHexString(12) + str(generateRandomNumber(12))
 
     pass
 
 
 def getRandomModernaLotNumber() -> str:
     """ Generates a Random Moderna lot number,
-        whose structure is 3 digit + 1 letter + 2 digits + 1 letter.
+        whose structure is is 24 chars.
 
         Example: 027L20A"""
 
-    return str(generateRandomNumber(3)) + generateRandomString(1) + \
-           str(generateRandomNumber(2)) + generateRandomString(1)
+    return str(generateRandomNumber(6)) + generateRandomHexString(6) + \
+           str(generateRandomNumber(6)) + generateRandomHexString(6)
     pass
 
 
 def getRandomJJLotNumber() -> str:
     """ Generates a Random Johnson & Johnson lot number,
-        which is composed by 7 digits.
+        which is composed by 24 chars.
 
         Example: 1805031"""
 
-    return str(generateRandomNumber(7))
+    return str(generateRandomNumber(7)) + generateRandomHexString(17)
 
     pass
 
 
 def getRandomAstrazenecaLotNumber() -> str:
     """ Generates a Random Astrazeneca lot number,
-        whose structure is 3 letters + 4 digits.
+        whose structure is 24 CHARS
 
         Example: ABV3746"""
 
-    return generateRandomString(3) + str(generateRandomNumber(4))
+    return generateRandomHexString(10) + str(generateRandomNumber(14))
 
     pass
 
@@ -481,7 +488,7 @@ def getLocationInfo(gmaps: googlemaps.Client, location: str) -> Location:
 
     parsed = json.loads(json.dumps(geocode_result[0]))
 
-   # print(json.dumps(parsed, indent=4, sort_keys=True))
+    # print(json.dumps(parsed, indent=4, sort_keys=True))
 
     addressComponents = parsed['address_components']
 
@@ -528,3 +535,12 @@ def getLocationInfo(gmaps: googlemaps.Client, location: str) -> Location:
                     longitude = longitude, latitude = latitude, formattedAddress = formattedAddress)
 
 
+def repeatToLength(stringToExpand, length) -> str:
+    return (stringToExpand * (int(length / len(stringToExpand)) + 1))[:length]
+
+
+def getHexString(text: str, lenght: int):
+    if text is None:
+        return None
+    hexRep = str(text.encode('utf-8').hex())
+    return repeatToLength(hexRep, lenght)

@@ -2,6 +2,8 @@ from csv import DictReader
 
 from pymongo import MongoClient
 import utils
+from bson.objectid import ObjectId
+import ast
 
 
 class MongoDB(MongoClient):
@@ -32,7 +34,7 @@ class MongoDB(MongoClient):
             return None
 
         else:
-            return float(val)
+            return float(val.replace(',', ''))
 
     def __handleEmptyString(self, val: str):
 
@@ -40,6 +42,19 @@ class MongoDB(MongoClient):
             return None
         else:
             return val
+
+    def __createDBRef(self, collectionName: str, objectId: str, db: str):
+
+        if collectionName is None or objectId is None or db is None:
+            return None
+
+        ref = {
+            "$ref": collectionName,
+            "$id":  ObjectId(objectId),
+            "$db":  db.name
+        }
+
+        return ref
 
     def __createPersonDocuments(self, db) -> None:
 
@@ -66,6 +81,7 @@ class MongoDB(MongoClient):
                         'vaccineProduct':               self.__handleEmptyString(givenVaccinesRow['Vaccine Product']),
                         'uniqueCertificateIdentifier':  self.__handleEmptyString(
                                 givenVaccinesRow['Unique Certificate Identifier']),
+                        'doseNumber':                   self.__handleIntParsing(givenVaccinesRow['DoseNumber']),
                         'totalSeriesOfDoses':           self.__handleIntParsing(
                                 givenVaccinesRow['Total Series of Doses']),
                         'countryOfVaccination':         self.__handleEmptyString(
@@ -82,11 +98,24 @@ class MongoDB(MongoClient):
                     }
 
                     vaccine = {
-                        'vaccinationDate':          self.__handleDateParsing(givenVaccinesRow['VaccinationDate']),
-                        'doseNumber':               self.__handleIntParsing(givenVaccinesRow['DoseNumber']),
-                        'healthServiceID':          self.__handleEmptyString(givenVaccinesRow['HealthServiceID']),
-                        'hubID':                    self.__handleEmptyString(givenVaccinesRow['HubID']),
-                        'lotID':                    self.__handleEmptyString(givenVaccinesRow['LotID']),
+
+                        'date':                     self.__handleDateParsing(givenVaccinesRow['VaccinationDate']),
+                        'healthServiceID':          self.__createDBRef(collectionName = "healthcareService",
+                                                                       objectId = utils.getHexString(
+                                                                               text = self.__handleEmptyString(
+                                                                                       givenVaccinesRow[
+                                                                                           'HealthServiceID']),
+                                                                               lenght = 24), db = db),
+
+                        'hubID':                    utils.getHexString(self.__handleEmptyString(givenVaccinesRow['HubID']), 24),
+                        'lotID':                    self.__createDBRef(collectionName = "vaccineLot",
+                                                                       objectId = self.__handleEmptyString(
+                                                                               givenVaccinesRow['LotID']), db = db),
+                        'healthWorkerPersonalID':   self.__createDBRef(collectionName = "person",
+                                                                       objectId = utils.getHexString(
+                                                                               text = self.__handleEmptyString(
+                                                                                       row['id']), lenght = 24),
+                                                                       db = db),
                         'certificateOfVaccination': certificateOfVaccination
                     }
 
@@ -108,7 +137,7 @@ class MongoDB(MongoClient):
                         'uniqueCertificateIdentifier': self.__handleEmptyString(
                                 givenTestsRow['Unique Certificate Identifier']),
                         'countryOfTesting':            self.__handleEmptyString(givenTestsRow['Country of Testing']),
-                        'certificateIssuer':           self.__handleEmptyString(givenTestsRow['Certificate Issuer']),
+                        'certificateIssuer':           'Italian Ministry of Health',
                         'certificateValidFrom':        self.__handleDateParsing(
                                 givenTestsRow['Certificate valid from']),
                         'certificateValidUntil':       self.__handleDateParsing(
@@ -118,12 +147,20 @@ class MongoDB(MongoClient):
                     }
 
                     test = {
-                        'type':                 self.__handleEmptyString(givenTestsRow['Type']),
-                        'testDate':             self.__handleDateParsing(givenTestsRow['Test Date']),
-                        'healthcareServiceID':  self.__handleEmptyString(givenTestsRow['HealthServiceID']),
-                        'hubID':                self.__handleEmptyString(givenTestsRow['HubID']),
-                        'isPositive':           bool(self.__handleEmptyString(givenTestsRow['Positive'])),
-                        'certificateOfTesting': certificateOfTesting
+                        'type':                   self.__handleEmptyString(givenTestsRow['Type']),
+                        'date':                   self.__handleDateParsing(givenTestsRow['Test Date']),
+                        'healthcareServiceID':    self.__createDBRef(collectionName = "healthcareService",
+                                                                     objectId = utils.getHexString(
+                                                                             text = self.__handleEmptyString(
+                                                                                     givenTestsRow['HealthServiceID']),
+                                                                             lenght = 24), db = db),
+                        'hubID':                  utils.getHexString(self.__handleEmptyString(givenTestsRow['HubID']), 24),
+                        'healthWorkerPersonalID': self.__createDBRef(collectionName = "person",
+                                                                     objectId = utils.getHexString(
+                                                                             self.__handleEmptyString(
+                                                                                     row['id']), lenght = 24), db = db),
+                        'isPositive':             ast.literal_eval(self.__handleEmptyString(givenTestsRow['Positive'])),
+                        'certificateOfTesting':   certificateOfTesting
                     }
 
                     tests.append(test)
@@ -136,21 +173,29 @@ class MongoDB(MongoClient):
                                    'phoneNumber': self.__handleIntParsing(row['phone_number']),
                                    'address':     self.__handleEmptyString(row['address']),
                                    'city':        self.__handleEmptyString(row['city']),
-                                   'cityID':      self.__handleIntParsing(row['cityID']),
                                    'state':       self.__handleEmptyString(row['state'])}
 
             emergencyContact = {'phoneNumber':        self.__handleIntParsing(row['emergency_phone_number']),
                                 'parentRelationship': self.__handleEmptyString(row['emergency_parent_relationship']),
-                                'personID':           self.__handleEmptyString(row['emergency_person_id'])}
+                                'personID':           self.__createDBRef(collectionName = "person",
+                                                                         objectId = utils.getHexString(
+                                                                                 text = self.__handleEmptyString(
+                                                                                         row['emergency_person_id']),
+                                                                                 lenght = 24), db = db),
+                                }
 
-            personDoc = {'personalRecognitionDocumentID':   self.__handleEmptyString(row['id']),
-                         'personalRecognitionDocumentType': self.__handleEmptyString(row['id_type']),
-                         'personalInformation':             personalInformation,
-                         'role':                            self.__handleEmptyString(row['role']),
-                         'healthcareServiceID':             self.__handleEmptyString(row['healthServiceID']),
-                         'emergencyContact':                emergencyContact,
-                         'vaccines':                        vaccines,
-                         'tests':                           tests}
+            personDoc = {
+
+                '_id':                             ObjectId(
+                        utils.getHexString(text = self.__handleEmptyString(row['id']), lenght = 24)),
+                'personalRecognitionDocumentID':   self.__handleEmptyString(row['id']),
+                'personalRecognitionDocumentType': self.__handleEmptyString(row['id_type']),
+                'personalInformation':             personalInformation,
+                'role':                            self.__handleEmptyString(row['role']),
+                'healthcareServiceID':             self.__handleEmptyString(row['healthServiceID']),
+                'emergencyContact':                emergencyContact,
+                'vaccines':                        vaccines,
+                'tests':                           tests}
 
             personCollection.insert_one(document = personDoc)
 
@@ -162,7 +207,8 @@ class MongoDB(MongoClient):
 
         for row in dictReaderLots:
             vaccineLotDoc = {
-                'lotID':          self.__handleEmptyString(row['LotID']),
+
+                '_id':            ObjectId(self.__handleEmptyString(row['LotID'])),
                 'manufacturer':   self.__handleEmptyString(row['Manufacturer']),
                 'type':           self.__handleEmptyString(row['Type']),
                 'name':           self.__handleEmptyString(row['Name']),
@@ -179,9 +225,10 @@ class MongoDB(MongoClient):
         for row in dictReaderHub:
             if row['healtcareServiceID'] == serviceID:
                 entry = {
+
+                    '_id':        ObjectId(utils.getHexString(text = self.__handleEmptyString(row['ID']), lenght = 24)),
                     'name':       self.__handleEmptyString(row['Name']),
                     'type':       self.__handleEmptyString(row['Type']),
-                    'id':         self.__handleEmptyString(row['ID']),
                     'longitude':  self.__handleFloatParsing(row['Longitude']),
                     'latitude':   self.__handleFloatParsing(row['Latitude']),
                     'address':    self.__handleEmptyString(row['Address']),
@@ -207,10 +254,9 @@ class MongoDB(MongoClient):
             testHubs = self.__getHubDictFomServiceID(serviceID = row['ID'], hubCsvPath = utils.testHubsCSVPathFinal)
 
             healthService = {
+                '_id':         ObjectId(utils.getHexString(text = self.__handleEmptyString(row['ID']), lenght = 24)),
                 'name':        self.__handleEmptyString(row['Name']),
                 'type':        self.__handleEmptyString(row['Type']),
-                'id':          self.__handleEmptyString(row['ID']),
-
                 'address':     self.__handleEmptyString(row['Address']),
                 'cap':         self.__handleIntParsing(row['CAP']),
                 'city':        self.__handleEmptyString(row['City']),
@@ -229,12 +275,13 @@ class MongoDB(MongoClient):
     def populateDatabase(self, databaseName: str):
 
         database = self[databaseName]
-        #  self.__createPersonDocuments(db = database)
-        self.__createVaccineLotDocuments(db = database)
-    #  self.__createHealthcareServiceDocuments(db = database)
+        self.__createPersonDocuments(db = database)
+        # self.__createVaccineLotDocuments(db = database)
+    # self.__createHealthcareServiceDocuments(db = database)
 
 
 if __name__ == '__main__':
     uri = "mongodb+srv://root:SMBUD2021@smbud.li4eh.mongodb.net/SMBUD"
     mongoDB = MongoDB(uri = uri)
     mongoDB.populateDatabase(databaseName = 'SMBUD')
+# print(ast.literal_eval("False"))

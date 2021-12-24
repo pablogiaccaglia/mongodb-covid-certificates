@@ -11,7 +11,7 @@
 </h1>
 <p align="center">
 <font size="3">
-		<a href="https://neo4j.com/">Neo4j</a>		 
+		<a href="https://www.mongodb.com">MongoDB</a>		 
 		•		
 		<a href="report/report.pdf">Report</a>   
 	</font>
@@ -64,14 +64,14 @@ From the project's directory run the following commands:
 
 # 📝 License
 
-This file is part of "Noe4j Covid Tracing Database".
+This file is part of "Covid certificates-oriented MongoDB Database".
 
-"Noe4j Covid Tracing Database" is free software: you can redistribute it and/or modify
+"Covid certificates-oriented MongoDB Database" is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-"Noe4j Covid Tracing Database" is distributed in the hope that it will be useful,
+"Covid certificates-oriented MongoDB Database" is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.

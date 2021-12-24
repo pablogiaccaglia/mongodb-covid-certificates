@@ -1,0 +1,138 @@
+QUERIES :
+
+- Check if a person has a valid certificate (sample or vaccine).
+
+db.person.find({
+  $or: [ {
+    'personalRecognitionDocumentID': "UO40378TZ",
+    'vaccines': { $elemMatch: {
+      'certificateOfVaccination.certificateValidFrom': { $lte: new ISODate() },
+      'certificateOfVaccination.certificateValidUntil': { $gte: new ISODate() }
+    }}
+  }, {
+    'personalRecognitionDocumentID': "UO40378TZ",
+    'tests': { $elemMatch: {
+        'certificateOfTesting.certificateValidFrom': { $lte: new ISODate() }, 
+        'certificateOfTesting.certificateValidUntil': { $gte: new ISODate() } 
+    }}}] }).count() > 0
+
+
+- Get where, when a person did the vaccine, and who was the nurse/doctor who did it.
+
+     db.person.aggregate( {$unwind: "$vaccines"},
+       {$addFields: {"hubID": {"$toObjectId": "$vaccines.hubID"}}},
+
+       { $lookup: {
+           from: 'healthcareService',
+           localField:'hubID',
+           foreignField: 'vaccineHubs._id',
+           as: 'hub'} }, 
+        { $lookup: {
+           from: 'person',
+           localField:'vaccines.healthWorkerPersonalID.$id',
+           foreignField:'_id',
+           as: 'worker'} }, 
+        { $project: {
+           "date":"$vaccines.date",
+           "place": {
+              "city":"$hub.city",
+              "address":"$hub.address",
+              "region":"$hub.region",
+              "state":"$hub.state"
+            },
+            "worker":"$worker.personalInformation"
+}})
+
+
+- Retrieve the emergency contact of a person.
+
+db.person.find
+({'personalRecognitionDocumentID': 'LK2605026F'},{'emergencyContact.phoneNumber':1})
+
+
+- Count the number of samples a person has taken.
+
+db.person.aggregate
+([{"$match":{'personalRecognitionDocumentID':"LK2605026F"}},
+  {$project:{count:{$size:"$tests"}}}])
+
+
+- Retrieve the amount of people Vaccinated per date
+
+db.person.aggregate
+([{$unwind:"$vaccines"},
+ {"$group":{_id:"$vaccines.date",count:{"$sum":1}}}])
+
+- Retrieve the top 5 dates per amount of tested people
+the first one ( without the $project)  is better because give even the count of vaccines done in the day
+
+
+db.person.aggregate
+([{$unwind:"$vaccines"},
+{"$group":{_id:"$vaccines.date",count:{"$sum":1}}},
+{$sort:{"count":-1}},{$limit:5},
+{$project:{"date":"$_id"}}])
+
+
+- Compute the average number of persons tested per Health Service and return the top 5 Health Service per  average persons tested.
+
+db.person.aggregate([{$unwind:"$tests"},{$lookup:{
+       from: 'healthcareService',
+       localField: 'tests.healthcareServiceID.$id',
+       foreignField: '_id',
+       as: 'healthcareServices'
+     }},{$group:{_id:"$healthcareServices.name",count:{$sum:1}}},{$sort:{"count":-1}},{$limit:5}])
+
+-----------------------------------------------------------------------------------------
+
+COMMANDS :
+
+- A person has taken the vaccine: add it.
+
+db.person.update(
+	{ personalRecognitionDocumentID:"LK2605026F" },
+	{ $push: { vaccines: {
+		date: new ISODate("2021-12-11"),
+healthServiceID:{$ref:"healthcareService",$id:" 53554d32353953554d323539", $db:"SMBUD"},
+hubID:"414948313335414948313335",
+lotID:{ $ref:"vaccineLot", $id:"492876f0ca87930680eb7747", $db:"SMBUD"},
+healthWorkerPersonalID:{$ref:"person", $id:ObjectId("4c4b32363035303236464c4b"), $db:"SMBUD"},
+certificateOfVaccination: {
+QRCode:"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",
+            "diseaseOrAgentTargeted": 840539006,
+
+diseaseOrAgentTargeted:840539006,
+vaccineOrProphylaxis:1119349007,
+vaccineProduct:"EU/1/20/1507",
+uniqueCertificateIdentifier:"01IT5UTPPVIJ713AJCY2MO5HT1DHV00LD9SJ#7",
+doseNumber:2,
+totalSeriesOfDoses:2,
+countryOfVaccination:"IT",
+marketingAuthorizationHolder:"ORG-100031184",
+certificateIssuer:"Italian Ministry of Health",
+certificateValidFrom: new ISODate("2021-12-20"),
+certificateValidUntil:new ISODate("2022-09-20"),
+schemaVersion:"1.0.0"
+}
+}}}
+)
+
+
+-Delete the first covid test a person has taken.
+
+db.person.update( 
+{ personalRecognitionDocumentID:"LK2605026F" }, 
+{ $unset: {‘tests.0’:1} } )
+db.person.update( 
+{ personalRecognitionDocumentID:"LK2605026F" }, 
+{ $pull: { tests:null } } )
+
+
+- Update the emergency phone number of a person.
+
+
+db.person.update(
+{ personalRecognitionDocumentID:"LK2605026F" },
+{ $set: { ‘emergencyContact.phoneNumber’:”393510544400” } }
+)
+

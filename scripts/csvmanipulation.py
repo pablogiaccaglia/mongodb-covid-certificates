@@ -278,7 +278,7 @@ def createVaccineLotsCSV() -> None:
     createCSV(headers = headers, data = vaccineLots, path = utils.vaccineLotsCSVPath)
 
 
-def assignVaccinesToPeople():
+def assignVaccinesToPeople() -> None:
     lotData = csv.reader(open(utils.vaccineLotsCSVPathFinal))
     data = sorted(lotData, key = operator.itemgetter(4), reverse = False)
 
@@ -296,7 +296,7 @@ def checkIfAlready2DosesAssigned(csvPath: str, personID: str) -> bool:
     return False
 
 
-def assign1DoseToPeople(lotsDict):
+def assign1DoseToPeople(lotsDict) -> None:
     peopleData = csv.reader(open(utils.peopleCSVPathFinal))
     data = sorted(peopleData, key = operator.itemgetter(4), reverse = False)
 
@@ -393,7 +393,7 @@ def assign1DoseToPeople(lotsDict):
         vaccinesAmountLot = vaccinesAmountLot + 1
 
 
-def assign2DosesToPeople(lotsDict):
+def assign2DosesToPeople(lotsDict) -> None:
     peopleData = csv.reader(open(utils.peopleCSVPathFinal))
     data = sorted(peopleData, key = operator.itemgetter(4), reverse = False)
 
@@ -559,7 +559,7 @@ def findDatesOfVaccination(csvPath: str, personID: str) -> list:
     return sorted(datesOfVaccination)
 
 
-def assignCovidTestToPeople():
+def assignCovidTestToPeople() -> None:
     peopleData = csv.DictReader(open(utils.peopleCSVPath))
 
     numberOfTakenTests = [1, 1, 1, 1, 2, 2, 1, 1, 1, 2, 2, 2, 3, 3, 4]
@@ -692,7 +692,7 @@ def removeDuplicateRows(csvPath: str) -> None:
                     written_entries.append(line)
 
 
-def addHealthServiceTypeToCSV(csvPath: str):
+def addHealthServiceTypeToCSV(csvPath: str) -> None:
     fileExtension = csvPath.find('.csv')
     outputString = csvPath[:fileExtension] + '_with_service_type' + csvPath[fileExtension:]
 
@@ -793,7 +793,7 @@ def assignHubsToHealthcareServices(hubsCSVPath: str, healthcareServicesCSVPath: 
             dictWriter.writerow(row)
 
 
-def addQRCodesTextToCSV(csvPath: str, fieldName: str):
+def addQRCodesTextToCSV(csvPath: str, fieldName: str) -> None:
     dictReader = DictReader(open(csvPath), delimiter = ",")
     headers = list(dictReader.fieldnames)
 
@@ -808,7 +808,7 @@ def addQRCodesTextToCSV(csvPath: str, fieldName: str):
         dictWriter.writerow(row)
 
 
-def addLocationInformationToHealthServices(csvPath: str):
+def addLocationInformationToHealthServices(csvPath: str) -> None:
     dictReader = DictReader(open(csvPath), delimiter = ",")
     headers = list(dictReader.fieldnames)
 
@@ -837,7 +837,7 @@ def addLocationInformationToHealthServices(csvPath: str):
         dictWriter.writerow(row)
 
 
-def addCoordinatesToHealthServices(csvPath: str):
+def addCoordinatesToHealthServices(csvPath: str) -> None:
     dictReader = DictReader(open(csvPath), delimiter = ",")
     headers = list(dictReader.fieldnames)
 
@@ -905,56 +905,3 @@ def getHealthcareWorkersIDList(csvPeoplePath: str) -> list:
 
     return idsList
 
-
-if __name__ == '__main__':
-    #  path1 = addPhoneNumberToPeopleCSV(utils.peopleCSVPath)
-    #  path2 = addAddressInformationToPeopleCSV(path1)
-    #  path3 = addHealthcareInformationToPeopleCSV(path2)
-    #  addEmergencyContactInfoToPeopleCSV(path3)
-    # createVaccineLotsCSV()
-    # convertCSVDelimiter(csvPath = "datasets/original/asl italia 3.csv", oldDelimiter = ';', newDelimiter = ',')
-    # headers = ['denominazione_struttura']
-    # standardizeCSVColumns(csvPath ="/Users/pablo/Desktop/SMBUDMongo/datasets/original/punti-somministrazione-tipologia.csv", columnNames = headers)
-    # removeDuplicateRows(csvPath = "/Users/pablo/Desktop/SMBUDMongo/datasets/converted/punti-somministrazione-tipologia_standardized.csv")
-    # addHealthServiceTypeToCSV()
-    # convertCSVDelimiter(csvPath = "datasets/final/italian pharmacies.csv", oldDelimiter = ';', newDelimiter = ',')
-    # removeDuplicateRows(csvPath = "datasets/final/italian pharmacies_converted.csv")
-    # removeNullRows(csvPath = "datasets/final/italian pharmacies_converted_no_duplicates.csv")
-    # convertCSVDelimiter(csvPath = "datasets/final/punti-somministrazione-tipologia_standardized_no_duplicates.csv", oldDelimiter = ';', newDelimiter = ',')
-
-    # addRandomIDToCSV("datasets/final/asl italia 3_converted_standardized_no_duplicates_with_service_type.csv")
-
-    # createVaccineLotsCSV()
-    # assignVaccinesToPeople()
-    # addQRCodesTextToCSV(csvPath = "datasets/final/given_vaccines.csv", fieldName = 'Certification QR Code')
-
-    """assignHubsToHealthcareServices(
-                hubsCSVPath = "datasets/final/punti-somministrazione-tipologia_standardized_no_duplicates_with_ID_with_location_info.csv",
-                healthcareServicesCSVPath = "datasets/final/asl italia 3_converted_standardized_no_duplicates_with_service_type_with_ID.csv",
-                outputFilePath = "datasets/final/vaccineHubs-services id mapping.csv") """
-
-    """ assignHubsToHealthcareServices(
-                hubsCSVPath = "datasets/final/italian pharmacies_converted_no_duplicates_with_ID_no_nulls_standardized.csv",
-                healthcareServicesCSVPath = "datasets/final/asl italia 3_converted_standardized_no_duplicates_with_service_type_with_ID.csv",
-                outputFilePath = "datasets/final/TestHubs-services id mapping.csv") """
-
-    """ addLocationInformationToHealthServices(
-    csvPath = "datasets/final/punti-somministrazione-tipologia_standardized_no_duplicates_with_ID.csv") """
-
-    # addCoordinatesToHealthServices(csvPath = "datasets/final/asl italia 3_converted_standardized_no_duplicates_with_service_type_with_ID.csv")
-    # assignCovidTestToPeople()
-
-    #  addQRCodesTextToCSV(csvPath = "datasets/converted/given_tests.csv", fieldName = 'Certification QR Code')
-
-    # addHealtcareServiceIDToHubCSV(hubCsvPath = "datasets/final/italian pharmacies_converted_no_duplicates_with_ID_no_nulls_standardized.csv", serviceMappingCSVPath = "datasets/final/TestHubs-services id mapping.csv")
-
-    # convertCSVDelimiter(csvPath = "datasets/final/given_tests_with_encoded_qr_f.csv", oldDelimiter = ';', newDelimiter = ',')
-
-    #  standardizeCSVColumns(csvPath = "datasets/final/covid_vaccine_lots.csv", columnNames = ['Manufacturer', 'Name'])
-
-    #addQRCodesTextToCSV(csvPath = "datasets/final/given_vaccines.csv", fieldName = 'Certification QR Code')
-
-    # addEmergencyContactInfoToPeopleCSV(csvPath = "datasets/original/people_with_phone_numbers_with_address_info_with_healtcare_info.csv")
-
-   # assignVaccinesToPeople()
-# assignCovidTestToPeople()

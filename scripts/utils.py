@@ -5,7 +5,8 @@ import datetime
 import random
 import string
 from functools import partial
-
+from typing import Any
+from geojson import Point
 import base45
 import pandas as pd
 import qrcodeutils
@@ -40,7 +41,7 @@ Hub_ServiceMappingTuple = namedtuple("Hub_ServiceMapping", ['HealthcareServiceID
 Location = namedtuple("Location",
                       ["route", "streetNumber", "city", "postalCode", "longitude", "latitude", "formattedAddress"])
 
-gmapsClient = googlemaps.Client(key = 'AIzaSyDGvxRkblk9QmNoL-RS-ExEbFz29e67SNw')
+gmapsClient = googlemaps.Client(key = 'API_KEY')
 
 
 def generateRandomHexString(lenght: int) -> str:
@@ -176,17 +177,6 @@ def generateRandomHealthcareWorkerID() -> str:
         generateRandomString(4)
 
     return HealthcareWorkerID
-
-
-# TODO
-def addGPSToLocationsCSV(csvPath, delimiter) -> None:
-    pass
-
-
-# TODO
-def addOpeningAndClosingDateToHUBCSV(csvPath, delimiter) -> None:
-    pass
-
 
 def getRandomPhoneNumber() -> str:
     """Generates a Random Italian mobile phone number,
@@ -469,8 +459,6 @@ def generateQRCodeText(text: str) -> str:
 def generateQRCodeBytes(byt: bytes) -> bytes:
     qrcodeImage = qrcodeutils.bytesToQRCode(byt = byt)
 
-    qrcodeImage.save("cazzo.png")
-
     bytesImage = qrcodeutils.imageToBytesArray(image = qrcodeImage)
 
     return bytesImage
@@ -544,3 +532,13 @@ def getHexString(text: str, lenght: int):
         return None
     hexRep = str(text.encode('utf-8').hex())
     return repeatToLength(hexRep, lenght)
+
+
+def getGeoJsonPoint(longitude: float, latitude: float) -> Any:
+    if longitude is None or longitude and not isinstance(longitude, float):
+        return None
+
+    if latitude is None or latitude and not isinstance(latitude, float):
+        return None
+
+    return Point((longitude, latitude))

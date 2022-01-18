@@ -48,7 +48,7 @@ regards certificates validity check.
 
 ## Clone the repo
 
-    git clone https://github.com/pablogiaccaglia/neo4j-covid-tracing
+    git clone https://github.com/pablogiaccaglia/mongodb-covid-certificates
     cd neo4j-covid-tracing/
 
 ## Install required packages

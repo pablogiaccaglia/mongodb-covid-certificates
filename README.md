@@ -17,6 +17,10 @@
 	</font>
 </p>
 
+<p align="center">
+  <img width="300" height="300" src="report/latex/MongoDB-logo.jpeg">
+</p>
+
 This project's purpose is to keep track of **COVID-19 pandemic** data about people, authorized bodies, 
 vaccines, tests and, most of all, Covid certificates of vaccination or testing by designing and implementing a document-based 
 **MongoDB** database. The primary objective is to support a fast tool that checks the validity of the certificate. 

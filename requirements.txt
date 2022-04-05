@@ -1,7 +1,7 @@
 base45==0.4.3
 geojson==2.5.0
 googlemaps==4.5.3
-numpy==1.20.1
+numpy==1.21.0
 pandas==1.2.4
 Pillow==9.0.1
 pymongo==4.0.1
